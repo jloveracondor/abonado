@@ -1,6 +1,6 @@
 <div id="ab-tabla-superiro" class="container-fluid">
   <div class="row">
-    <div class="col-sm">
+    <div class="col-sm-4 col-md tablilla">
       <div class="row">
         <div class="col-2"><img src="assent/img/equipos/Pittsburgh 1.png" alt=""></div>
         <div class="col ab-tabla-equipo"><p>PIT</p></div>
@@ -16,7 +16,7 @@
         <div class="col-6 text-right"> <p class="ab-tabla-def"> LVBP </p></div>
       </div>
     </div>
-    <div class="col-sm">
+    <div class="col-sm-4 col-md tablilla">
       <div class="row">
         <div class="col-2"><img src="assent/img/equipos/Yankees 1.png" alt=""></div>
         <div class="col ab-tabla-equipo"><p>NYY</p></div>
@@ -32,7 +32,7 @@
         <div class="col-4 text-right"> <p class="ab-tabla-def"> LVBP </p></div>
       </div>
     </div>
-    <div class="col-sm">
+    <div class="col-sm-4 col-md tablilla">
       <div class="row">
         <div class="col-2"><img src="assent/img/equipos/Philadelphia 1.png" alt=""></div>
         <div class="col ab-tabla-equipo"><p>PHI</p></div>
@@ -48,7 +48,7 @@
         <div class="col-4 text-right"> <p class="ab-tabla-def"> LVBP </p></div>
       </div>
     </div>
-   <div class="col-sm">
+   <div class="col-sm-4 col-md tablilla">
       <div class="row">
         <div class="col-2"><img src="assent/img/equipos/Boston 1.png" alt=""></div>
         <div class="col ab-tabla-equipo"><p>BOS</p></div>
@@ -64,7 +64,7 @@
         <div class="col-4 text-right"> <p class="ab-tabla-def"> LVBP </p></div>
       </div>
     </div>
-    <div class="col-sm">
+    <div class="col-sm-4 col-md tablilla">
       <div class="row">
         <div class="col-2"><img src="assent/img/equipos/Orioles 1.png" alt=""></div>
         <div class="col ab-tabla-equipo"><p>BAL</p></div>
@@ -81,7 +81,7 @@
       </div>
     </div>
 
-      <div class="col-sm">
+      <div class="col-sm-4 col-md tablilla">
       <div class="row">
         <div class="col-2"><img src="assent/img/equipos/Minnesota 1.png" alt=""></div>
         <div class="col ab-tabla-equipo"><p>MIN</p></div>
@@ -97,7 +97,7 @@
         <div class="col-4 text-right"> <p class="ab-tabla-def"> LVBP </p></div>
       </div>
     </div>
-    <div class="col-sm">
+    <div class="col-sm-4 col-md tablilla">
       <div class="row">
         <div class="col-2"><img src="assent/img/equipos/Yankees 1.png" alt=""></div>
         <div class="col ab-tabla-equipo"><p>NYY</p></div>
@@ -113,7 +113,7 @@
         <div class="col-4 text-right"> <p class="ab-tabla-def"> LVBP </p></div>
       </div>
     </div>
-   <div class="col-sm">
+   <div class="col-sm-4 col-md tablilla">
       <div class="row">
         <div class="col-2"><img src="assent/img/equipos/Cachorros 1.png" alt=""></div>
         <div class="col ab-tabla-equipo"><p>CHC</p></div>
@@ -129,7 +129,7 @@
         <div class="col-4 text-right"> <p class="ab-tabla-def"> LVBP </p></div>
       </div>
     </div>
-   <div class="col-sm">
+   <div class="col-sm-4 col-md tablilla">
       <div class="row">
         <div class="col-2"><img src="assent/img/equipos/Miami 1.png" alt=""></div>
         <div class="col ab-tabla-equipo"><p>MIA</p></div>
@@ -145,7 +145,7 @@
         <div class="col-4 text-right"> <p class="ab-tabla-def"> LVBP </p></div>
       </div>
     </div>
-    <div class="col-sm text-center parent">
+    <div class="col-sm-4 col-md tablilla text-center parent">
        <p class="child"><a href="#"> VER MÁS <i class="fas fa-caret-right verde"></i>  </a></p>
     </div>
   </div>

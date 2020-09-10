@@ -4538,20 +4538,47 @@
   position: static;
   width: auto;
 }
+/*!
+ * Font Awesome Free 5.14.0 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url('../webfonts/fa-brands-400.eot');
+  src: url('../webfonts/fa-brands-400.eot?#iefix') format('embedded-opentype'), url('../webfonts/fa-brands-400.woff2') format('woff2'), url('../webfonts/fa-brands-400.woff') format('woff'), url('../webfonts/fa-brands-400.ttf') format('truetype'), url('../webfonts/fa-brands-400.svg#fontawesome') format('svg');
+}
+.fab {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
 /* Css Variables */
 /*Colores*/
 /* Fonts*/
+@media (min-width: 1200px) {
+  .container-ab {
+    max-width: 1600px !important;
+  }
+}
 body {
-  font-family: 'Roboto', sans-serif !important;
+  font-family: 'Roboto Condensed', sans-serif !important;
 }
 .verde {
   color: #008641;
+}
+.rojo {
+  color: #e50000;
 }
 .gris-oscuro {
   color: #747474;
 }
 .bg-verde {
   background: #008641;
+}
+.bg-gris-tablas {
+  background: rgba(203, 203, 203, 0.5);
 }
 .parent {
   position: relative;
@@ -4561,6 +4588,13 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+/* Texto*/
+.ab-title {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  color: #747474;
 }
 /*Css de la web*/
 /*Menu*/
@@ -4595,12 +4629,12 @@ body {
 #ab-tabla-superiro {
   color: #747474;
 }
-#ab-tabla-superiro .col-sm {
+#ab-tabla-superiro .tablilla {
   padding-top: 15px;
   border-bottom: 1px solid rgba(203, 203, 203, 0.5);
   border-left: 1px solid rgba(203, 203, 203, 0.5);
 }
-#ab-tabla-superiro .col-sm p {
+#ab-tabla-superiro .tablilla p {
   margin-bottom: 5px;
 }
 #ab-tabla-superiro .ab-tabla-def {
@@ -4613,4 +4647,71 @@ body {
 }
 #ab-tabla-superiro .ab-tabla-equipo {
   font-weight: bold;
+}
+/*ADS.php*/
+#ab-ads {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+/* Tabla de Resultados */
+.ab-table-resultados {
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid #cbcbcb;
+  border-radius: 6px;
+}
+.ab-table-resultados .ab-ganador:after {
+  content: ' ';
+  background: url("../assent/img/win.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: -1px;
+  top: 5px;
+  width: 15px;
+  height: 15px;
+  color: red;
+  position: absolute;
+  font-size: 18px;
+}
+.ab-table-resultados .ab-resultados-box {
+  font-size: 14px;
+}
+.ab-table-resultados .ab-encabezados {
+  font-size: 12px;
+  color: #cbcbcb;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.ab-table-resultados .ab-equipos-box {
+  font-size: 18px;
+}
+.ab-table-resultados .ab-equipos {
+  padding-bottom: 7px;
+  border-bottom: 1px dotted #cbcbcb;
+}
+.ab-table-resultados .ab-jugadores {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px dotted #cbcbcb;
+}
+.ab-table-resultados .ab-jugadores .img-jugador {
+  border-radius: 150%;
+}
+.ab-table-resultados .ab-jugadores .ab-inf-jugador {
+  font-size: 14px;
+  color: #cbcbcb;
+}
+.ab-table-resultados .ab-jugadores .ab-inf-jugador p {
+  margin-bottom: 0px;
+}
+.ab-table-resultados .ab-status {
+  border-bottom: 1px dotted #cbcbcb;
+}
+.ab-table-resultados .ab-status p {
+  margin-bottom: 5px;
+}
+.ab-table-resultados .ab-status-final {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
