@@ -7,6 +7,7 @@
 	<title>El Abonado</title>
 	<link rel="stylesheet" href="css/main.css"> 
 	<link rel="stylesheet" href="assent/bootstrap/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
 </head>
@@ -42,13 +43,13 @@
 				<li class="nav-item">
 					<a class="nav-link" href="#">EQUIPOS</a>
 				</li>
-
-				
 			</ul>
-			<form class="form-inline my-2 my-lg-0">
-				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-			</form>
+			<div class="form-inline my-2 my-lg-0 ab-social">
+				<i class="fab fa-facebook-square"></i>
+				<i class="fab fa-twitter"></i>
+				<i class="fab fa-instagram"></i>
+				<i class="fab fa-youtube"></i>
+			</div>
 		</div>
 	</nav>
 <!-- Fin del menu--> 
