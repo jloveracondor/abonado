@@ -1,0 +1,27 @@
+/*Menu*/
+#ab-nav{
+	background: @verde;
+	.nav-item{
+		a{
+			color:@verde-secundario;
+			font-weight: bold;
+		}
+	}
+	.nav-item.active{
+		 	a{
+				color:white;
+				position: relative;
+				&:after{
+					content:' ';
+					position: absolute;
+					width: 100%;
+					border-bottom: 4px solid @verde-secundario;
+					bottom: 0;
+   					margin-bottom: -8px;
+    				left: 0;
+    
+				}
+			}
+		}
+
+}
