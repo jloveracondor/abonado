@@ -4565,6 +4565,7 @@
 body {
   font-family: 'Roboto Condensed', sans-serif !important;
 }
+/*Color texto*/
 .verde {
   color: #008641;
 }
@@ -4574,12 +4575,27 @@ body {
 .gris-oscuro {
   color: #747474;
 }
+.gris-claro {
+  color: #cbcbcb;
+}
 .bg-verde {
   background: #008641;
 }
 .bg-gris-tablas {
   background: rgba(203, 203, 203, 0.5);
 }
+/*botonera*/
+.btn-verde {
+  background: #00be5c !important;
+  border-color: #00be5c !important;
+  color: #ffffff !important;
+  font-weight: bold;
+}
+.btn-verde:hover {
+  background: #008641 !important;
+  border-color: #008641 !important;
+}
+/* Alineación*/
 .parent {
   position: relative;
 }
@@ -4657,16 +4673,18 @@ body {
 .ab-table-resultados {
   padding-top: 15px;
   padding-left: 15px;
+  padding-bottom: 60px;
   padding-right: 15px;
   border: 1px solid #cbcbcb;
   border-radius: 6px;
+  position: relative;
 }
 .ab-table-resultados .ab-ganador:after {
   content: ' ';
   background: url("../assent/img/win.png");
   background-repeat: no-repeat;
   background-size: contain;
-  left: -1px;
+  left: -16px;
   top: 5px;
   width: 15px;
   height: 15px;
@@ -4690,10 +4708,12 @@ body {
   padding-bottom: 7px;
   border-bottom: 1px dotted #cbcbcb;
 }
+.ab-table-resultados .ab-equipos .ab-img-equipo {
+  padding-bottom: 5px;
+}
 .ab-table-resultados .ab-jugadores {
   padding-top: 15px;
-  padding-bottom: 15px;
-  border-bottom: 1px dotted #cbcbcb;
+  padding-bottom: 35px;
 }
 .ab-table-resultados .ab-jugadores .img-jugador {
   border-radius: 150%;
@@ -4714,4 +4734,12 @@ body {
 .ab-table-resultados .ab-status-final {
   padding-top: 15px;
   padding-bottom: 15px;
+  border-top: 1px dotted #cbcbcb;
+  position: absolute;
+  bottom: 0;
+  width: 94%;
+}
+.ab-table-resultados .separador-lateral {
+  margin-left: 15px;
+  margin-right: 15px;
 }

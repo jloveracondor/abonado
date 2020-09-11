@@ -17,6 +17,7 @@ body{
 	font-family: 'Roboto Condensed', sans-serif !important;
 }
 
+/*Color texto*/
 .verde{
 	color:@verde;
 }
@@ -26,12 +27,29 @@ body{
 .gris-oscuro{
 	color:@gris-oscuro;
 }
+.gris-claro{
+	color:@gris-claro;
+}
 .bg-verde{
 	background: @verde;
 }
 .bg-gris-tablas{
 	background:@gris-tablas;
 }
+
+/*botonera*/
+.btn-verde{
+	background: @verde-claro !important;
+	border-color:@verde-claro !important;
+	color:@blanco !important;
+	font-weight: bold;
+	&:hover{
+		background: @verde !important;
+	border-color:@verde!important;
+	}
+}
+
+/* Alineación*/
 
 .parent {
 	position: relative;
