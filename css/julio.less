@@ -8,28 +8,28 @@
 		}
 	}
 	.nav-item.active{
-		 	a{
-				color:white;
-				position: relative;
-				&:after{
-					content:' ';
-					position: absolute;
-					width: 100%;
-					border-bottom: 4px solid @verde-claro;
-					bottom: 0;
-   					margin-bottom: -8px;
-    				left: 0;
-    
-				}
+		a{
+			color:white;
+			position: relative;
+			&:after{
+				content:' ';
+				position: absolute;
+				width: 100%;
+				border-bottom: 4px solid @verde-claro;
+				bottom: 0;
+				margin-bottom: -8px;
+				left: 0;
+
 			}
 		}
-.ab-social {
-	color:@verde-claro;
-	font-size: 22px;
-	svg{
-	margin-left: 10px;
 	}
-}
+	.ab-social {
+		color:@verde-claro;
+		font-size: 22px;
+		svg{
+			margin-left: 10px;
+		}
+	}
 }
 
 /*Tabla Superior*/
@@ -65,7 +65,9 @@
 }
 
 /* Tabla de Resultados */
-
+#ab-resultados-page{
+	margin-bottom: 4rem;
+}
 .ab-table-resultados{
 	padding-top: 15px;
 	padding-left: 15px;
@@ -82,14 +84,14 @@
 			background-repeat: no-repeat;
 			background-size: contain;
 			left: -16px;
-    		top: 5px;
+			top: 5px;
 			width: 15px;
 			height: 15px;
- 			color:red;
+			color:red;
 			position: absolute;
 			font-size: 18px;
 		}
-			
+
 	}
 
 	.ab-resultados-box{
@@ -104,14 +106,14 @@
 
 	}
 	.ab-equipos-box{
-			font-size: 18px;
-		}
+		font-size: 18px;
+	}
 	.ab-equipos{
 		padding-bottom: 7px;
-	border-bottom: 1px dotted @gris-claro;
-	.ab-img-equipo{
-		padding-bottom: 5px;
-	}
+		border-bottom: 1px dotted @gris-claro;
+		.ab-img-equipo{
+			padding-bottom: 5px;
+		}
 	}
 	.ab-jugadores{
 		padding-top: 15px;
@@ -131,7 +133,7 @@
 	}
 	.ab-status{
 		p{
-			    margin-bottom: 5px;
+			margin-bottom: 5px;
 		}
 		border-bottom: 1px dotted @gris-claro;
 	}
@@ -151,3 +153,24 @@
 	
 }
 
+/*Footer*/
+footer{
+	padding-top: 4rem;
+	padding-bottom: 8rem;
+	color:@blanco;
+	a{
+		text-decoration: none;
+		color:@blanco;
+	}
+	.menu-footer{
+		list-style: none;
+		padding:0;
+		li{
+			float: left;
+			margin-right:  15px;
+			color:@blanco;
+			font-weight: bold;
+
+		}
+	}
+}

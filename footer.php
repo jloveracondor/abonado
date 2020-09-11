@@ -1,5 +1,24 @@
-<footer>
-	
+<footer class="bg-verde">
+	<div class="container-fluid">
+		<div class="row my-3">
+			<div class="col-3"><img class="img-fluid" src="assent/img/abonado-logo 1(1).png" alt=""></div>
+			<div class="col-9">
+				<ul class="menu-footer">
+					<li><a href="#"> Términos y Condiciones </a></li>
+					<li><a href="#"> Política de Privacidad </a></li>
+					<li><a href="#"> Contáctanos </a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="row my-1">
+			<div class="col-3">Nuestras Redes 
+				<a href="#"> <i class="fab fa-facebook-square"></i> </a>
+				<a href="#"> <i class="fab fa-twitter"></i> </a>
+				<a href="#"> <i class="fab fa-instagram"></i> </a>
+				<a href="#"> <i class="fab fa-youtube"></i> </a></div>
+			<div class="col-9">© 2020 EL ABONADO, Todos los derechos reservado.</div>
+		</div>
+	</div>
 </footer>
 
 </body>

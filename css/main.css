@@ -4670,6 +4670,9 @@ body {
   margin-bottom: 5rem;
 }
 /* Tabla de Resultados */
+#ab-resultados-page {
+  margin-bottom: 4rem;
+}
 .ab-table-resultados {
   padding-top: 15px;
   padding-left: 15px;
@@ -4742,4 +4745,24 @@ body {
 .ab-table-resultados .separador-lateral {
   margin-left: 15px;
   margin-right: 15px;
+}
+/*Footer*/
+footer {
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+  color: #ffffff;
+}
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+footer .menu-footer {
+  list-style: none;
+  padding: 0;
+}
+footer .menu-footer li {
+  float: left;
+  margin-right: 15px;
+  color: #ffffff;
+  font-weight: bold;
 }
