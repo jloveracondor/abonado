@@ -5,7 +5,7 @@
 		</div>
 	</div>
 	<div class="row">
-		Calendario
+		<?php include("calendar.php"); ?>
 	</div>
 
 	<div class="row">

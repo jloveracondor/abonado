@@ -4766,3 +4766,34 @@ footer .menu-footer li {
   color: #ffffff;
   font-weight: bold;
 }
+footer .social-botones-footer a {
+  font-size: 35px !important;
+}
+footer .social-botones-footer span {
+  line-height: 35px;
+}
+/*Calendario*/
+.fechas-center {
+  color: #cbcbcb;
+}
+.fechas-center h3 {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.fechas-center h4 {
+  font-size: 24px;
+}
+.slick-active.slick-center {
+  color: #00be5c;
+}
+.slick-prev:before {
+  content: "\f0da" !important;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
+  z-index: 100;
+  font-family: 'Font Awesome 5 Free' !important;
+  font-style: normal;
+  font-weight: 400;
+}

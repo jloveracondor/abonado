@@ -11,12 +11,16 @@
 			</div>
 		</div>
 		<div class="row my-1">
-			<div class="col-3">Nuestras Redes 
+			<div class="col-3 social-botones-footer">
+				<span>Nuestras Redes </span>
+				
 				<a href="#"> <i class="fab fa-facebook-square"></i> </a>
 				<a href="#"> <i class="fab fa-twitter"></i> </a>
 				<a href="#"> <i class="fab fa-instagram"></i> </a>
-				<a href="#"> <i class="fab fa-youtube"></i> </a></div>
-			<div class="col-9">© 2020 EL ABONADO, Todos los derechos reservado.</div>
+				<a href="#"> <i class="fab fa-youtube"></i> </a>
+			
+		</div>
+			<div class="col-9"><span class="align-middle"> © 2020 EL ABONADO, Todos los derechos reservado. </span></div>
 		</div>
 	</div>
 </footer>
@@ -27,4 +31,7 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="assent/bootstrap/js/bootstrap.min.js"  crossorigin="anonymous"></script>
 <script src="fontawesome/js/all.js"  crossorigin="anonymous"></script>
+<script src="bootstrap-datepicker/js/bootstrap-datepicker.min.js" type="text/javascript" charset="utf-8" async defer></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/script.js" type="text/javascript" charset="utf-8" async defer></script>
 </html>
