@@ -31,7 +31,7 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="assent/bootstrap/js/bootstrap.min.js"  crossorigin="anonymous"></script>
 <script src="fontawesome/js/all.js"  crossorigin="anonymous"></script>
-<script src="bootstrap-datepicker/js/bootstrap-datepicker.min.js" type="text/javascript" charset="utf-8" async defer></script>
+<script src="bootstrap-datepicker/js/bootstrap-datepicker.js" type="text/javascript" charset="utf-8" async defer></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="js/script.js" type="text/javascript" charset="utf-8" async defer></script>
 </html>

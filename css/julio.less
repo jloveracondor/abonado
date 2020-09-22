@@ -198,14 +198,58 @@ footer{
 .slick-active.slick-center{
 	color: @verde-claro;
 }
-.slick-prev:before{
+.slick-next:before{
 	content:"\f0da" !important;
+}
+.slick-prev:before{
+	content:"\f0d9" !important;
 }
 .slick-prev:before,
 .slick-next:before {
 color: black !important;
 z-index: 100;
- font-family: 'Font Awesome 5 Free' !important;
-  font-style: normal;
-  font-weight: 400;
+    font-family: "Font Awesome 5 Free" !important; /* This is the correct font-family*/
+    font-style: normal;
+    font-weight: 900;
+}
+
+.slick-initialized .slick-slide {
+	h2{
+		font-size: 1.4rem;
+	}
+}
+.fa-calendar.date{
+	font-size: 2em;
+	color:@verde;
+}
+
+.datepicker-days{
+	min-width: 18rem;
+	.table-condensed{
+		min-width: 18rem;
+	}
+	.old.day, .new.day{
+	border-radius: 0px;
+	background: #F0F0F0;
+	}
+	.day{
+		border:1px solid #CBCBCB;
+	}
+}
+.datepicker-dropdown{
+min-width: 18rem !important;
+.table-condensed{
+	min-width: 18rem !important;
+}	
+}
+
+.datepicker table tr td.today, .datepicker table tr td.today.disabled, .datepicker table tr td.today.disabled:hover, .datepicker table tr td.today:hover{
+	background-image: linear-gradient(to bottom,#00BE5C,#00BE5C) !important;
+	color:@blanco !important;
+	border-radius: 0px !important;
+}
+.datepicker table tr td.active.active, .datepicker table tr td.active.disabled, .datepicker table tr td.active.disabled.active, .datepicker table tr td.active.disabled.disabled, .datepicker table tr td.active.disabled:active, .datepicker table tr td.active.disabled:hover, .datepicker table tr td.active.disabled:hover.active, .datepicker table tr td.active.disabled:hover.disabled, .datepicker table tr td.active.disabled:hover:active, .datepicker table tr td.active.disabled:hover:hover, .datepicker table tr td.active.disabled:hover[disabled], .datepicker table tr td.active.disabled[disabled], .datepicker table tr td.active:active, .datepicker table tr td.active:hover, .datepicker table tr td.active:hover.active, .datepicker table tr td.active:hover.disabled, .datepicker table tr td.active:hover:active, .datepicker table tr td.active:hover:hover, .datepicker table tr td.active:hover[disabled], .datepicker table tr td.active[disabled]{
+	background-image: linear-gradient(to bottom,#00BE5C,#00BE5C) !important;
+	color:@blanco !important;
+	border-radius: 0px !important;
 }

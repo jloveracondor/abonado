@@ -1,8 +1,8 @@
 $('.input-group.date').datepicker({
-	language: "es",
+    language: "es-ES",
     orientation: "bottom right",
-    todayHighlight: true,
-    toggleActive: true
+  
+
 });
 
 

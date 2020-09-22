@@ -1,0 +1,57 @@
+/*Colores*/
+/* Fonts*/
+@media (min-width: 1200px) {
+  .container-ab {
+    max-width: 1600px !important;
+  }
+}
+body {
+  font-family: 'Roboto Condensed', sans-serif !important;
+}
+/*Color texto*/
+.verde {
+  color: #008641;
+}
+.rojo {
+  color: #e50000;
+}
+.gris-oscuro {
+  color: #747474;
+}
+.gris-claro {
+  color: #cbcbcb;
+}
+.bg-verde {
+  background: #008641;
+}
+.bg-gris-tablas {
+  background: rgba(203, 203, 203, 0.5);
+}
+/*botonera*/
+.btn-verde {
+  background: #00be5c !important;
+  border-color: #00be5c !important;
+  color: #ffffff !important;
+  font-weight: bold;
+}
+.btn-verde:hover {
+  background: #008641 !important;
+  border-color: #008641 !important;
+}
+/* Alineación*/
+.parent {
+  position: relative;
+}
+.child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Texto*/
+.ab-title {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  color: #747474;
+}

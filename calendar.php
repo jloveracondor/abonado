@@ -20,7 +20,7 @@
 </div>
  
 		</div>
-		<div class="col-2">
+		<div class="col-2" style="padding-top: 10px;">
 			
 
 <i class="far fa-calendar input-group date"></i>
