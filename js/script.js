@@ -1,8 +1,6 @@
 $('.input-group.date').datepicker({
     language: "es-ES",
     orientation: "bottom right",
-  
-
 });
 
 
@@ -32,3 +30,5 @@ $('.fechas-center').slick({
     }
   ]
 });
+
+$("[data-toggle=tooltip]").tooltip();

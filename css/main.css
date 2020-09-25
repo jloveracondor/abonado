@@ -4596,6 +4596,15 @@ body {
   background: #008641 !important;
   border-color: #008641 !important;
 }
+.ab-todos {
+  color: #747474;
+  font-weight: bold;
+  text-decoration: none;
+}
+.ab-todos:hover {
+  color: #00be5c;
+  text-decoration: none;
+}
 /* Alineación*/
 .parent {
   position: relative;
@@ -4612,6 +4621,11 @@ body {
   font-weight: bold;
   text-align: center;
   color: #747474;
+}
+.tooltip-inner {
+  background-color: #ffffff !important;
+  border: 1px solid #00be5c !important;
+  color: #00be5c !important;
 }
 /*Css de la web*/
 /*Menu*/
@@ -4896,4 +4910,20 @@ footer .social-botones-footer span {
   margin-top: 15px;
   color: #747474;
   font-weight: bold;
+}
+/* tabla estadisticas bat*/
+.ab-box-resultado {
+  border: 1px solid rgba(203, 203, 203, 0.5);
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  border-radius: 6px;
+}
+.ab-box-resultado .ab-title-seccion {
+  color: #747474;
+  font-weight: bold;
+}
+.ab-box-resultado .ab-img-jugador {
+  border-radius: 50%;
 }

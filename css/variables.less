@@ -20,12 +20,13 @@ body{
 /*Color texto*/
 .verde{
 	color:@verde;
+	
 }
 .rojo{
 	color:@rojo;
 }
 .gris-oscuro{
-	color:@gris-oscuro;
+	color:@gris-oscuro ;
 }
 .gris-claro{
 	color:@gris-claro;
@@ -36,6 +37,8 @@ body{
 .bg-gris-tablas{
 	background:@gris-tablas;
 }
+
+
 
 /*botonera*/
 .btn-verde{
@@ -48,7 +51,15 @@ body{
 	border-color:@verde!important;
 	}
 }
-
+.ab-todos{
+	color:@gris-oscuro;
+	font-weight: bold;
+	text-decoration: none;
+	&:hover{
+		color:@verde-claro;
+		text-decoration: none;
+	}
+}
 /* Alineación*/
 
 .parent {
@@ -67,4 +78,10 @@ body{
 	font-weight: bold;
 	text-align: center;
 	color:@gris-oscuro;
+}
+
+.tooltip-inner {
+background-color:#ffffff !important;
+border:1px solid @verde-claro !important;
+color:@verde-claro !important;
 }

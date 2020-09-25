@@ -146,7 +146,7 @@
       </div>
     </div>
     <div class="col-sm-4 col-md tablilla text-center parent">
-       <p class="child"><a href="#"> VER MÁS <i class="fas fa-caret-right verde"></i>  </a></p>
+       <p class="child"><a href="#" class="ab-vermas"> VER MÁS <i class="fas fa-caret-right verde"></i>  </a></p>
     </div>
   </div>
 </div>

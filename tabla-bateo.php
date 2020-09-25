@@ -52,7 +52,7 @@
 							<th scope="col">SF</th>
 							<th scope="col">BB</th>
 							<th scope="col">K</th>
-							<th class="ab-average" scope="col"> AVG </th>
+							<th class="ab-average" scope="col" data-toggle="tooltip" data-placement="top" title="Promedio Bateo"> AVG </th>
 							<th scope="col"> OBP </th>
 							<th scope="col"> SLG </th>
 							<th scope="col"> OPS </th>

@@ -35,7 +35,7 @@
 				<table class="table table-hover ab-table">
 					<thead>
 						<tr class="ab-titulos-table text-center">
-							<th></th>
+							<th> </th>
 							<th  scope="col">Jugador</th>
 							<th scope="col">EQUIPO</th>
 							<th scope="col">JJ</th>
@@ -51,7 +51,8 @@
 							<th scope="col">SH</th>
 							<th scope="col">SF</th>
 							<th scope="col">BB</th>
-							<th class="ab-average" scope="col">K</th>
+							<th class="ab-average" data-toggle="tooltip" data-placement="top" title="Ponches" scope="col">  K </th>
+
 							<th scope="col"> AVG </th>
 							<th scope="col"> OBP </th>
 							<th scope="col"> SLG </th>
