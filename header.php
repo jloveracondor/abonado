@@ -5,9 +5,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>El Abonado</title>
-	<link rel="stylesheet" href="css/main.css"> 
-	<link rel="stylesheet" href="assent/bootstrap/css/bootstrap.min.css" crossorigin="anonymous">
-	<link rel="stylesheet" href="bootstrap-datepicker/css/bootstrap-datepicker.min.css">
+	<link rel="stylesheet" href="/abonado/css/main.css"> 
+	<link rel="stylesheet" href="/abonado/assent/bootstrap/css/bootstrap.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" href="/abonado/bootstrap-datepicker/css/bootstrap-datepicker.min.css">
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.5.0/slick-theme.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
@@ -18,7 +18,7 @@
 <body>
 	<!-- Menu--> 
 	<nav id="ab-nav" class="navbar navbar-expand-lg navbar-light ">
-		<a class="navbar-brand" href="#"><img src="assent/img/abonado-logo 1.png" alt=""></a>
+		<a class="navbar-brand" href="#"><img src="/abonado/assent/img/abonado-logo 1.png" alt=""></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -36,10 +36,10 @@
 						</div>
 					</li>
 				<li class="nav-item active">
-					<a class="nav-link" href="#">RESULTADOS <span class="sr-only">(current)</span></a>
+					<a class="nav-link" href="/abonado/index.php">RESULTADOS <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">POSICIONES</a>
+					<a class="nav-link" href="/abonado/posiciones.php/">POSICIONES</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#">ESTADÍSTICAS</a>
