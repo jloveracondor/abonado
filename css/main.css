@@ -4886,6 +4886,12 @@ footer .social-botones-footer span {
   color: #747474;
   font-weight: bold;
 }
+.ab-average {
+  color: #00be5c !important;
+}
+.ab-average-fondo {
+  background: #c4c4c42b;
+}
 .ab-title-liga {
   margin-top: 15px;
   color: #747474;
