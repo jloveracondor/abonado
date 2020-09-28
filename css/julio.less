@@ -337,7 +337,7 @@ footer{
 	.ab-numeros{
 		font-weight: bold;
 		h4{
-		font-weight: bold;
+			font-weight: bold;
 		}
 	}
 
@@ -362,5 +362,84 @@ footer{
 			}
 
 		}
+	}
+}
+
+/* Pagina Equipos*/
+
+#ab-equipos{
+	a{
+		color:@gris-claro;
+	}
+	a:hover{
+		text-decoration:none;
+		color:@gris-oscuro;
+	}
+
+	.border{
+		border-radius: 6px;
+
+		&:hover{
+			border-color:@gris-oscuro;
+		}
+	}
+
+}
+.ab-title-equipos{
+	text-decoration: none;
+}
+
+/* Tabla equipos interna*/
+.ab-title-equipo{
+	color:@verde !important;
+	font-size: 48px !important;
+	font-weight: bold;
+}
+.ab-subtitulo-equipo{
+	color:@gris-claro;
+	font-size:36px;
+	font-weight: bold;
+}
+
+.ab-image-equipo-bg{
+
+	border-radius: 100%
+}
+
+
+
+.ab-bg-fluid{
+	background: #c4c4c421;
+	.box-ab-jugador{
+		background: @blanco;
+	}
+}
+
+/* table-roster*/
+.ab-table-roster{
+	background: @blanco;
+	border:1px solid @gris-tablas;
+	border-radius: 6px;
+	font-color:@gris-oscuro;
+	color:@gris-oscuro;
+	.ab-title-seccion{
+
+		font-weight: bold;
+		font-size: 24px;
+		margin-bottom:  0px;
+		padding-bottom: 15px;
+	}
+}
+
+.ab-table-roster-interna{
+	td{
+		border-top: 1px dotted #dee2e6 !important;
+		border:0;
+    color: #C4C4C4;
+	}
+	th{
+		font-size: 14px;
+    color: #747474;
+    background: rgba(203, 203, 203, 0.5);
 	}
 }

@@ -6,7 +6,7 @@
 	</div>
 
 	<div class="row my-3">
-		<div class="col-2">
+		<div class="col-2 px-1">
 			<select class="form-control" id="exampleFormControlSelect1">
 				<option>LVBP</option>
 				<option>LVBP</option>
@@ -15,7 +15,7 @@
 				<option>LVBP</option>
 			</select>
 		</div>
-		<div class="col-2">
+		<div class="col-2 px-1">
 			<select class="form-control" id="exampleFormControlSelect1">
 				<option>Bateo</option>
 				<option>Bateo</option>
@@ -24,24 +24,24 @@
 				<option>Bateo</option>
 			</select>
 		</div>
-		<div class="col-2 align-middle">
+		<div class="col-2 px-1 align-middle">
 			<span class="ab-regular">Regular</span>
 		</div>
 	</div>
-	<div class="row " style="margin-left:0px; margin-right: 0px;">
+	<div class="row">
 		<!-- Promedio Bateo-->
 		<div class="col col-xs-12  col-sm-12 col-md-6 col-lg-6 col-xl-4 pl-md-1 pr-md-1 my-1 ">
-			<div class="container  h-100 ab-box-resultado box-ab-jugador ">
+			<div class="  h-100 ab-box-resultado box-ab-jugador ">
 				<div class="row mx-2">
 					<div class="col-12 "> <p class="ab-title-seccion">Promedio de bateo </p> </div>
 				</div>
 				<div class="row  py-2 mx-2 border-top">
 					
-					<div class="col-1 my-auto text-center font-weight-bold ab-text-14">1</div>
-					<div class="col-1 my-auto px-0 text-center"><img src="assent/img/tiburones-de-la-guaira 1.png" alt=""></div>
-					<div class="col-2 my-auto text-center"><img class="ab-img-jugador" src="assent/img/jugador.png" alt=""></div>
-					<div class="col-4 my-auto text-left"><h5 class="ab-nombre-jugador">Juan Apodaca </h5> <span> <b>TIB</b> • C </span></div>
-					<div class="col-4 my-auto text-right ab-numeros pl-0 pr-4"><h4>.398</h4> <span>AVG</span></div>
+					<div class="col-lg-1 col-4 my-auto text-center font-weight-bold ab-text-14">1</div>
+					<div class="col-lg-1 col-4 my-auto px-0 text-center"><img src="assent/img/tiburones-de-la-guaira 1.png" alt=""></div>
+					<div class="col-lg-3 col-4 my-auto text-center"><img class="ab-img-jugador" src="assent/img/jugador.png" alt=""></div>
+					<div class="col-lg-5 col-6 my-auto text-left"><h5 class="ab-nombre-jugador">Juan Apodaca </h5> <span> <b>TIB</b> • C </span></div>
+					<div class="col-lg-1 col-6 my-auto text-right ab-numeros pl-0 pr-4"><h4>.398</h4> <span>AVG</span></div>
 				</div>	
 				<div class="row mx-2">
 					<table class="table table-hover ab-table-jugador">
@@ -90,23 +90,23 @@
 					</table>
 				</div>
 				<div class="row mx-2 text-center">
-					<div class="col "> <a  class="ab-todos" href="/abonado/estadisticas-bateo.php">VER TODOS </a> </div>
+					<div class="col "> <a  class="ab-todos" href="estadisticas-bateo.php">VER TODOS </a> </div>
 				</div>
 			</div>
 		</div>
 		<!-- Promedio Jonrones-->
 		<div class="col col-xs-12  col-sm-12 col-md-6 col-lg-6 col-xl-4 pl-md-1 pr-md-1 my-1 ">
-			<div class="container  h-100 ab-box-resultado box-ab-jugador ">
+			<div class="  h-100 ab-box-resultado box-ab-jugador ">
 				<div class="row mx-2">
 					<div class="col-12 "> <p class="ab-title-seccion">Jonrones </p> </div>
 				</div>
 				<div class="row  py-2 mx-2 border-top">
 					
-					<div class="col-1 my-auto text-center font-weight-bold ab-text-14">1</div>
-					<div class="col-1 my-auto px-0 text-center"><img src="assent/img/tiburones-de-la-guaira 1.png" alt=""></div>
-					<div class="col-2 my-auto text-center"><img class="ab-img-jugador" src="assent/img/jugador.png" alt=""></div>
-					<div class="col-4 my-auto text-left"><h5 class="ab-nombre-jugador">Juan Apodaca </h5> <span> <b>TIB</b> • C </span></div>
-					<div class="col-4 my-auto text-right ab-numeros pl-0 pr-4"><h4>13</h4> <span>HR</span></div>
+					<div class="col-lg-1 col-4 my-auto text-center font-weight-bold ab-text-14">1</div>
+					<div class="col-lg-1 col-4 my-auto px-0 text-center"><img src="assent/img/tiburones-de-la-guaira 1.png" alt=""></div>
+					<div class="col-lg-3 col-4 my-auto text-center"><img class="ab-img-jugador" src="assent/img/jugador.png" alt=""></div>
+					<div class="col-lg-5 col-6 my-auto text-left"><h5 class="ab-nombre-jugador">Juan Apodaca </h5> <span> <b>TIB</b> • C </span></div>
+					<div class="col-lg-1 col-6 my-auto text-right ab-numeros pl-0 pr-4"><h4>13</h4> <span>HR</span></div>
 				</div>	
 				<div class="row mx-2">
 					<table class="table table-hover ab-table-jugador">
@@ -155,23 +155,23 @@
 					</table>
 				</div>
 				<div class="row mx-2 text-center">
-					<div class="col "> <a  class="ab-todos" href="#">VER TODOS </a> </div>
+					<div class="col "> <a  class="ab-todos" href="estadisticas-bateo.php">VER TODOS </a> </div>
 				</div>
 			</div>
 		</div>
 		<!-- Carreras Impulsadas-->
 		<div class="col col-xs-12  col-sm-12 col-md-6 col-lg-6 col-xl-4 pl-md-1 pr-md-1 my-1 ">
-			<div class="container  h-100 ab-box-resultado box-ab-jugador ">
+			<div class="  h-100 ab-box-resultado box-ab-jugador ">
 				<div class="row mx-2">
 					<div class="col-12 "> <p class="ab-title-seccion">Carreras Impulsadas </p> </div>
 				</div>
 				<div class="row  py-2 mx-2 border-top">
 					
-					<div class="col-1 my-auto text-center font-weight-bold ab-text-14">1</div>
-					<div class="col-1 my-auto px-0 text-center"><img src="assent/img/tiburones-de-la-guaira 1.png" alt=""></div>
-					<div class="col-2 my-auto text-center"><img class="ab-img-jugador" src="assent/img/jugador.png" alt=""></div>
-					<div class="col-4 my-auto text-left"><h5 class="ab-nombre-jugador">Juan Apodaca </h5> <span> <b>TIB</b> • C </span></div>
-					<div class="col-4 my-auto text-right ab-numeros pl-0 pr-4"><h4>34</h4> <span>CI</span></div>
+					<div class="col-lg-1 col-4 my-auto text-center font-weight-bold ab-text-14">1</div>
+					<div class="col-lg-1 col-4 my-auto px-0 text-center"><img src="assent/img/tiburones-de-la-guaira 1.png" alt=""></div>
+					<div class="col-lg-3 col-4 my-auto text-center"><img class="ab-img-jugador" src="assent/img/jugador.png" alt=""></div>
+					<div class="col-lg-5 col-6 my-auto text-left"><h5 class="ab-nombre-jugador">Juan Apodaca </h5> <span> <b>TIB</b> • C </span></div>
+					<div class="col-lg-1 col-6 my-auto text-right ab-numeros pl-0 pr-4"><h4>34</h4> <span>CI</span></div>
 				</div>	
 				<div class="row mx-2">
 					<table class="table table-hover ab-table-jugador">
@@ -220,23 +220,23 @@
 					</table>
 				</div>
 				<div class="row mx-2 text-center">
-					<div class="col "> <a  class="ab-todos" href="#">VER TODOS </a> </div>
+					<div class="col "> <a  class="ab-todos" href="estadisticas-bateo.php">VER TODOS </a> </div>
 				</div>
 			</div>
 		</div>
 		<!-- Carreras OBP-->
 		<div class="col col-xs-12  col-sm-12 col-md-6 col-lg-6 col-xl-4 pl-md-1 pr-md-1 my-1 ">
-			<div class="container  h-100 ab-box-resultado box-ab-jugador ">
+			<div class="  h-100 ab-box-resultado box-ab-jugador ">
 				<div class="row mx-2">
 					<div class="col-12 "> <p class="ab-title-seccion">OBP </p> </div>
 				</div>
 				<div class="row  py-2 mx-2 border-top">
 					
-					<div class="col-1 my-auto text-center font-weight-bold ab-text-14">1</div>
-					<div class="col-1 my-auto px-0 text-center"><img src="assent/img/tiburones-de-la-guaira 1.png" alt=""></div>
-					<div class="col-2 my-auto text-center"><img class="ab-img-jugador" src="assent/img/jugador.png" alt=""></div>
-					<div class="col-4 my-auto text-left"><h5 class="ab-nombre-jugador">Juan Apodaca </h5> <span> <b>TIB</b> • C </span></div>
-					<div class="col-4 my-auto text-right ab-numeros pl-0 pr-4"><h4>.398</h4> <span>OBP</span></div>
+					<div class="col-lg-1 col-4 my-auto text-center font-weight-bold ab-text-14">1</div>
+					<div class="col-lg-1 col-4 my-auto px-0 text-center"><img src="assent/img/tiburones-de-la-guaira 1.png" alt=""></div>
+					<div class="col-lg-3 col-4 my-auto text-center"><img class="ab-img-jugador" src="assent/img/jugador.png" alt=""></div>
+					<div class="col-lg-5 col-6 my-auto text-left"><h5 class="ab-nombre-jugador">Juan Apodaca </h5> <span> <b>TIB</b> • C </span></div>
+					<div class="col-lg-1 col-6 my-auto text-right ab-numeros pl-0 pr-4"><h4>.398</h4> <span>OBP</span></div>
 				</div>	
 				<div class="row mx-2">
 					<table class="table table-hover ab-table-jugador">
@@ -285,24 +285,24 @@
 					</table>
 				</div>
 				<div class="row mx-2 text-center">
-					<div class="col "> <a  class="ab-todos" href="#">VER TODOS </a> </div>
+					<div class="col "> <a  class="ab-todos" href="estadisticas-bateo.php">VER TODOS </a> </div>
 				</div>
 			</div>
 		</div>		
 
 		<!-- Carreras Slugging-->
 		<div class="col col-xs-12  col-sm-12 col-md-6 col-lg-6 col-xl-4 pl-md-1 pr-md-1 my-1 ">
-			<div class="container  h-100 ab-box-resultado box-ab-jugador ">
+			<div class="  h-100 ab-box-resultado box-ab-jugador ">
 				<div class="row mx-2">
 					<div class="col-12 "> <p class="ab-title-seccion">Slugging % </p> </div>
 				</div>
 				<div class="row  py-2 mx-2 border-top">
 					
-					<div class="col-1 my-auto text-center font-weight-bold ab-text-14">1</div>
-					<div class="col-1 my-auto px-0 text-center"><img src="assent/img/tiburones-de-la-guaira 1.png" alt=""></div>
-					<div class="col-2 my-auto text-center"><img class="ab-img-jugador" src="assent/img/jugador.png" alt=""></div>
-					<div class="col-4 my-auto text-left"><h5 class="ab-nombre-jugador">Juan Apodaca </h5> <span> <b>TIB</b> • C </span></div>
-					<div class="col-4 my-auto text-right ab-numeros pl-0 pr-4"><h4>.398</h4> <span>SLG</span></div>
+					<div class="col-lg-1 col-4 my-auto text-center font-weight-bold ab-text-14">1</div>
+					<div class="col-lg-1 col-4 my-auto px-0 text-center"><img src="assent/img/tiburones-de-la-guaira 1.png" alt=""></div>
+					<div class="col-lg-3 col-4 my-auto text-center"><img class="ab-img-jugador" src="assent/img/jugador.png" alt=""></div>
+					<div class="col-lg-5 col-6 my-auto text-left"><h5 class="ab-nombre-jugador">Juan Apodaca </h5> <span> <b>TIB</b> • C </span></div>
+					<div class="col-lg-1 col-6 my-auto text-right ab-numeros pl-0 pr-4"><h4>.398</h4> <span>SLG</span></div>
 				</div>	
 				<div class="row mx-2">
 					<table class="table table-hover ab-table-jugador">
@@ -351,24 +351,24 @@
 					</table>
 				</div>
 				<div class="row mx-2 text-center">
-					<div class="col "> <a  class="ab-todos" href="#">VER TODOS </a> </div>
+					<div class="col "> <a  class="ab-todos" href="estadisticas-bateo.php">VER TODOS </a> </div>
 				</div>
 			</div>
 		</div>
 
 		<!-- OPS-->
 		<div class="col col-xs-12  col-sm-12 col-md-6 col-lg-6 col-xl-4 pl-md-1 pr-md-1 my-1 ">
-			<div class="container  h-100 ab-box-resultado box-ab-jugador ">
+			<div class="  h-100 ab-box-resultado box-ab-jugador ">
 				<div class="row mx-2">
 					<div class="col-12 "> <p class="ab-title-seccion">OPS </p> </div>
 				</div>
 				<div class="row  py-2 mx-2 border-top">
 					
-					<div class="col-1 my-auto text-center font-weight-bold ab-text-14">1</div>
-					<div class="col-1 my-auto px-0 text-center"><img src="assent/img/tiburones-de-la-guaira 1.png" alt=""></div>
-					<div class="col-2 my-auto text-center"><img class="ab-img-jugador" src="assent/img/jugador.png" alt=""></div>
-					<div class="col-4 my-auto text-left"><h5 class="ab-nombre-jugador">Juan Apodaca </h5> <span> <b>TIB</b> • C </span></div>
-					<div class="col-4 my-auto text-right ab-numeros pl-0 pr-4"><h4>1.188</h4> <span>OPS</span></div>
+					<div class="col-lg-1 col-4 my-auto text-center font-weight-bold ab-text-14">1</div>
+					<div class="col-lg-1 col-4 my-auto px-0 text-center"><img src="assent/img/tiburones-de-la-guaira 1.png" alt=""></div>
+					<div class="col-lg-3 col-4 my-auto text-center"><img class="ab-img-jugador" src="assent/img/jugador.png" alt=""></div>
+					<div class="col-lg-5 col-6 my-auto text-left"><h5 class="ab-nombre-jugador">Juan Apodaca </h5> <span> <b>TIB</b> • C </span></div>
+					<div class="col-lg-1 col-6 my-auto text-right ab-numeros pl-0 pr-4"><h4>1.188</h4> <span>OPS</span></div>
 				</div>	
 				<div class="row mx-2">
 					<table class="table table-hover ab-table-jugador">
@@ -417,23 +417,23 @@
 					</table>
 				</div>
 				<div class="row mx-2 text-center">
-					<div class="col "> <a  class="ab-todos" href="#">VER TODOS </a> </div>
+					<div class="col "> <a  class="ab-todos" href="estadisticas-bateo.php">VER TODOS </a> </div>
 				</div>
 			</div>
 		</div>
 		<!-- Carreras Anotadas-->
 		<div class="col col-xs-12  col-sm-12 col-md-6 col-lg-6 col-xl-4 pl-md-1 pr-md-1 my-1 ">
-			<div class="container  h-100 ab-box-resultado box-ab-jugador ">
+			<div class="  h-100 ab-box-resultado box-ab-jugador ">
 				<div class="row mx-2">
 					<div class="col-12 "> <p class="ab-title-seccion">Carreras Anotadas </p> </div>
 				</div>
 				<div class="row  py-2 mx-2 border-top">
 					
-					<div class="col-1 my-auto text-center font-weight-bold ab-text-14">1</div>
-					<div class="col-1 my-auto px-0 text-center"><img src="assent/img/tiburones-de-la-guaira 1.png" alt=""></div>
-					<div class="col-2 my-auto text-center"><img class="ab-img-jugador" src="assent/img/jugador.png" alt=""></div>
-					<div class="col-4 my-auto text-left"><h5 class="ab-nombre-jugador">Juan Apodaca </h5> <span> <b>TIB</b> • C </span></div>
-					<div class="col-4 my-auto text-right ab-numeros pl-0 pr-4"><h4>.398</h4> <span>R</span></div>
+					<div class="col-lg-1 col-4 my-auto text-center font-weight-bold ab-text-14">1</div>
+					<div class="col-lg-1 col-4 my-auto px-0 text-center"><img src="assent/img/tiburones-de-la-guaira 1.png" alt=""></div>
+					<div class="col-lg-3 col-4 my-auto text-center"><img class="ab-img-jugador" src="assent/img/jugador.png" alt=""></div>
+					<div class="col-lg-5 col-6 my-auto text-left"><h5 class="ab-nombre-jugador">Juan Apodaca </h5> <span> <b>TIB</b> • C </span></div>
+					<div class="col-lg-1 col-6 my-auto text-right ab-numeros pl-0 pr-4"><h4>.398</h4> <span>R</span></div>
 				</div>	
 				<div class="row mx-2">
 					<table class="table table-hover ab-table-jugador">
@@ -482,23 +482,23 @@
 					</table>
 				</div>
 				<div class="row mx-2 text-center">
-					<div class="col "> <a  class="ab-todos" href="#">VER TODOS </a> </div>
+					<div class="col "> <a  class="ab-todos" href="estadisticas-bateo.php">VER TODOS </a> </div>
 				</div>
 			</div>
 		</div>
 		<!-- Bases Robadas-->
 		<div class="col col-xs-12  col-sm-12 col-md-6 col-lg-6 col-xl-4 pl-md-1 pr-md-1 my-1 ">
-			<div class="container  h-100 ab-box-resultado box-ab-jugador ">
+			<div class="  h-100 ab-box-resultado box-ab-jugador ">
 				<div class="row mx-2">
 					<div class="col-12 "> <p class="ab-title-seccion">Carreras Anotadas </p> </div>
 				</div>
 				<div class="row  py-2 mx-2 border-top">
 					
-					<div class="col-1 my-auto text-center font-weight-bold ab-text-14">1</div>
-					<div class="col-1 my-auto px-0 text-center"><img src="assent/img/tiburones-de-la-guaira 1.png" alt=""></div>
-					<div class="col-2 my-auto text-center"><img class="ab-img-jugador" src="assent/img/jugador.png" alt=""></div>
-					<div class="col-4 my-auto text-left"><h5 class="ab-nombre-jugador">Juan Apodaca </h5> <span> <b>TIB</b> • C </span></div>
-					<div class="col-4 my-auto text-right ab-numeros pl-0 pr-4"><h4>9</h4> <span>RSB</span></div>
+					<div class="col-lg-1 col-4 my-auto text-center font-weight-bold ab-text-14">1</div>
+					<div class="col-lg-1 col-4 my-auto px-0 text-center"><img src="assent/img/tiburones-de-la-guaira 1.png" alt=""></div>
+					<div class="col-lg-3 col-4 my-auto text-center"><img class="ab-img-jugador" src="assent/img/jugador.png" alt=""></div>
+					<div class="col-lg-5 col-6 my-auto text-left"><h5 class="ab-nombre-jugador">Juan Apodaca </h5> <span> <b>TIB</b> • C </span></div>
+					<div class="col-lg-1 col-6 my-auto text-right ab-numeros pl-0 pr-4"><h4>9</h4> <span>RSB</span></div>
 				</div>	
 				<div class="row mx-2">
 					<table class="table table-hover ab-table-jugador">
@@ -547,7 +547,7 @@
 					</table>
 				</div>
 				<div class="row mx-2 text-center">
-					<div class="col "> <a  class="ab-todos" href="#">VER TODOS </a> </div>
+					<div class="col "> <a  class="ab-todos" href="estadisticas-bateo.php">VER TODOS </a> </div>
 				</div>
 			</div>
 		</div>

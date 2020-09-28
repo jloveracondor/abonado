@@ -4962,3 +4962,64 @@ footer .social-botones-footer span {
 .ab-box-resultado .ab-table-jugador td img {
   margin-right: 7px;
 }
+/* Pagina Equipos*/
+#ab-equipos a {
+  color: #cbcbcb;
+}
+#ab-equipos a:hover {
+  text-decoration: none;
+  color: #747474;
+}
+#ab-equipos .border {
+  border-radius: 6px;
+}
+#ab-equipos .border:hover {
+  border-color: #747474;
+}
+.ab-title-equipos {
+  text-decoration: none;
+}
+/* Tabla equipos interna*/
+.ab-title-equipo {
+  color: #008641 !important;
+  font-size: 48px !important;
+  font-weight: bold;
+}
+.ab-subtitulo-equipo {
+  color: #cbcbcb;
+  font-size: 36px;
+  font-weight: bold;
+}
+.ab-image-equipo-bg {
+  border-radius: 100%;
+}
+.ab-bg-fluid {
+  background: #c4c4c421;
+}
+.ab-bg-fluid .box-ab-jugador {
+  background: #ffffff;
+}
+/* table-roster*/
+.ab-table-roster {
+  background: #ffffff;
+  border: 1px solid rgba(203, 203, 203, 0.5);
+  border-radius: 6px;
+  font-color: #747474;
+  color: #747474;
+}
+.ab-table-roster .ab-title-seccion {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 0px;
+  padding-bottom: 15px;
+}
+.ab-table-roster-interna td {
+  border-top: 1px dotted #dee2e6 !important;
+  border: 0;
+  color: #C4C4C4;
+}
+.ab-table-roster-interna th {
+  font-size: 14px;
+  color: #747474;
+  background: rgba(203, 203, 203, 0.5);
+}

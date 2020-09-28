@@ -36,16 +36,19 @@
 						</div>
 					</li>
 				<li class="nav-item active">
-					<a class="nav-link" href="/abonado/index.php">RESULTADOS <span class="sr-only">(current)</span></a>
+					<a class="nav-link" href="index.php">RESULTADOS <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/abonado/posiciones.php/">POSICIONES</a>
+					<a class="nav-link" href="posiciones.php">POSICIONES</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/abonado/estadisticas-jugador-bat.php">ESTADÍSTICAS</a>
+					<a class="nav-link" href="estadisticas-jugador-bat.php">ESTADÍSTICAS</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">EQUIPOS</a>
+					<a class="nav-link" href="estadisticas-jugador-pit.php">ESTADÍSTICAS PIT</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="equipos.php">EQUIPOS</a>
 				</li>
 			</ul>
 			<div class="form-inline my-2 my-lg-0 ab-social">
