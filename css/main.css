@@ -4919,11 +4919,46 @@ footer .social-botones-footer span {
   padding-right: 15px;
   padding-bottom: 15px;
   border-radius: 6px;
+  color: #747474;
 }
 .ab-box-resultado .ab-title-seccion {
   color: #747474;
   font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 0px;
+  padding-bottom: 15px;
 }
 .ab-box-resultado .ab-img-jugador {
   border-radius: 50%;
+}
+.ab-box-resultado .ab-nombre-jugador {
+  color: #008641;
+  font-weight: bold;
+}
+.ab-box-resultado .ab-text-14 {
+  font-size: 16px !important;
+}
+.ab-box-resultado .ab-numeros {
+  font-weight: bold;
+}
+.ab-box-resultado .ab-numeros h4 {
+  font-weight: bold;
+}
+.ab-box-resultado .ab-table-jugador th {
+  font-size: 12px;
+  color: #cbcbcb;
+  font-weight: bold;
+  border-bottom: 1px solid rgba(203, 203, 203, 0.5);
+}
+.ab-box-resultado .ab-table-jugador td {
+  border-top: 1px dotted rgba(203, 203, 203, 0.5);
+  font-size: 14px;
+  color: #747474;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.ab-box-resultado .ab-table-jugador td img {
+  margin-right: 7px;
 }

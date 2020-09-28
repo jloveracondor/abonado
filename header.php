@@ -42,7 +42,7 @@
 					<a class="nav-link" href="/abonado/posiciones.php/">POSICIONES</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">ESTADÍSTICAS</a>
+					<a class="nav-link" href="/abonado/estadisticas-jugador-bat.php">ESTADÍSTICAS</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#">EQUIPOS</a>
