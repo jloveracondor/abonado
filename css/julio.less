@@ -70,9 +70,9 @@
 }
 .ab-table-resultados{
 	padding-top: 15px;
-	padding-left: 15px;
+	
 	padding-bottom: 60px;
-	padding-right: 15px;
+	
 	border:1px solid @gris-claro;
 	border-radius: 6px;
 	position: relative;
@@ -83,7 +83,7 @@
 			background: url("../assent/img/win.png");
 			background-repeat: no-repeat;
 			background-size: contain;
-			left: -16px;
+			left: -8px;
 			top: 5px;
 			width: 15px;
 			height: 15px;
@@ -325,6 +325,9 @@ footer{
 		border-radius: 50%;
 	}
 }
+.ab-img-jugador{
+	border-radius: 50%;
+}
 
 .ab-box-resultado{
 	.ab-nombre-jugador{
@@ -441,5 +444,64 @@ footer{
 		font-size: 14px;
     color: #747474;
     background: rgba(203, 203, 203, 0.5);
+	}
+	a{
+		color:@gris-oscuro;
+		&:hover{
+			text-decoration:none !important;
+			color:@verde-claro;
+		}
+	}
+}
+
+/* Tabs*/
+.ab-tabs{
+	border-bottom: 0px !important;
+	.nav-item.show .nav-link, .nav-link.active{
+		color:@verde-claro !important;
+		font-weight: bold;
+	border-bottom: 4px solid @verde-claro !important;
+    border-top: 0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+	}
+	.nav-link{
+		border-bottom: 4px solid transparent !important;
+		color:@gris-claro;
+		border-top: 0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+	}
+	 .nav-link:focus, .nav-link:hover{
+	 	border-bottom: 4px solid @verde-claro !important;
+    border-top: 0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    color:@gris-claro;
+   
+	 }
+}
+
+.ab-info-jugador{
+	p{
+		margin-bottom: 0px !important;
+		font-size: 13px;
+		color:@gris-oscuro;
+		span{
+			font-weight: bold;
+
+		}
+	}
+}
+.ab-total{
+	td{
+		 background: rgba(0, 190, 92, 0.2);
+		 color:@gris-oscuro;
+		 font-weight: bold;
+	}
+}
+.ab-table-roster-interna.split{
+	thead{
+		margin-top:15px;
 	}
 }

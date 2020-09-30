@@ -50,6 +50,9 @@
 				<li class="nav-item">
 					<a class="nav-link" href="equipos.php">EQUIPOS</a>
 				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="boxcore.php">BOXCORE</a>
+				</li>
 			</ul>
 			<div class="form-inline my-2 my-lg-0 ab-social">
 				<i class="fab fa-facebook-square"></i>

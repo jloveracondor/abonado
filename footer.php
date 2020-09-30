@@ -1,5 +1,5 @@
 <footer class="bg-verde">
-	<div class="container-fluid">
+	<div class="container-fluid container-ab">
 		<div class="row my-3">
 			<div class="col-3"><img class="img-fluid" src="/abonado/assent/img/abonado-logo 1(1).png" alt=""></div>
 			<div class="col-9">

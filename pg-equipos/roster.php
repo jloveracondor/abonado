@@ -23,7 +23,7 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td scope="row">Diaz, Frank</td>
+									<td scope="row"><a href="perfil-jugador.php">Diaz, Frank </a></td>
 									<td>RP</td>
 									<td>R</td>
 									<td>R</td>
@@ -322,8 +322,8 @@
 				</div>
 				<div class="row">
 					<div class="col-12 ab-table-roster my-1 py-2">
-						<p class="ab-title-seccion">Bateadores des
-							<div class="table-responsive">ignados </p> 
+						<p class="ab-title-seccion">Bateadores designados </p> 
+							<div class="table-responsive">
 						<table class="table table-hover ab-table-roster-interna text-center">
 							<thead>
 								<tr>
@@ -361,10 +361,76 @@
 
 			</div>
 			<div class="col-md-4 col-xs-12 col-sm-12">
-				<div class="col">
-					hola
-					<table></table>
-				</div>
+				<div class="col-12 ab-table-roster my-1 py-2">
+						<p class="ab-title-seccion">Bullpen </p>
+							<div class="table-responsive">
+						<table class="table table-hover ab-table-roster-interna text-center">
+							<tbody>
+								<tr>
+									<td scope="row"> <img class="ab-img-jugador" src="assent/img/jugador.png" alt=""></td>
+									<td>Nombre y Apellido</td>
+									<td>0.00</td>
+									
+								</tr>
+								<tr>
+									<td scope="row"> <img class="ab-img-jugador" src="assent/img/jugador.png" alt=""></td>
+									<td>Nombre y Apellido</td>
+									<td>0.00</td>
+									
+								</tr>
+								<tr>
+									<td scope="row"> <img class="ab-img-jugador" src="assent/img/jugador.png" alt=""></td>
+									<td>Nombre y Apellido</td>
+									<td>0.00</td>
+									
+								</tr>
+								<tr>
+									<td scope="row"> <img class="ab-img-jugador" src="assent/img/jugador.png" alt=""></td>
+									<td>Nombre y Apellido</td>
+									<td>0.00</td>
+									
+								</tr>
+								<tr>
+									<td scope="row"> <img class="ab-img-jugador" src="assent/img/jugador.png" alt=""></td>
+									<td>Nombre y Apellido</td>
+									<td>0.00</td>
+									
+								</tr>
+								<tr>
+									<td scope="row"> <img class="ab-img-jugador" src="assent/img/jugador.png" alt=""></td>
+									<td>Nombre y Apellido</td>
+									<td>0.00</td>
+									
+								</tr>
+								<tr>
+									<td scope="row"> <img class="ab-img-jugador" src="assent/img/jugador.png" alt=""></td>
+									<td>Nombre y Apellido</td>
+									<td>0.00</td>
+									
+								</tr>
+								<tr>
+									<td scope="row"> <img class="ab-img-jugador" src="assent/img/jugador.png" alt=""></td>
+									<td>Nombre y Apellido</td>
+									<td>0.00</td>
+									
+								</tr>
+								<tr>
+									<td scope="row"> <img class="ab-img-jugador" src="assent/img/jugador.png" alt=""></td>
+									<td>Nombre y Apellido</td>
+									<td>0.00</td>
+									
+								</tr>
+								<tr>
+									<td scope="row"> <img class="ab-img-jugador" src="assent/img/jugador.png" alt=""></td>
+									<td>Nombre y Apellido</td>
+									<td>0.00</td>
+									
+								</tr>
+
+								
+							</tbody>
+						</table>
+					</div>
 			</div>
 		</div>
 		
