@@ -485,7 +485,7 @@ footer{
 .ab-info-jugador{
 	p{
 		margin-bottom: 0px !important;
-		font-size: 13px;
+		font-size: 15px;
 		color:@gris-oscuro;
 		span{
 			font-weight: bold;
@@ -503,5 +503,52 @@ footer{
 .ab-table-roster-interna.split{
 	thead{
 		margin-top:15px;
+	}
+}
+
+
+/*Boxcore*/
+
+.ab-table-boxcore{
+	font-size: 12px !important;
+	border-radius: 4px !important;
+	color:@gris-claro;
+	th{
+		border-top:0px !important;
+		color:@gris-oscuro;
+	}
+	td{
+		color:@gris-claro;
+		border-top:1px dotted @gris-tablas !important;
+	}
+}
+
+.ab-boxcore-circle{
+	color:rgba(203, 203, 203, 0.5);
+	font-size: 12px;
+}
+.ab-boxcore-circle.active{
+	color:@verde-claro;
+}
+.ab-jugadores-boxcore{
+	font-size: 12px;
+}
+.ab-table-roster.ab-boxcore {
+	.ab-title-seccion-boxcore{
+		background: rgba(196, 196, 196, 0.2);
+		font-weight: bold;
+		border:none !important;
+		color:@gris-oscuro;
+	}
+	p{
+		border-bottom:1px dotted @gris-tablas;
+		img{
+			margin-right:5px;
+			border-radius: 100%;
+		}
+		color:@gris-claro;
+		span, b{
+			color:@gris-oscuro;
+		}
 	}
 }

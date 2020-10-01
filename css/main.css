@@ -4560,7 +4560,7 @@
 /* Fonts*/
 @media (min-width: 1200px) {
   .container-ab {
-    max-width: 1600px !important;
+    max-width: 1300px !important;
   }
 }
 body {
@@ -5061,7 +5061,7 @@ footer .social-botones-footer span {
 }
 .ab-info-jugador p {
   margin-bottom: 0px !important;
-  font-size: 13px;
+  font-size: 15px;
   color: #747474;
 }
 .ab-info-jugador p span {
@@ -5074,4 +5074,46 @@ footer .social-botones-footer span {
 }
 .ab-table-roster-interna.split thead {
   margin-top: 15px;
+}
+/*Boxcore*/
+.ab-table-boxcore {
+  font-size: 12px !important;
+  border-radius: 4px !important;
+  color: #cbcbcb;
+}
+.ab-table-boxcore th {
+  border-top: 0px !important;
+  color: #747474;
+}
+.ab-table-boxcore td {
+  color: #cbcbcb;
+  border-top: 1px dotted rgba(203, 203, 203, 0.5) !important;
+}
+.ab-boxcore-circle {
+  color: rgba(203, 203, 203, 0.5);
+  font-size: 12px;
+}
+.ab-boxcore-circle.active {
+  color: #00be5c;
+}
+.ab-jugadores-boxcore {
+  font-size: 12px;
+}
+.ab-table-roster.ab-boxcore .ab-title-seccion-boxcore {
+  background: rgba(196, 196, 196, 0.2);
+  font-weight: bold;
+  border: none !important;
+  color: #747474;
+}
+.ab-table-roster.ab-boxcore p {
+  border-bottom: 1px dotted rgba(203, 203, 203, 0.5);
+  color: #cbcbcb;
+}
+.ab-table-roster.ab-boxcore p img {
+  margin-right: 5px;
+  border-radius: 100%;
+}
+.ab-table-roster.ab-boxcore p span,
+.ab-table-roster.ab-boxcore p b {
+  color: #747474;
 }
