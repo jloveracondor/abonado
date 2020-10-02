@@ -4579,11 +4579,20 @@ body {
 .gris-claro {
   color: #cbcbcb;
 }
+.verde-claro {
+  color: #00be5c;
+}
 .bg-verde {
   background: #008641;
 }
 .bg-gris-tablas {
   background: rgba(203, 203, 203, 0.5);
+}
+.bg-verde-claro {
+  background: #00be5c;
+}
+.blanco {
+  color: #ffffff;
 }
 /*botonera*/
 .btn-verde {
@@ -5116,4 +5125,45 @@ footer .social-botones-footer span {
 .ab-table-roster.ab-boxcore p span,
 .ab-table-roster.ab-boxcore p b {
   color: #747474;
+}
+/*Gamecast*/
+.ab-gamecast {
+  font-size: 14px;
+  color: #747474;
+}
+.ab-gamecast .ab-vs {
+  font-size: 12px;
+  color: #cbcbcb;
+}
+.ab-gamecast .ab-equipos-logos {
+  font-size: 24px;
+  color: #cbcbcb;
+  font-weight: bold;
+}
+.ab-gamecast .ab-equipos-logos img {
+  margin-right: 7px;
+}
+.ab-gamecast .ab-equipos-logos .ab-carreras {
+  color: #747474;
+}
+.ab-gamecast .ab-number-jugada {
+  height: 25px;
+  width: 25px;
+  padding: 2px;
+  border-radius: 50%;
+  display: inline-block;
+  color: #ffffff;
+}
+.ab-gamecast .azul {
+  background: #4C9BEA;
+}
+.ab-gamecast .rojo {
+  background: #E50000;
+}
+.ab-gamecast .verde {
+  background: #00BE5C;
+}
+.ab-gamecast .ab-avg {
+  font-size: 10px;
+  font-color: #cbcbcb;
 }

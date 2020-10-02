@@ -6,7 +6,7 @@
 	</div>
 
 	<div class="row my-3">
-		<div class="col-2 px-1">
+		<div class="col-6 col-md-2 px-md-1">
 			<select class="form-control" id="exampleFormControlSelect1">
 				<option>LVBP</option>
 				<option>LVBP</option>
@@ -15,7 +15,7 @@
 				<option>LVBP</option>
 			</select>
 		</div>
-		<div class="col-2 px-1">
+		<div class="col-6 col-md-2 px-md-1">
 			<select class="form-control" id="exampleFormControlSelect1">
 				<option>Bateo</option>
 				<option>Bateo</option>
@@ -24,7 +24,7 @@
 				<option>Bateo</option>
 			</select>
 		</div>
-		<div class="col-2 px-1 align-middle">
+		<div class="col-6 col-md-2 px-md-1 align-middle">
 			<span class="ab-regular">Regular</span>
 		</div>
 	</div>

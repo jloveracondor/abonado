@@ -6,7 +6,7 @@
 	</div>
 
 	<div class="row my-3">
-		<div class="col-2">
+		<div class="col-6 col-md-2">
 			<select class="form-control" id="exampleFormControlSelect1">
 				<option>LVBP</option>
 				<option>LVBP</option>
@@ -15,7 +15,7 @@
 				<option>LVBP</option>
 			</select>
 		</div>
-		<div class="col-2 align-middle">
+		<div class="col-6 col-md-2 align-middle">
 			<span class="ab-regular">Regular</span>
 		</div>
 	</div>

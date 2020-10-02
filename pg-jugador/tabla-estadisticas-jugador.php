@@ -1,7 +1,7 @@
 <div class="container-fluid ab-bg-fluid py-5"> 
 	<div class="container-fluid container-ab"> 
 		<div class="row my-3">
-			<div class="col-2 px-1">
+			<div class="col-6 col-md-2 px-1">
 				<select class="form-control" id="exampleFormControlSelect1">
 					<option>Normales</option>
 					<option>Normales</option>
@@ -10,7 +10,7 @@
 					<option>Normales</option>
 				</select>
 			</div>
-			<div class="col-2 px-1 align-middle">
+			<div class="col-6 col-md-2 px-1 align-middle">
 				<span class="ab-regular">Regular</span>
 			</div>
 		</div>
