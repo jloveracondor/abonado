@@ -4665,6 +4665,15 @@ body {
 #ab-nav .ab-social svg {
   margin-left: 10px;
 }
+.ab-vermas {
+  text-decoration: none;
+  font-weight: bold;
+  color: #747474;
+}
+.ab-vermas:hover {
+  text-decoration: none;
+  color: #00be5c;
+}
 /*Tabla Superior*/
 #ab-tabla-superiro {
   color: #747474;

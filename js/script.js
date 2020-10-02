@@ -1,9 +1,16 @@
+$(window).on('load', function() {
+
 $('.input-group.date').datepicker({
     language: "es-ES",
     orientation: "bottom right",
 });
 
+});
 
+
+$("[data-toggle=tooltip]").tooltip();
+
+$(window).on('load', function() {
 $('.fechas-center').slick({
   centerMode: true,
    arrows: true,
@@ -30,5 +37,5 @@ $('.fechas-center').slick({
     }
   ]
 });
-
-$("[data-toggle=tooltip]").tooltip();
+$('.inner-loader-css').css('display','block');
+});
