@@ -41,10 +41,10 @@
 				<li class="nav-item">
 					<a class="nav-link" href="posiciones.php">POSICIONES</a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item ">
 					<a class="nav-link" href="estadisticas-jugador-bat.php">ESTADÍSTICAS</a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item ">
 					<a class="nav-link" href="estadisticas-jugador-pit.php">ESTADÍSTICAS PIT</a>
 				</li>
 				<li class="nav-item">

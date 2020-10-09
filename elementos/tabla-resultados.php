@@ -65,32 +65,31 @@
 					</div>
 				</div>
 				<div class="row ab-jugadores">
-					<div class="col-lg-6 col-md-6 col-xl-4 col-6">
+					<div class="col-lg-6 col-md-6 col-xl-6 col-6">
 						<div class="row">
-							<div class="col-12 col-sm-3 order-first order-sm-last">
+							<div class="col-12 col-sm-3 ">
 								<img class="img-jugador" src="/abonado/assent/img/image 21.png" alt="">
 							</div>
 							<div class="col-12 col-sm-9 ab-inf-jugador">
 								<p>G: <b class="gris-oscuro"> T. Rogers </b></p>
-								<p>1 - 0, 2.00 ERA</p>
+								<p>1 - 0, 2.00 EFE</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-6 col-md-6 col-xl-4 col-6">
+					<div class="col-lg-6 col-md-6 col-xl-6 col-6">
 						<div class="row">
-							<div class="col-12 col-sm-3 order-first order-sm-last">
+							<div class="col-12 col-sm-3 ">
 								<img class="img-jugador" src="/abonado/assent/img/image 21.png" alt="">
 							</div>
 							<div class="col-12 col-sm-9 ab-inf-jugador">
 								<p>P: <b class="gris-oscuro">  J. deGrom </b></p>
-								<p>2 - 1, 1.76 ERA</p>
+								<p>2 - 1, 1.76 EFE</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-6 col-md-6 col-xl-4 col-6"></div>
-					<div class="col-lg-6 col-md-6 col-xl-4 col-6  my-2">
+					<div class="col-lg-6 col-md-6 col-xl-6 col-6  my-2">
 						<div class="row">
-							<div class="col-12 col-sm-3 order-first order-sm-last">
+							<div class="col-12 col-sm-3 ">
 								<img class="img-jugador" src="/abonado/assent/img/image 21.png" alt="">
 							</div>
 							<div class="col-12 col-sm-9 ab-inf-jugador">
@@ -99,8 +98,11 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-6 col-md-6 col-xl-4 col-6  my-2"></div>
-					<div class="col-lg-6 col-md-6 col-xl-4 col-6  my-2"></div>
+
+					<div class="col-lg-6 col-md-6 col-xl-6 col-6"></div>
+					
+					<div class="col-lg-6 col-md-6 col-xl-6 col-6  my-2"></div>
+					<div class="col-lg-6 col-md-6 col-xl-6 col-6  my-2"></div>
 				</div>
 				<div class="row ab-status-final">
 					<div class="col-md-12">
@@ -170,12 +172,12 @@
 						<div class="row">
 
 							<div class="col-12 gris-claro">CHC • PIT</div>
-							<div class="col-12 col-sm-3 order-first order-sm-last">
+							<div class="col-12 col-sm-3 order-12 order-sm-0 ">
 								<img class="img-jugador" src="/abonado/assent/img/image 21.png" alt="">
 							</div>
 							<div class="col-12 col-sm-9 ab-inf-jugador">
 								<p>G: <b class="gris-oscuro"> K. Hendricks </b></p>
-								<p>1.0 IP 23P 4.20 <b> ERA </b></p>
+								<p>1.0 IP 23P 4.20 <b> EFE </b></p>
 							</div>
 						</div>
 					</div>
@@ -189,7 +191,7 @@
 								<p><b class="gris-oscuro">  J. Moran </b></p>
 								<p>1 -1, .922 OPS</p>
 							</div>
-							<div class="col-12 col-sm-3 order-first order-sm-last">
+							<div class="col-12 col-sm-3 ">
 								<img class="img-jugador" src="/abonado/assent/img/image 21.png" alt="">
 							</div>
 						</div>
@@ -264,12 +266,12 @@
 						<div class="row">
 
 							<div class="col-12 gris-claro">CHC • PIT</div>
-							<div class="col-12 col-sm-3 order-first order-sm-last">
+							<div class="col-12 col-sm-3 order-12 order-sm-0 ">
 								<img class="img-jugador" src="/abonado/assent/img/image 21.png" alt="">
 							</div>
 							<div class="col-12 col-sm-9 ab-inf-jugador">
 								<p>G: <b class="gris-oscuro"> K. Hendricks </b></p>
-								<p>1.0 IP 23P 4.20 <b> ERA </b></p>
+								<p>1.0 IP 23P 4.20 <b> EFE </b></p>
 							</div>
 						</div>
 					</div>
@@ -283,7 +285,7 @@
 								<p><b class="gris-oscuro">  J. Moran </b></p>
 								<p>1 -1, .922 OPS</p>
 							</div>
-							<div class="col-12 col-sm-3 order-first order-sm-last">
+							<div class="col-12 col-sm-3 ">
 								<img class="img-jugador" src="/abonado/assent/img/image 21.png" alt="">
 							</div>
 						</div>
@@ -361,7 +363,7 @@
 						<div class="row">
 
 							<div class="col-12 gris-claro">OAK • PIT</div>
-							<div class="col-12 col-sm-3 order-first order-sm-last">
+							<div class="col-12 col-sm-3 order-12 order-sm-0 ">
 								<img class="img-jugador" src="/abonado/assent/img/equipos/image 21(1).png" alt="">
 							</div>
 							<div class="col-12 col-sm-9 ab-inf-jugador">
@@ -380,7 +382,7 @@
 								<p><b class="gris-oscuro">N/A </b></p>
 								<p></p>
 							</div>
-							<div class="col-12 col-sm-3 order-first order-sm-last">
+							<div class="col-12 col-sm-3 ">
 								<img class="img-jugador" src="/abonado/assent/img/equipos/image 21(1).png" alt="">
 							</div>
 						</div>
@@ -399,7 +401,7 @@
 			<div class="ab-table-resultados px-md-2 px-0 h-100">
 				<div class="separador-lateral">
 				<div class="row ab-status ">
-					<div class="col font-weight-bold" id="ab-partido-status" ><p class="gris-oscuro">HORA <span class="gris-claro"> 9:40 PM • Dodger Stadium</span></p> </div>
+					<div class="col font-weight-bold" id="ab-partido-status" ><p class="gris-oscuro">HORA <span class="gris-claro"> 9:40 PM • Dodger Stadium </span></p> </div>
 					<div class="col text-right gris-claro"> <p>LVBP <img src="/abonado/assent/img/image 17.png" alt=""> </p></div>
 					<div class="dropdown-divider"></div>
 				</div>
@@ -458,12 +460,12 @@
 						<div class="row">
 
 							<div class="col-12 gris-claro">ARI</div>
-							<div class="col-12 col-sm-3 order-first order-sm-last">
+							<div class="col-12 col-sm-3 order-12 order-sm-0 ">
 								<img class="img-jugador" src="/abonado/assent/img/image 21.png" alt="">
 							</div>
 							<div class="col-12 col-sm-9 ab-inf-jugador">
 								<p>G: <b class="gris-oscuro"> K. Hendricks </b></p>
-								<p>1.0 IP 23P 4.20 <b> ERA </b></p>
+								<p>1.0 IP 23P 4.20 <b> EFE </b></p>
 							</div>
 						</div>
 					</div>
@@ -477,7 +479,7 @@
 								<p><b class="gris-oscuro">  J. Moran </b></p>
 								<p>1 -1, .922 OPS</p>
 							</div>
-							<div class="col-12 col-sm-3 order-first order-sm-last">
+							<div class="col-12 col-sm-3 ">
 								<img class="img-jugador" src="/abonado/assent/img/image 21.png" alt="">
 							</div>
 						</div>
@@ -555,12 +557,12 @@
 						<div class="row">
 
 							<div class="col-12 gris-claro">ARI</div>
-							<div class="col-12 col-sm-3 order-first order-sm-last">
+							<div class="col-12 col-sm-3 order-12 order-sm-0">
 								<img class="img-jugador" src="/abonado/assent/img/image 21.png" alt="">
 							</div>
 							<div class="col-12 col-sm-9 ab-inf-jugador">
 								<p>G: <b class="gris-oscuro"> K. Hendricks </b></p>
-								<p>1.0 IP 23P 4.20 <b> ERA </b></p>
+								<p>1.0 IP 23P 4.20 <b> EFE </b></p>
 							</div>
 						</div>
 					</div>
@@ -574,7 +576,7 @@
 								<p><b class="gris-oscuro">  J. Moran </b></p>
 								<p>1 -1, .922 OPS</p>
 							</div>
-							<div class="col-12 col-sm-3 order-first order-sm-last">
+							<div class="col-12 col-sm-3 ">
 								<img class="img-jugador" src="/abonado/assent/img/image 21.png" alt="">
 							</div>
 						</div>
@@ -652,12 +654,12 @@
 						<div class="row">
 
 							<div class="col-12 gris-claro">ARI</div>
-							<div class="col-12 col-sm-3 order-first order-sm-last">
+							<div class="col-12 col-sm-3 order-12 order-sm-0">
 								<img class="img-jugador" src="/abonado/assent/img/image 21.png" alt="">
 							</div>
 							<div class="col-12 col-sm-9 ab-inf-jugador">
 								<p>G: <b class="gris-oscuro"> K. Hendricks </b></p>
-								<p>1.0 IP 23P 4.20 <b> ERA </b></p>
+								<p>1.0 IP 23P 4.20 <b> EFE </b></p>
 							</div>
 						</div>
 					</div>
@@ -671,7 +673,7 @@
 								<p><b class="gris-oscuro">  J. Moran </b></p>
 								<p>1 -1, .922 OPS</p>
 							</div>
-							<div class="col-12 col-sm-3 order-first order-sm-last">
+							<div class="col-12 col-sm-3 ">
 								<img class="img-jugador" src="/abonado/assent/img/image 21.png" alt="">
 							</div>
 						</div>
@@ -749,12 +751,12 @@
 						<div class="row">
 
 							<div class="col-12 gris-claro">ARI</div>
-							<div class="col-12 col-sm-3 order-first order-sm-last">
+							<div class="col-12 col-sm-3 order-12 order-sm-0 ">
 								<img class="img-jugador" src="/abonado/assent/img/image 21.png" alt="">
 							</div>
 							<div class="col-12 col-sm-9 ab-inf-jugador">
 								<p>G: <b class="gris-oscuro"> K. Hendricks </b></p>
-								<p>1.0 IP 23P 4.20 <b> ERA </b></p>
+								<p>1.0 IP 23P 4.20 <b> EFE </b></p>
 							</div>
 						</div>
 					</div>
@@ -768,7 +770,7 @@
 								<p><b class="gris-oscuro">  J. Moran </b></p>
 								<p>1 -1, .922 OPS</p>
 							</div>
-							<div class="col-12 col-sm-3 order-first order-sm-last">
+							<div class="col-12 col-sm-3 ">
 								<img class="img-jugador" src="/abonado/assent/img/image 21.png" alt="">
 							</div>
 						</div>
@@ -846,12 +848,12 @@
 						<div class="row">
 
 							<div class="col-12 gris-claro">ARI</div>
-							<div class="col-12 col-sm-3 order-first order-sm-last">
+							<div class="col-12 col-sm-3 order-12 order-sm-0">
 								<img class="img-jugador" src="/abonado/assent/img/image 21.png" alt="">
 							</div>
 							<div class="col-12 col-sm-9 ab-inf-jugador">
 								<p>G: <b class="gris-oscuro"> K. Hendricks </b></p>
-								<p>1.0 IP 23P 4.20 <b> ERA </b></p>
+								<p>1.0 IP 23P 4.20 <b> EFE </b></p>
 							</div>
 						</div>
 					</div>
@@ -865,7 +867,7 @@
 								<p><b class="gris-oscuro">  J. Moran </b></p>
 								<p>1 -1, .922 OPS</p>
 							</div>
-							<div class="col-12 col-sm-3 order-first order-sm-last">
+							<div class="col-12 col-sm-3 ">
 								<img class="img-jugador" src="/abonado/assent/img/image 21.png" alt="">
 							</div>
 						</div>

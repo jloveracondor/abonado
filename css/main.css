@@ -5114,8 +5114,28 @@ footer .social-botones-footer span {
 .ab-boxcore-circle.active {
   color: #00be5c;
 }
+.ab-boxcore-circle.ab-verde {
+  color: #00be5c;
+}
+.ab-boxcore-circle.ab-rojo {
+  color: #e50000;
+}
+.ab-boxcore-circle.ab-azul {
+  color: #4c9bea;
+}
 .ab-jugadores-boxcore {
   font-size: 12px;
+}
+.ab-gamecast {
+  border-radius: 6px;
+}
+.ab-gamecast .border-bottom {
+  border-bottom: 1px dotted #cbcbcb !important;
+}
+.divisor {
+  border-bottom: 1px dotted #cbcbcb;
+  height: 1px;
+  width: 100%;
 }
 .ab-table-roster.ab-boxcore .ab-title-seccion-boxcore {
   background: rgba(196, 196, 196, 0.2);
@@ -5175,4 +5195,28 @@ footer .social-botones-footer span {
 .ab-gamecast .ab-avg {
   font-size: 10px;
   font-color: #cbcbcb;
+}
+.ab-table-gamecast th {
+  background: #747474;
+  color: #ffffff;
+}
+.ab-bat-pit {
+  font-size: 12px;
+  color: #cbcbcb;
+}
+.ab-nombre-jugador-game {
+  font-size: 18px;
+  color: #747474;
+  font-weight: bold;
+}
+.border-bottom-gamecast {
+  border-bottom: 1px dotted #cbcbcb;
+}
+.ab-totales-game td {
+  color: #747474;
+  font-weight: bold;
+  background: rgba(203, 203, 203, 0.5);
+}
+.border-transparente {
+  border-top: solid 15px white;
 }
