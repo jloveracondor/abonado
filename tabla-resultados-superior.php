@@ -28,7 +28,7 @@
         <div class="col col-lg-4 col-xl text-right"> <p>1</p></div>
       </div>
       <div class="row">
-        <div class="col-8"> <p class="ab-tabla-def vivo"> EN VIVO  <span class="gris-oscuro font-weight-bold">3ro <i class="fas fa-caret-up verde"></i></span></p></div>
+        <div class="col-8"> <p class="ab-tabla-def vivo">  <a href="#"> EN VIVO </a>  <span class="gris-oscuro font-weight-bold">3ro <i class="fas fa-caret-up verde"></i></span></p></div>
         <div class="col-4 text-right"> <p class="ab-tabla-def"> LVBP </p></div>
       </div>
     </div>
@@ -93,7 +93,7 @@
         <div class="col col-lg-4 col-xl text-right"> <p>1</p></div>
       </div>
       <div class="row">
-        <div class="col-8"> <p class="ab-tabla-def vivo"> EN VIVO  <span class="gris-oscuro font-weight-bold">1ro <i class="fas fa-caret-down verde"></i></span></p></div>
+        <div class="col-8"> <p class="ab-tabla-def vivo">  <a href="#"> EN VIVO </a>  <span class="gris-oscuro font-weight-bold">1ro <i class="fas fa-caret-down verde"></i></span></p></div>
         <div class="col-4 text-right"> <p class="ab-tabla-def"> LVBP </p></div>
       </div>
     </div>

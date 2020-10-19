@@ -29,10 +29,9 @@
 							LVBP
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="#">Action</a>
-							<a class="dropdown-item" href="#">Another action</a>
-							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="#">Something else here</a>
+							<a class="dropdown-item" href="#">LIDOM</a>
+							<a class="dropdown-item" href="#">LMP</a>
+							<a class="dropdown-item" href="#">LBPRC</a>
 						</div>
 					</li>
 				<li class="nav-item active">
@@ -52,6 +51,9 @@
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="boxcore.php">BOXCORE</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="gamecast.php">GAMECAST</a>
 				</li>
 			</ul>
 			<div class="form-inline my-2 my-lg-0 ab-social">

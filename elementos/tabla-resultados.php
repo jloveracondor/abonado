@@ -106,7 +106,7 @@
 				</div>
 				<div class="row ab-status-final">
 					<div class="col-md-12">
-						<button type="button" class="btn btn-danger">Boxscore</button>
+						<button href="#" type="button" class="btn btn-danger">Boxscore</button>
 					</div>
 				</div>
 			</div>

@@ -4694,6 +4694,11 @@ body {
   color: #00be5c !important;
   font-weight: bold;
 }
+#ab-tabla-superiro .vivo a {
+  color: #00be5c !important;
+  font-weight: bold;
+  text-decoration: none;
+}
 #ab-tabla-superiro .ab-tabla-equipo {
   font-weight: bold;
 }
