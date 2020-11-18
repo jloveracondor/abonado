@@ -14,8 +14,9 @@ $(window).on('load', function() {
 $('.fechas-center').slick({
   centerMode: true,
    arrows: true,
-  centerPadding: '60px',
-  slidesToShow: 7,
+  centerPadding: '30px',
+  slidesToShow: 8,
+  focusOnSelect: true,
   responsive: [
     {
       breakpoint: 768,
