@@ -2,10 +2,6 @@
 	<div class="row">
 		<div class="col-10">
 		
-
-
-
-
 <div class="inner-loader-css" style="display:none;min-height: 30px;">
   <div class="fechas-center text-center animated fadeIn">
   
