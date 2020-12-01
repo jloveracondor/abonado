@@ -3,6 +3,9 @@ $(window).on('load', function() {
 $('.input-group.date').datepicker({
     language: "es-ES",
     orientation: "bottom right",
+    daysOfWeekHighlighted: "0,6",
+    autoclose: true,
+    todayHighlight: true
 });
 
 });
