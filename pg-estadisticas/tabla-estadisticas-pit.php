@@ -88,7 +88,7 @@
 					</table>
 				</div>
 				<div class="row mx-2 text-center">
-					<div class="col "> <a  class="ab-todos" href="estadisticas-picheo.php">VER TODOS </a> </div>
+					<div class="col ver-todos-abo"> <a  class="ab-todos" href="estadisticas-picheo.php">VER TODOS </a> </div>
 				</div>
 			</div>
 		</div>
@@ -153,7 +153,7 @@
 					</table>
 				</div>
 				<div class="row mx-2 text-center">
-					<div class="col "> <a  class="ab-todos" href="estadisticas-picheo.php">VER TODOS </a> </div>
+					<div class="col ver-todos-abo"> <a  class="ab-todos" href="estadisticas-picheo.php">VER TODOS </a> </div>
 				</div>
 			</div>
 		</div>
@@ -218,7 +218,7 @@
 					</table>
 				</div>
 				<div class="row mx-2 text-center">
-					<div class="col "> <a  class="ab-todos" href="estadisticas-picheo.php">VER TODOS </a> </div>
+					<div class="col ver-todos-abo"> <a  class="ab-todos" href="estadisticas-picheo.php">VER TODOS </a> </div>
 				</div>
 			</div>
 		</div>
@@ -283,7 +283,7 @@
 					</table>
 				</div>
 				<div class="row mx-2 text-center">
-					<div class="col "> <a  class="ab-todos" href="estadisticas-picheo.php">VER TODOS </a> </div>
+					<div class="col ver-todos-abo"> <a  class="ab-todos" href="estadisticas-picheo.php">VER TODOS </a> </div>
 				</div>
 			</div>
 		</div>		
@@ -349,7 +349,7 @@
 					</table>
 				</div>
 				<div class="row mx-2 text-center">
-					<div class="col "> <a  class="ab-todos" href="estadisticas-picheo.php">VER TODOS </a> </div>
+					<div class="col ver-todos-abo"> <a  class="ab-todos" href="estadisticas-picheo.php">VER TODOS </a> </div>
 				</div>
 			</div>
 		</div>

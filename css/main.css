@@ -4941,7 +4941,7 @@ footer .social-botones-footer span {
   padding-top: 15px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 45px;
   border-radius: 6px;
   color: #747474;
 }
@@ -5231,4 +5231,9 @@ footer .social-botones-footer span {
 }
 .border-transparente {
   border-top: solid 15px white;
+}
+.ver-todos-abo {
+  position: absolute !important;
+  left: 0px;
+  bottom: 15px;
 }

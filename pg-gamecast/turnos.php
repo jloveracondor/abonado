@@ -5,7 +5,7 @@
 </div>
 <div class="row  mx-2">
 	<div class="col-12 bg-verde-claro blanco"> 
-		<p class="text-center my-0">Mid 2   1 - 2,   3 out <img src="assent/img/Group 114.png" alt=""></p>
+		<p class="text-center my-0">Inning 1 - Baja <img src="assent/img/Group 114.png" alt=""></p>
 	</div>
 </div>
 <div class="row px-3 my-2 border-bottom-gamecast">
