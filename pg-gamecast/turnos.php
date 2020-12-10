@@ -20,7 +20,13 @@
 </div>
 <div class="row scroll-ab"> 
 <div class="row  px-3 my-2 border-bottom">
-	<div class="col-12 my-auto "> <h5 class="font-weight-bold">  7mo Inning</h5> </div>
+	<div class="col-12 my-auto "> <h5 class="font-weight-bold">  7mo Inning <span style="font-size: 14px;"> Alta </span></h5> </div>
+	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro">Andrea Pereira  (3) </span> cuadrangular</div>
+	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro"> Yadier Molina hace Jonron (3) </span> con bola curva al campo izquierdo.</div>
+	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro"> Yadier Molina hace Jonron (3) </span> con bola curva al campo izquierdo.</div>
+	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro"> Yadier Molina hace Jonron (3) </span> con bola curva al campo derecho.</div>
+	<div class="col-12 my-auto "> <h5 class="font-weight-bold">  7mo Inning <span style="font-size: 14px;"> Baja </span></h5> </div>
+	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro">Andrea Pereira  (3) </span> cuadrangular</div>
 	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro"> Yadier Molina hace Jonron (3) </span> con bola curva al campo izquierdo.</div>
 	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro"> Yadier Molina hace Jonron (3) </span> con bola curva al campo izquierdo.</div>
 	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro"> Yadier Molina hace Jonron (3) </span> con bola curva al campo derecho.</div>
