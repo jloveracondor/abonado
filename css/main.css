@@ -4941,7 +4941,7 @@ footer .social-botones-footer span {
   padding-top: 15px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 45px;
   border-radius: 6px;
   color: #747474;
 }
@@ -4951,6 +4951,9 @@ footer .social-botones-footer span {
   font-size: 24px;
   margin-bottom: 0px;
   padding-bottom: 15px;
+}
+.ab-box-resultado .ab-title-seccion img {
+  max-width: 20px !important;
 }
 .ab-box-resultado .ab-img-jugador {
   border-radius: 50%;
@@ -5179,6 +5182,7 @@ footer .social-botones-footer span {
 }
 .ab-gamecast .ab-equipos-logos img {
   margin-right: 7px;
+  max-width: 20px !important;
 }
 .ab-gamecast .ab-equipos-logos .ab-carreras {
   color: #747474;
@@ -5227,4 +5231,37 @@ footer .social-botones-footer span {
 }
 .border-transparente {
   border-top: solid 15px white;
+}
+.ver-todos-abo {
+  position: absolute !important;
+  left: 0px;
+  bottom: 15px;
+}
+.scroll-ab::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.scroll-ab::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+.scroll-ab::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+.scroll-ab::-webkit-scrollbar-thumb:active {
+  background-color: #999999;
+}
+.scroll-ab::-webkit-scrollbar-track {
+  background: #e1e1e1;
+  border-radius: 4px;
+}
+.scroll-ab::-webkit-scrollbar-track:hover,
+.scroll-ab::-webkit-scrollbar-track:active {
+  background: #d4d4d4;
+}
+.scroll-ab {
+  max-height: 900px;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }

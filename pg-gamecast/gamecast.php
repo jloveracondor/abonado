@@ -119,7 +119,8 @@
 				<nav class="d-block mx-auto text-center">
 					<div class="nav nav-tabs ab-tabs " id="nav-tab" role="tablist">
 						<a class="nav-item nav-link active" id="nav-turnos-tab" data-toggle="tab" href="#nav-turnos" role="tab" aria-controls="nav-turnos" aria-selected="true">Turnos</a>
-						<a class="nav-item nav-link" id="nav-jugadas-tab" data-toggle="tab" href="#nav-jugadas" role="tab" aria-controls="nav-jugadas" aria-selected="false">Jugadas</a>
+						<!-- <a class="nav-item nav-link" id="nav-jugadas-tab" data-toggle="tab" href="#nav-jugadas" role="tab" aria-controls="nav-jugadas" aria-selected="true">Jugadas</a> -->
+						
 
 					</div>
 				</nav>
@@ -131,9 +132,10 @@
 				<div class="tab-pane fade show active" id="nav-turnos" role="tabpanel" aria-labelledby="nav-turnos-tab">
 					<?php include("turnos.php"); ?>
 				</div> 
-				<div class="tab-pane fade show " id="nav-jugadas" role="tabpanel" aria-labelledby="nav-jugadas-tab">
+				<!-- <div class="tab-pane fade show " id="nav-jugadas" role="tabpanel" aria-labelledby="nav-jugadas-tab">
 					<?php include("jugadas.php"); ?>
-				</div> 
+				</div>  -->
+			
 			</div>
 		</div>
 

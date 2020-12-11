@@ -3,6 +3,7 @@ $(window).on('load', function() {
 $('.input-group.date').datepicker({
     language: "es-ES",
     orientation: "bottom right",
+    todayHighlight: true
 });
 
 });
@@ -40,3 +41,4 @@ $('.fechas-center').slick({
 });
 $('.inner-loader-css').css('display','block');
 });
+

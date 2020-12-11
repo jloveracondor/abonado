@@ -327,7 +327,7 @@ footer{
 	padding-top:15px;
 	padding-left: 15px;
 	padding-right: 15px;
-	padding-bottom: 15px;
+	padding-bottom: 45px;
 	border-radius: 6px;
 	color:@gris-oscuro;
 	.ab-title-seccion{
@@ -336,7 +336,9 @@ footer{
 		font-size: 24px;
 		margin-bottom:  0px;
 		padding-bottom: 15px;
-		
+		img{
+			max-width: 20px !important;
+		}
 
 	}
 	.ab-img-jugador{
@@ -593,6 +595,8 @@ footer{
 
 
 /*Gamecast*/
+
+
 .ab-gamecast{
 	font-size: 14px;
 	color:@gris-oscuro;
@@ -606,6 +610,7 @@ footer{
 		font-weight: bold;
 		img{
 			margin-right: 7px; 
+			max-width: 20px !important;
 		}
 		.ab-carreras{
 			color:@gris-oscuro;
@@ -663,5 +668,48 @@ footer{
 }
 .border-transparente{
 	border-top: solid 15px white;
+}
+
+.ver-todos-abo{
+	position: absolute !important;
+	left: 0px;
+	bottom:15px;
+}
+
+.scroll-ab::-webkit-scrollbar{
+    width: 8px;      
+      height: 8px;  
+  
+}
+
+
+.scroll-ab::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+.scroll-ab::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-ab::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+}
+
+
+.scroll-ab::-webkit-scrollbar-track {
+    background: #e1e1e1;
+    border-radius: 4px;
+}
+
+.scroll-ab::-webkit-scrollbar-track:hover,
+.scroll-ab::-webkit-scrollbar-track:active {
+  background: #d4d4d4;
+}
+.scroll-ab{
+max-height: 900px;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 

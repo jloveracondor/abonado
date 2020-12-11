@@ -5,7 +5,7 @@
 </div>
 <div class="row  mx-2">
 	<div class="col-12 bg-verde-claro blanco"> 
-		<p class="text-center my-0">Mid 2   1 - 2,   3 out <img src="assent/img/Group 114.png" alt=""></p>
+		<p class="text-center my-0">Inning 1 - Baja <img src="assent/img/Group 114.png" alt=""></p>
 	</div>
 </div>
 <div class="row px-3 my-2 border-bottom-gamecast">
@@ -18,52 +18,95 @@
 	<div class="col-4 col-lg-4 col-md-5 my-auto"><span class="ab-bat-pit"> BATEANDO</span> <br> <span class="ab-nombre-jugador-game">Yadier Molina</span> <br><span><b>LDC</b> • LHP </span></div>
 	<div class="col-4 col-lg-5 col-md-3 my-auto ab-avg">1 - 1, .275 AVG, .694 OPS, 3 HR</div>
 </div>
-<div class="row px-3 my-2">
-	<div class="col-12">
-		<span><b class="verde-claro"> Yadier Molina hace Jonron</b>  <b>(3) con bola curva al campo izquierdo. Rangel Ravelo anota. </b></span>
-	</div>
+<div class="row scroll-ab"> 
+<div class="row  px-3 my-2 border-bottom">
+	<div class="col-12 my-auto "> <h5 class="font-weight-bold">  7mo Inning <span style="font-size: 14px;"> Alta </span></h5> </div>
+	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro">Andrea Pereira  (3) </span> cuadrangular</div>
+	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro"> Yadier Molina hace Jonron (3) </span> con bola curva al campo izquierdo.</div>
+	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro"> Yadier Molina hace Jonron (3) </span> con bola curva al campo izquierdo.</div>
+	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro"> Yadier Molina hace Jonron (3) </span> con bola curva al campo derecho.</div>
+	<div class="col-12 my-auto "> <h5 class="font-weight-bold">  7mo Inning <span style="font-size: 14px;"> Baja </span></h5> </div>
+	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro">Andrea Pereira  (3) </span> cuadrangular</div>
+	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro"> Yadier Molina hace Jonron (3) </span> con bola curva al campo izquierdo.</div>
+	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro"> Yadier Molina hace Jonron (3) </span> con bola curva al campo izquierdo.</div>
+	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro"> Yadier Molina hace Jonron (3) </span> con bola curva al campo derecho.</div>
 </div>
-<div class="row mx-3 my-2 border-bottom">
-	<div class="col-3 my-auto text-center"> <span class="ab-number-jugada rounded-circle azul">  5 </span></div>
-	<div class="col-6 my-auto"><span> En Juego, out(s)</span> <br> <span> 93.3 MPH Four-Seam Fastball</span></div>
-	<div class="col-3 my-auto text-right"></div>
-</div>
-<div class="row mx-3 my-2 border-bottom">
-	<div class="col-3 my-auto text-center"> <span class="ab-number-jugada rounded-circle rojo">  4 </span></div>
-	<div class="col-6 my-auto"><span> En Juego, out(s)</span> <br> <span> 93.3 MPH Four-Seam Fastball</span></div>
-	<div class="col-3 my-auto text-right">2 - 1</div>
-</div>
-
-<div class="row mx-3 my-2 border-bottom">
-	<div class="col-3 my-auto text-center"> <span class="ab-number-jugada rounded-circle verde">  3 </span></div>
-	<div class="col-6 my-auto"><span> En Juego, out(s)</span> <br> <span> 93.3 MPH Four-Seam Fastball</span></div>
-	<div class="col-3 my-auto text-right">2 - 2</div>
-</div>
-<div class="row mx-3 my-2 border-bottom">
-	<div class="col-3 my-auto text-center"> <span class="ab-number-jugada rounded-circle rojo">  2 </span></div>
-	<div class="col-6 my-auto"><span> En Juego, out(s)</span> <br> <span> 93.3 MPH Four-Seam Fastball</span></div>
-	<div class="col-3 my-auto text-right">2 - 1</div>
-</div>
-<div class="row mx-3 my-2 border-bottom">
-	<div class="col-3 my-auto text-center"> <span class="ab-number-jugada rounded-circle verde">  1 </span></div>
-	<div class="col-6 my-auto"><span> En Juego, out(s)</span> <br> <span> 93.3 MPH Four-Seam Fastball</span></div>
-	<div class="col-3 my-auto text-right">2 - 1</div>
-</div>
-
-<div class="row px-3 my-2">
-	<div class="col-4 col-lg-3 col-md-4 my-auto"><img style=" border-radius: 100%;" src="assent/img/jugador.png" alt=""></div>
-	<div class="col-6 col-lg-4 col-md-5 my-auto"><span> <b>Rangel Ravelo</b> hace boleto.</span> <br>
-		<span class="gris-oscuro"> 
-			<i class="fas fa-circle ab-boxcore-circle active"></i>
-			<i class="fas fa-circle ab-boxcore-circle active"></i>
-			<i class="fas fa-circle ab-boxcore-circle active"></i>
-		</span>
-		<br>
-		<span class="gris-oscuro"> 
-			<i class="fas fa-circle ab-boxcore-circle ab-rojo"></i>
-			<i class="fas fa-circle ab-boxcore-circle ab-rojo"></i> 
-			<i class="fas fa-circle ab-boxcore-circle"></i>
-		</span>
-	</div>
+<div class="row  px-3 my-2 border-bottom">
+	<div class="col-12 my-auto "> <h5 class="font-weight-bold">  6to Inning</h5> </div>
+	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro"> Yadier Molina hace Jonron (3) </span> con bola curva al campo izquierdo.</div>
 	
+</div>
+<div class="row  px-3 my-2 border-bottom">
+	<div class="col-12 my-auto "> <h5 class="font-weight-bold">  5to Inning</h5> </div>
+	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro"> Yadier Molina hace Jonron (3) </span> con bola curva al campo izquierdo.</div>
+	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro"> Yadier Molina hace Jonron (3) </span> con bola curva al campo izquierdo.</div>
+	
+</div>
+
+<div class="row  px-3 my-2 border-bottom">
+	<div class="col-12 my-auto "> <h5 class="font-weight-bold">  4to Inning</h5> </div>
+	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro"> Yadier Molina hace Jonron (3) </span> con bola curva al campo izquierdo.</div>
+	
+</div>
+<div class="row  px-3 my-2 border-bottom">
+	<div class="col-12 my-auto "> <h5 class="font-weight-bold">  3er Inning</h5> </div>
+	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro"> Yadier Molina hace Jonron (3) </span> con bola curva al campo izquierdo.</div>
+	
+</div>
+
+
+<div class="row  px-3 my-2 border-bottom">
+	<div class="col-12 my-auto "> <h5 class="font-weight-bold">  2do Inning</h5> </div>
+	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro"> Yadier Molina hace Jonron (3) </span> con bola curva al campo izquierdo.</div>
+	
+</div>
+
+<div class="row  px-3 my-2 border-bottom">
+	<div class="col-12 my-auto "> <h5 class="font-weight-bold">  1er Inning</h5> </div>
+	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro"> Yadier Molina hace Jonron (3) </span> con bola curva al campo izquierdo.</div>
+	
+</div>
+<div class="row  px-3 my-2 border-bottom">
+	<div class="col-12 my-auto "> <h5 class="font-weight-bold">  7mo Inning</h5> </div>
+	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro"> Yadier Molina hace Jonron (3) </span> con bola curva al campo izquierdo.</div>
+	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro"> Yadier Molina hace Jonron (3) </span> con bola curva al campo izquierdo.</div>
+	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro"> Yadier Molina hace Jonron (3) </span> con bola curva al campo derecho.</div>
+</div>
+<div class="row  px-3 my-2 border-bottom">
+	<div class="col-12 my-auto "> <h5 class="font-weight-bold">  6to Inning</h5> </div>
+	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro"> Yadier Molina hace Jonron (3) </span> con bola curva al campo izquierdo.</div>
+	
+</div>
+<div class="row  px-3 my-2 border-bottom">
+	<div class="col-12 my-auto "> <h5 class="font-weight-bold">  5to Inning</h5> </div>
+	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro"> Yadier Molina hace Jonron (3) </span> con bola curva al campo izquierdo.</div>
+	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro"> Yadier Molina hace Jonron (3) </span> con bola curva al campo izquierdo.</div>
+	
+</div>
+
+<div class="row  px-3 my-2 border-bottom">
+	<div class="col-12 my-auto "> <h5 class="font-weight-bold">  4to Inning</h5> </div>
+	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro"> Yadier Molina hace Jonron (3) </span> con bola curva al campo izquierdo.</div>
+	
+</div>
+<div class="row  px-3 my-2 border-bottom">
+	<div class="col-12 my-auto "> <h5 class="font-weight-bold">  3er Inning</h5> </div>
+	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro"> Yadier Molina hace Jonron (3) </span> con bola curva al campo izquierdo.</div>
+	
+</div>
+
+
+<div class="row  px-3 my-2 border-bottom">
+	<div class="col-12 my-auto "> <h5 class="font-weight-bold">  2do Inning</h5> </div>
+	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro"> Yadier Molina hace Jonron (3) </span> con bola curva al campo izquierdo.</div>
+	
+</div>
+
+<div class="row  px-3 my-2 border-bottom">
+	<div class="col-12 my-auto "> <h5 class="font-weight-bold">  1er Inning</h5> </div>
+	<div class="col-12 my-auto font-weight-bold"><span class="verde-claro"> Yadier Molina hace Jonron (3) </span> con bola curva al campo izquierdo.</div>
+	
+</div>
+
+
 </div>
