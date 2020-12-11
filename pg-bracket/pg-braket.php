@@ -1,22 +1,22 @@
 <?php
-$equipo1 = "Equipo 1";
-$equipo2 = "Equipo 2";
-$equipo3 = "Equipo 3";
-$equipo4 = "Equipo 4";
-$equipo5 = "Equipo 5";
-$equipo6 = "Equipo 6";
-$equipo7 = "Equipo 7";
-$equipo8 = "Equipo 8";
+  $equipo1 = "Equipo 1";
+  $equipo2 = "Equipo 2";
+  $equipo3 = "Equipo 3";
+  $equipo4 = "Equipo 4";
+  $equipo5 = "Equipo 5";
+  $equipo6 = "Equipo 6";
+  $equipo7 = "Equipo 7";
+  $equipo8 = "Equipo 8";
 
-$ganadorPartido1 = "Ganador Partido 1";
-$ganadorPartido2 = "Ganador Partido 2";
-$ganadorPartido3 = "Ganador Partido 3";
-$ganadorPartido4 = "Ganador Partido 4";
+  $ganadorPartido1 = "Ganador Partido 1";
+  $ganadorPartido2 = "Ganador Partido 2";
+  $ganadorPartido3 = "Ganador Partido 3";
+  $ganadorPartido4 = "Ganador Partido 4";
 
-$ganadorLadoA = "Ganador Lado A";
-$ganadorLadoB = "Ganador Lado B";
+  $ganadorLadoA = "Ganador Lado A";
+  $ganadorLadoB = "Ganador Lado B";
 
-$equipoGanador = "Ganador";
+  $equipoGanador = "Ganador";
 ?>
 
 <section class="container-fluid">
