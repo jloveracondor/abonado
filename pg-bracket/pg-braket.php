@@ -12,71 +12,81 @@
   $ganadorPartido2 = "Ganador Partido 2";
   $ganadorPartido3 = "Ganador Partido 3";
   $ganadorPartido4 = "Ganador Partido 4";
-
-  $ganadorLadoA = "Ganador Lado A";
-  $ganadorLadoB = "Ganador Lado B";
+  $ganadorPartido5 = "Ganador Partido 5";
+  $ganadorPartido6 = "Ganador Partido 6";
 
   $equipoGanador = "Ganador";
 ?>
 
-<section class="container-fluid">
+<section class="container">
   <div class="ca-abo-web ca-abo-grid ca-abo-template">
 
     <div class="ca-abo-leftRight ca-abo-left">
       <div class="ca-abo-round ca-abo-round1" style="padding: 20px 0;">
+
         <div class="ca-abo-contenedorBackLeft ca-abo-contenedorBack1">
-          <div class="ca-abo-equipo ca-abo-equipoA" style="left: -1px;"><?php echo $equipo1 ?></div>
-          <div class="ca-abo-equipo ca-abo-equipoB" style="left: -1px;"><?php echo $equipo2 ?></div>
+          <div class="ca-abo-partido ca-abo-partidoTop">
+            <div class="ca-abo-equipo"><?php echo $equipo1 ?></div>
+            <hr style="margin: 0!important;">
+            <div class="ca-abo-equipo"><?php echo $equipo2 ?></div>
+          </div>
+
+          <div class="ca-abo-partido ca-abo-partidoBottom">
+            <div class="ca-abo-equipo"><?php echo $equipo3 ?></div>
+            <hr style="margin: 0!important;">
+            <div class="ca-abo-equipo"><?php echo $equipo4 ?></div>
+          </div>
         </div>
+
         <div class="ca-abo-contenedorBackLeft ca-abo-contenedorBack1">
-          <div class="ca-abo-equipo ca-abo-equipoA" style="left: -1px;"><?php echo $equipo3 ?></div>
-          <div class="ca-abo-equipo ca-abo-equipoB" style="left: -1px;"><?php echo $equipo4 ?></div>
+          <div class="ca-abo-partido ca-abo-partidoTop">
+            <div class="ca-abo-equipo"><?php echo $equipo5 ?></div>
+            <hr style="margin: 0!important;">
+            <div class="ca-abo-equipo"><?php echo $equipo6 ?></div>
+          </div>
+
+          <div class="ca-abo-partido ca-abo-partidoBottom">
+            <div class="ca-abo-equipo"><?php echo $equipo7 ?></div>
+            <hr style="margin: 0!important;">
+            <div class="ca-abo-equipo"><?php echo $equipo8 ?></div>
+          </div>
         </div>
+
       </div>
+
+
       <div class="ca-abo-round ca-abo-round2" style="padding: 20px 0;">
         <div class="ca-abo-contenedorBackLeft ca-abo-contenedorBack2">
-          <div class="ca-abo-equipo ca-abo-equipoA" style="left: 10px;"><?php echo $ganadorPartido1 ?></div>
-          <div class="ca-abo-equipo ca-abo-equipoB" style="left: 10px;"><?php echo $ganadorPartido2 ?></div>
+          <div class="ca-abo-partido ca-abo-partidoSegundaRonda ca-abo-partidoTop">
+            <div class="ca-abo-equipo"><?php echo $ganadorPartido1 ?></div>
+            <hr style="margin: 0!important;">
+            <div class="ca-abo-equipo"><?php echo $ganadorPartido2 ?></div>
+          </div>
+
+          <div class="ca-abo-partido ca-abo-partidoSegundaRonda ca-abo-partidoBottom">
+            <div class="ca-abo-equipo"><?php echo $ganadorPartido3 ?></div>
+            <hr style="margin: 0!important;">
+            <div class="ca-abo-equipo"><?php echo $ganadorPartido4 ?></div>
+          </div>
         </div>
       </div>
+
+
       <div class="ca-abo-round ca-abo-round3" style="padding: 20px 0;">
         <div class="ca-abo-contenedorBackLeft" style="border-bottom: none; width: 100%;">
-          <div class="ca-abo-equipo ca-abo-equipoA" style="left: initial; right: -2px;"><?php echo $ganadorLadoA ?></div>
+          <div class="ca-abo-partido ca-abo-partidoSegundaRonda ca-abo-partidoCenter">
+            <div class="ca-abo-equipo"><?php echo $ganadorPartido5 ?></div>
+            <hr style="margin: 0!important;">
+            <div class="ca-abo-equipo"><?php echo $ganadorPartido6 ?></div>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="ca-abo-center" style="display: flex; align-items: center; justify-content: center; padding: 20px 0;">
-      <div class="ca-abo-round ca-abo-round3">
-        <div class="" style="border-bottom: none;">
-          <div class="ca-abo-equipoGanador"><?php echo $equipoGanador ?></div>
-        </div>
-      </div>
-    </div>
+  </div>
 
-    <div class="ca-abo-leftRight ca-abo-right">
-    <div class="ca-abo-round ca-abo-round3" style="padding: 20px 0; align-items: flex-end;">
-        <div class="ca-abo-contenedorBackRight" style="border-bottom: none; width: 100%;">
-          <div class="ca-abo-equipoRight ca-abo-equipoA" style="right: initial; left: -2px;"><?php echo $ganadorLadoB ?></div>
-        </div>
-      </div>
-      <div class="ca-abo-round ca-abo-round2" style="padding: 20px 0;">
-        <div class="ca-abo-contenedorBackRight ca-abo-contenedorBack2">
-          <div class="ca-abo-equipoRight ca-abo-equipoA" style="right: 10px;"><?php echo $ganadorPartido3 ?></div>
-          <div class="ca-abo-equipoRight ca-abo-equipoB" style="right: 10px;"><?php echo $ganadorPartido4 ?></div>
-        </div>
-      </div>
-      <div class="ca-abo-round ca-abo-round1" style="padding: 20px 0;">
-        <div class="ca-abo-contenedorBackRight ca-abo-contenedorBack1">
-          <div class="ca-abo-equipoRight ca-abo-equipoA" style="right: -1px;"><?php echo $equipo5 ?></div>
-          <div class="ca-abo-equipoRight ca-abo-equipoB" style="right: -1px;"><?php echo $equipo6 ?></div>
-        </div>
-        <div class="ca-abo-contenedorBackRight ca-abo-contenedorBack1">
-          <div class="ca-abo-equipoRight ca-abo-equipoA" style="right: -1px;"><?php echo $equipo7 ?></div>
-          <div class="ca-abo-equipoRight ca-abo-equipoB" style="right: -1px;"><?php echo $equipo8 ?></div>
-        </div>
-      </div>
-    </div>
+  <div class="ca-abo-mobile">
+
   </div>
 </section>
 
@@ -90,7 +100,7 @@
 }
 
 .ca-abo-template {
-    grid-template-columns: 3fr 1fr 3fr;
+    grid-template-columns: 1fr;
 }
 
 .ca-abo-leftRight {
@@ -110,7 +120,7 @@
     border-top: 1px solid black;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
-    margin: 40px 0;
+    margin: 50px 0;
     position: relative;
 }
 
@@ -119,26 +129,35 @@
     border-top: 1px solid black;
     border-left: 1px solid black;
     border-bottom: 1px solid black;
-    margin: 40px 0;
+    margin: 50px 0;
     position: relative;
 }
 
 .ca-abo-contenedorBack1 {
-    height: 80px;
+    height: 100px;
 }
 
 .ca-abo-contenedorBack2 {
-    height: 160px;
+    height: 200px;
 }
 
-.ca-abo-equipo {
+.ca-abo-partido {
     border-left: 6px solid #00e7ff;
     background: whitesmoke;
-    font-size: 12px;
-    padding: 10px 12px 10px 6px;
+    font-size: 16px;
     border-radius: 4px;
     position: absolute;
 }
+
+.ca-abo-partidoSegundaRonda { left: 24px; }
+
+.ca-abo-partidoTop { top: -44px; }
+
+.ca-abo-partidoCenter { top: -45px; right: -2px; left: auto; }
+
+.ca-abo-partidoBottom { bottom: -46px; }
+
+.ca-abo-equipo { padding: 10px 12px; }
 
 .ca-abo-equipoRight {
     border-right: 6px solid #00e7ff;
@@ -162,43 +181,19 @@
 
 .ca-abo-equipoB { bottom: -19px; }
 
+.ca-abo-mobile { display: none; }
+
+
 @media (max-width: 991px) {
-  .ca-abo-template {
-      grid-template-columns: 1fr;
-  }
-
-  .ca-abo-contenedorBack1 {
-      height: 50px;
-  }
-
-  .ca-abo-contenedorBack2 {
-      height: 90px;
-  }
-
-  .ca-abo-contenedorBackLeft {
-      background: white;
-      border-top: 1px solid black;
-      border-right: 1px solid black;
-      border-bottom: 1px solid black;
-      margin: 20px 0;
-      position: relative;
-  }
-
-  .ca-abo-contenedorBackRight {
-      background: white;
-      border-top: 1px solid black;
-      border-left: 1px solid black;
-      border-bottom: 1px solid black;
-      margin: 20px 0;
-      position: relative;
-  }
-
-  .ca-abo-center { grid-area: 3; }
-}
-
-@media (max-width: 439px) {
   .ca-abo-web {
     display: none;
+  }
+
+  .ca-abo-mobile {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    
   }
 }
 </style>
