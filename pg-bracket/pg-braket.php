@@ -18,7 +18,7 @@
   $equipoGanador = "Ganador";
 ?>
 
-<section class="container">
+<section class="container ca-abo-contenedorGeneral">
   <div class="ca-abo-web ca-abo-grid ca-abo-template">
 
     <div class="ca-abo-leftRight ca-abo-left">
@@ -238,13 +238,13 @@
 
 .ca-abo-mobile { display: none; }
 
-@media (max-width: 992px) {
-  .ca-abo-web {
+@media (max-width: 991px) {
+  /*.ca-abo-web {
     display: none;
   }
   
   .ca-abo-mobile {
-    display: grid;
+    display: none;
     width: 100%;
     grid-template-columns: 1fr;
     grid-gap: 20px;
@@ -273,10 +273,14 @@
     border-radius: 4px;
     padding: 10px 20px 4px 20px;
     margin: 10px;
-  }
+  }*/
+
+  .ca-abo-grid { width: 1110px; }
+
+  .ca-abo-contenedorGeneral { overflow-x: scroll; }
 }
 
 @media (max-width: 768px) {
-  .ca-abo-fase1, .ca-abo-fase2 { grid-template-columns: 1fr; }
+  /*.ca-abo-fase1, .ca-abo-fase2 { grid-template-columns: 1fr; }*/
 }
 </style>
