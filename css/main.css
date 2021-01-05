@@ -4819,7 +4819,9 @@ footer .social-botones-footer span {
 .fechas-center h4 {
   font-size: 24px;
 }
-.slick-active.slick-center {
+.slick-active.slick-center,
+.slick-active.slick-current,
+.slick-center {
   color: #00be5c;
 }
 .slick-next:before {
