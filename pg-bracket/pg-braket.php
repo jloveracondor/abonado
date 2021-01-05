@@ -86,7 +86,62 @@
   </div>
 
   <div class="ca-abo-mobile">
-
+    <div class="ca-abo-fase1">
+      <div class="ca-abo-partidoMobile">
+        <div class="ca-abo-disputaMobile">
+          <div class="ca-abo-partidoMobileEquipo"><?php echo $equipo1 ?></div>
+          <div class="ca-abo-partidoMobileEquipo"><?php echo $equipo2 ?></div>
+        </div>
+        <div class="ca-abo-partidoMobileEquipo"><?php echo $ganadorPartido1 ?></div>
+      </div>
+      <div class="ca-abo-partidoMobile">
+        <div class="ca-abo-disputaMobile">
+          <div class="ca-abo-partidoMobileEquipo"><?php echo $equipo3 ?></div>
+          <div class="ca-abo-partidoMobileEquipo"><?php echo $equipo4 ?></div>
+        </div>
+        <div class="ca-abo-partidoMobileEquipo"><?php echo $ganadorPartido2 ?></div>
+      </div>
+      <div class="ca-abo-partidoMobile">
+        <div class="ca-abo-disputaMobile">
+          <div class="ca-abo-partidoMobileEquipo"><?php echo $equipo5 ?></div>
+          <div class="ca-abo-partidoMobileEquipo"><?php echo $equipo6 ?></div>
+        </div>
+        <div class="ca-abo-partidoMobileEquipo"><?php echo $ganadorPartido3 ?></div>
+      </div>
+      <div class="ca-abo-partidoMobile">
+        <div class="ca-abo-disputaMobile">
+          <div class="ca-abo-partidoMobileEquipo"><?php echo $equipo7 ?></div>
+          <div class="ca-abo-partidoMobileEquipo"><?php echo $equipo8 ?></div>
+        </div>
+        <div class="ca-abo-partidoMobileEquipo"><?php echo $ganadorPartido4 ?></div>
+      </div>
+    </div>
+    <hr style="width: 100%; margin: 0;">
+    <div class="ca-abo-fase2">
+      <div class="ca-abo-partidoMobile">
+        <div class="ca-abo-disputaMobile">
+          <div class="ca-abo-partidoMobileEquipo"><?php echo $ganadorPartido1 ?></div>
+          <div class="ca-abo-partidoMobileEquipo"><?php echo $ganadorPartido2 ?></div>
+        </div>
+        <div class="ca-abo-partidoMobileEquipo"><?php echo $ganadorPartido5 ?></div>
+      </div>
+      <div class="ca-abo-partidoMobile">
+        <div class="ca-abo-disputaMobile">
+          <div class="ca-abo-partidoMobileEquipo"><?php echo $ganadorPartido3 ?></div>
+          <div class="ca-abo-partidoMobileEquipo"><?php echo $ganadorPartido4 ?></div>
+        </div>
+        <div class="ca-abo-partidoMobileEquipo"><?php echo $ganadorPartido6 ?></div>
+      </div>
+    </div>
+    <hr style="width: 100%; margin: 0;">
+    <div class="ca-abo-fase3">
+      <div class="ca-abo-partidoMobile">
+        <div class="ca-abo-disputaMobile">
+          <div class="ca-abo-partidoMobileEquipo"><?php echo $ganadorPartido5 ?></div>
+          <div class="ca-abo-partidoMobileEquipo"><?php echo $ganadorPartido6 ?></div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -151,11 +206,11 @@
 
 .ca-abo-partidoSegundaRonda { left: 24px; }
 
-.ca-abo-partidoTop { top: -44px; }
+.ca-abo-partidoTop { top: calc(-89px / 2); }
 
 .ca-abo-partidoCenter { top: -45px; right: -2px; left: auto; }
 
-.ca-abo-partidoBottom { bottom: -46px; }
+.ca-abo-partidoBottom { bottom: calc(-89px / 2); }
 
 .ca-abo-equipo { padding: 10px 12px; }
 
@@ -183,17 +238,45 @@
 
 .ca-abo-mobile { display: none; }
 
-
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .ca-abo-web {
     display: none;
   }
-
+  
   .ca-abo-mobile {
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(2, 1fr);
-    
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
   }
+
+  .ca-abo-fase1, .ca-abo-fase2 {
+    display: grid;
+    width: 100%;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ca-abo-partidoMobile {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .ca-abo-disputaMobile { display: flex; }
+
+  .ca-abo-partidoMobileEquipo {
+    border-bottom: 6px solid #00e7ff;
+    background: whitesmoke;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 10px 20px 4px 20px;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ca-abo-fase1, .ca-abo-fase2 { grid-template-columns: 1fr; }
 }
 </style>
