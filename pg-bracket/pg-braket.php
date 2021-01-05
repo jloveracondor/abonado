@@ -140,6 +140,11 @@
       </div>
     </div>
 
+    <div class="ca-abo-equipoGanador" style="background-image: url(<?php echo $logoEquipoGanador ?>)">
+      <img src="<?php echo $logoEquipoGanador ?>" alt="" class="ca-abo-logoEquipoGanador">
+      <div class="ca-abo-nombreEquipoGanador"><?php echo $equipoGanador ?></div>
+    </div>
+
   </div>
 
   <!--<div class="ca-abo-mobile">
@@ -212,13 +217,13 @@
 }
 
 .ca-abo-template {
-  grid-template-columns: 1fr;
+  grid-template-columns: 86% 1fr;
 }
 
 .ca-abo-leftRight {
   display: grid;
   width: 100%;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 36% 36% 1fr;
   align-items: center;
 }
 
@@ -229,9 +234,9 @@
 
 .ca-abo-contenedorBackLeft {
   background: transparent;
-  border-top: 3px solid #008641;
-  border-right: 3px solid #008641;
-  border-bottom: 3px solid #008641;
+  border-top: 3px solid #565656;
+  border-right: 3px solid #565656;
+  border-bottom: 3px solid #565656;
   margin: 50px 0;
   position: relative;
   border-radius: 0 10px 10px 0;
@@ -280,12 +285,12 @@
 }
 
 .ca-abo-equipoGanador {
-  border-left: 6px solid #00e7ff;
-  border-right: 6px solid #00e7ff;
+  align-self: center;
   background: whitesmoke;
-  font-size: 12px;
-  padding: 10px 30px 10px 30px;
   border-radius: 4px;
+  box-shadow: 0px 10px 10px -10px rgba(0,0,0,1), 0px -10px 10px -16px rgba(0,0,0,1);
+  background-position: bottom;
+  background-size: cover;
 }
 
 .ca-abo-equipoA { top: -19px; }
@@ -309,6 +314,23 @@
 }
 
 .ca-abo-nombreEquipo { align-self: center; padding: 0 20px 0 10px; }
+
+.ca-abo-logoEquipoGanador {
+  width: 100%;
+  height: auto;
+  border-radius: 4px 4px 0 0;
+}
+
+.ca-abo-nombreEquipoGanador {
+  text-align: center;
+  padding: 12px 6px;
+  font-weight: bold;
+  background: rgb(255 255 255 / 40%);
+  backdrop-filter: blur(12px);
+  border-radius: 0 0 4px 4px;
+  border: solid 1px rgb(255 255 255 / 0.5);
+  background-clip: padding-box;
+}
 
 @media (max-width: 991px) {
   /*.ca-abo-mobile {
