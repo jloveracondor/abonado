@@ -1,0 +1,520 @@
+<section class="section section--page page">
+	<div class="container">
+		<div class="section__title section__title--center">
+			<h1 class="section__title-text h2">{{ page.title }}</h1>
+		</div>
+		<style type="text/css">
+			.banner{
+				display: grid;
+				grid-template-columns:1fr 1fr; 
+				grid-template-rows: 1fr;
+				height: 500px;
+				background: #2424247a;	
+				padding:15px;
+
+			}
+			.overlay{
+				background: url(https://cdn.shopify.com/s/files/1/0285/6186/6892/files/DSC6093_cf96e73b-f37b-4c91-8e25-483dc6604792_900x.jpg);
+				background-repeat: no-repeat;
+				background-position: center center;
+				background-size: cover;
+			}
+			.item{
+				
+				align-self: center;
+				justify-self:center;
+				color:white;
+
+			}	
+			.item h2{
+				color:white;
+				font-size:39px;
+			}
+
+			.contenido-cava{
+				display:grid;
+				grid-template-columns: repeat(12, 1fr); 
+				grid-template-rows: repeat(2,1fr); 
+				grid-gap: 30px;
+				margin-top: 30px;
+				margin-bottom:30px;
+
+			}
+			.content-club{
+				
+			}
+			.content-club:nth-of-type(1){
+			/*background: blue;
+			grid-column-start: 1;
+			grid-column-end: 3;*/
+			grid-column: 2 / span 5;
+			grid-row: 1 / span 2;
+			align-self: center;
+			justify-self: center;
+			z-index: 1;
+			background: white;
+
+		}
+
+		.content-club:nth-of-type(2){
+			
+			grid-column:  6 / -1;
+			grid-row: 1 / span 2;
+			
+		}
+
+		.como-funciona{
+			display: grid;
+			grid-template-columns: repeat(12, 2fr); 
+			grid-template-rows: repeat(1,2fr);
+			grid-gap: 60px 30px;
+			margin-top: 30px;
+			margin-bottom:80px;
+
+
+		}
+		.precio{
+			
+			background: white;
+			border-radius: 6px;
+			box-shadow: 4.871px 34.659px 30px 0px rgba(0, 0, 0, 0.06);
+			border-top:6px solid #72b139;
+			padding-top: 25px;
+			background-image: url("https://cdn.shopify.com/s/files/1/0285/6186/6892/files/landing-rev-img-35.png");
+			background-size: 40%;
+			background-position: 126% 55%;
+			background-repeat: no-repeat;
+			position: relative;
+			padding-bottom: 50px;
+		}
+		.precio:nth-of-type(1){
+			grid-column:  3 / 7;
+			
+			
+		}
+		.precio:nth-of-type(2){
+			align-self: center;
+			grid-column: 7 / 11;
+			padding:15px;	
+			border-top:0px;
+			border-bottom: 6px solid #72b139;		background: none;
+		}
+		.precio:nth-of-type(3){
+			grid-column:  3 / 7;
+			align-self: center;
+			padding:15px;
+			border-top:0px;
+			border-bottom: 6px solid #72b139;	
+			background: none;
+			
+		}
+		.precio:nth-of-type(4){
+			align-self: center;
+			grid-column: 7 / 11;			
+		}
+		.text-center{
+			text-align: center;
+		}
+		.btn-compra{
+			position: absolute; border-bottom-right-radius: 6px; border-bottom-left-radius: 6px;
+			width: 100%;
+			position: absolute;
+			bottom: 0;
+		}
+	}
+	.precio ul{
+		margin-bottom: 5px;
+	}
+	.precio li{
+		font-size: 14px;
+	}
+	.precio-mx{
+		font-size: 39px;
+		color:#72b139;
+	}
+	/* Style the buttons that are used to open and close the accordion panel */
+	.accordion {
+		background-color: #eee;
+		color: #444;
+		cursor: pointer;
+		padding: 18px;
+		width: 100%;
+		text-align: left;
+		border: none;
+		outline: none;
+		transition: 0.4s;
+	}
+
+	/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+	.active, .accordion:hover {
+		background-color: #ccc;
+	}
+
+	/* Style the accordion panel. Note: hidden by default */
+	.panel {
+		padding: 0 18px;
+		background-color: white;
+		display: none;
+		overflow: hidden;
+	}
+
+	@media (max-width: 1200px){
+		.precio:nth-of-type(1), .precio:nth-of-type(3) {
+			grid-column: 2 / 7;
+		}
+		.precio:nth-of-type(2), .precio:nth-of-type(4) {
+			grid-column: 7 / 12;
+		}
+
+		
+	}
+
+	@media (max-width: 767px){
+		.precio:nth-of-type(1), .precio:nth-of-type(3) {
+			grid-column: 2 / 12;
+		}
+		.precio:nth-of-type(3) {
+			order: 4;
+		}
+
+		.precio:nth-of-type(2), .precio:nth-of-type(4) {
+			grid-column: 2 / 12;
+		}
+
+	}
+
+	.como-funciona-2{
+		display: grid;
+			grid-template-columns: repeat(12, 2fr); 
+			grid-template-rows: repeat(1,2fr);
+				background: white;
+			border-radius: 6px;
+			box-shadow: 4.871px 34.659px 30px 0px rgba(0, 0, 0, 0.06);
+			border-top:6px solid #72b139;
+			padding-top: 25px;
+			background-image: url("https://cdn.shopify.com/s/files/1/0285/6186/6892/files/landing-rev-img-35.png");
+			background-size: 40%;
+			background-position: 126% 55%;
+			background-repeat: no-repeat;
+			position: relative;
+			padding-bottom: 50px;
+	}
+	.precio2{
+			grid-column: 1 / 12;
+	}
+	.precio2:nth-of-type(3) {
+		grid-column: 1 / 7;
+	}
+	.precio2:nth-of-type(2) {
+		grid-column: 7 / 12;
+	}
+</style>
+
+<section>
+	<div class="overlay">
+		<div class="banner">
+
+			<div class="item"> <h2>The best way to enjoy our wines. 
+			</h2></div>
+
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="contenido-cava">
+		<div class="content-club">
+			<p> La Cava Chahue has always had two clear visions: provide a service that adapts to our clients’ convenience and bring the finest wines we can find closer to them. For this reason, we invite you to become one of our Amigos de La Cava. </p>
+
+			<p> The members of this new and exclusive community will receive on a monthly basis, in the comfort of their own home, wines cases with extraordinary bottles, specially selected by our experts, as well as additional benefits. </p>
+
+		</div>
+		<div class="content-club">
+			<img src="https://cdn.shopify.com/s/files/1/0285/6186/6892/files/DSC6093_cf96e73b-f37b-4c91-8e25-483dc6604792_900x.jpg">
+		</div>
+
+
+	</div>
+</section>
+<section>
+	<div class="section__title section__title--center">
+		<h1 class="section__title-text h2">¿How does Amigos de la Cava work?</h1>
+		<br>
+		<p>You have two options to choose from: Amigos de La Cava and Amigos de La Cava Plus. You can read about our two types of memberships here. 
+		</p>
+	</div>
+
+</section>
+
+<seciton>
+	<div class="como-funciona-2">
+		<div class="precio2">
+			<h4 class="text-center">Amigos de La Cava</h4>
+			<p class="text-center precio-mx">$1,338 MXN / Month</p>
+		</div>
+		<div class="precio2">
+			
+			<p>
+				<ul> 
+					<li> Wine Case A:  </li>
+					<ul> 
+						<li> Red Wine - Tinto de Malagón
+						</li>
+						<li> Red Wine - Pinot Noir "Las Fincas"
+						</li>
+						<li> White Wine - Chardonnay Stephen Vincent
+						</li>
+					</ul>
+					<li> Wine Case B: </li> 
+					<ul> 
+						<li> Red Wine - Merlot "Las Fincas"
+						</li>
+						<li> Red Wine - Arrebato
+						</li>
+						<li> White Wine - Cuarenta Vendimias
+						</li>
+					</ul>
+					<li> Wine Case C:  </li>
+					<ul> 
+						<li> Red Wine - Merlot, Cycles Gladiator
+						</li>
+						<li> Red Wine- Sol de Noche
+						</li>
+						<li> Rosé Wine - Petit Verdot
+						</li>
+					</ul>
+					<li> Wine Case D: This fourth option will be added after the third month since the date of subscription and will include new products.  </li>
+
+				</ul> 
+			</p>
+			
+		</div>
+		<div class="precio2">
+			<p>Our <b>Amigos de la Cava </b> will never have to worry again when searching for the right wine. Through this membership, you can choose one wine case out of the 4 options available, which will be delivered right to your doorstep once a month. Each wine case includes 3 bottles of wine that we know you’ll love, as well as tasting and food-pairing notes to enhance your experience. 
+			</p>
+
+			<p>
+				Each wine case also includes: 
+
+				<ul>
+					<li> Invitations to exclusive wine tasting events. </li>
+					<li> A membership card.  </li>
+					<li> Tasting and food-pairing notes.  </li>
+					<li> Free shipping.  </li>
+
+				</ul>
+				And if you pay for 6 months worth of membership in advance, you will receive:
+				<ul> <li> 3 free beers the moment your subscription begins and on each membership anniversary.</li>
+					<li> Gifts from La Cava Chahue with every 6-month renewal.</li>
+				</ul>
+
+
+			</p>
+
+		</div>
+		<div class="precio2">
+			<a href="https://cavachahue.com/collections/all" class="home-carousel__btn c-btn c-btn--primary c-btn--default c-btn--arrow btn-compra" tabindex="-1">SHOP NOW</a>
+		</div>
+	</div>
+</seciton>
+<section>
+	<div class="como-funciona">
+
+		<div class="precio "> 
+			<h4 class="text-center">Amigos de La Cava</h4>
+			<p class="text-center precio-mx">$1,338 MXN / Month</p>
+			<p>
+				<ul> 
+					<li> Wine Case A:  </li>
+					<ul> 
+						<li> Red Wine - Tinto de Malagón
+						</li>
+						<li> Red Wine - Pinot Noir "Las Fincas"
+						</li>
+						<li> White Wine - Chardonnay Stephen Vincent
+						</li>
+					</ul>
+					<li> Wine Case B: </li> 
+					<ul> 
+						<li> Red Wine - Merlot "Las Fincas"
+						</li>
+						<li> Red Wine - Arrebato
+						</li>
+						<li> White Wine - Cuarenta Vendimias
+						</li>
+					</ul>
+					<li> Wine Case C:  </li>
+					<ul> 
+						<li> Red Wine - Merlot, Cycles Gladiator
+						</li>
+						<li> Red Wine- Sol de Noche
+						</li>
+						<li> Rosé Wine - Petit Verdot
+						</li>
+					</ul>
+					<li> Wine Case D: This fourth option will be added after the third month since the date of subscription and will include new products.  </li>
+
+				</ul> 
+			</p>
+			<a href="https://cavachahue.com/collections/all" class="home-carousel__btn c-btn c-btn--primary c-btn--default c-btn--arrow btn-compra" tabindex="-1">SHOP NOW</a>
+		</div>
+		<div class="precio "> 
+			<p>Our <b>Amigos de la Cava </b> will never have to worry again when searching for the right wine. Through this membership, you can choose one wine case out of the 4 options available, which will be delivered right to your doorstep once a month. Each wine case includes 3 bottles of wine that we know you’ll love, as well as tasting and food-pairing notes to enhance your experience. 
+			</p>
+
+			<p>
+				Each wine case also includes: 
+
+				<ul>
+					<li> Invitations to exclusive wine tasting events. </li>
+					<li> A membership card.  </li>
+					<li> Tasting and food-pairing notes.  </li>
+					<li> Free shipping.  </li>
+
+				</ul>
+				And if you pay for 6 months worth of membership in advance, you will receive:
+				<ul> <li> 3 free beers the moment your subscription begins and on each membership anniversary.</li>
+					<li> Gifts from La Cava Chahue with every 6-month renewal.</li>
+				</ul>
+
+
+			</p>
+		</div>
+		<div class="precio "> 
+			<p>As a true wine lover, you’ll probably always want the finest, most exquisite bottles from La Cava Chahue on hand. If this is the case, choose <b> Amigos de La Cava Plus </b>. We offer 4 wine case alternatives that contain 4 bottles of our best wines. </p>
+
+
+			<p>
+
+				Each wine case also includes: 
+				<ul>
+					<li>Invitations to exclusive wine tasting events.
+					</li>
+					<li>A membership card. 
+					</li>
+					<li>5% discount on in-store and online purchases with your membership card. 
+					</li>
+					<li>Tasting and food-pairing notes. 
+					</li>
+					<li>Free shipping. 
+					</li>
+
+				</ul>
+				And if you pay for 6 months worth of membership in advance, you will receive:
+				<ul>
+					<li> One free wine bottle the moment your subscription begins and on each membership anniversary. </li>
+					<li> Gifts from La Cava Chahue with every 6-month renewal. </li>
+				</ul>
+
+
+			</p>
+		</div>
+		<div class="precio "> 
+			<h4 class="text-center">Amigos de La Cava Plus  </h4>
+			<p class="text-center precio-mx">$1,918 MXN / Month</p>
+			<p> 
+				<ul> 
+					<li> Wine Case A:  </li>
+					<ul> 
+						<li>Red Wine - Beaujolais Villages </li>
+						<li>Red Wine - Malbec "Tupun"</li>
+						<li>Rosé Wine- Grenache Rosé</li>
+						<li>White Wine- Chardonnay Hahn</li>
+					</ul>
+					<li> Wine Case B:  </li>
+					<ul> 
+						<li>Red Wine- Alto Rioja Crianza</li>
+						<li>Red Wine- Pinot Noir Cycles Gladiator</li>
+						<li>Red Wine - Relámpago</li>
+						<li>White Wine - Sauvignon Blanc Reserva Casas del Bosque</li>
+					</ul>
+					<li> Wine Case C:  </li>
+					<ul> 
+						<li>Red Wine - Paula</li>
+						<li>Red Wine- Stephen Vincent Crimson</li>
+						<li>Rosé Wine- Côtes de Provence, Essentiel </li>
+						<li>White Wine- Chardonnay Reserva, "Dedicación Personal"</li>
+					</ul>
+					<li> Wine Case D: This fourth option will be added after the third month since the date of subscription and will include new products. </li>
+
+				</ul> 
+			</p>
+			<a   href="https://cavachahue.com/collections/all" class="home-carousel__btn c-btn c-btn--primary c-btn--default c-btn--arrow btn-compra" tabindex="-1">SHOP NOW</a>
+		</div>
+	</div>
+	<section>
+		<div class="section__title section__title--center">
+			<h1 class="section__title-text h2">Frequently Asked Questions 
+			</h1>
+
+
+		</div>
+
+	</section>
+	<div style="margin-top:50px;max-width: 1200px;    margin: auto;">
+		<button class="accordion">Why should I consider a membership with La Cava Chahue? 
+		</button>
+		<div class="panel">
+			<p>In addition to the benefits of each type of membership, you will also save up to 8% on your purchase if you pay monthly and save up to 9% if you pay for 6 months in one installment. </p>
+		</div>
+
+		<button class="accordion">Can I change my wine case selection? 
+		</button>
+		<div class="panel">
+			<p>Of course! You can select one of 4 options and repeat the one you like the most.
+			</p>
+		</div>
+
+		<button class="accordion">Can I switch between memberships? 
+		</button>
+		<div class="panel">
+			<p>Once your monthly or 6-month membership period has expired, you can select whichever plan you prefer. </p>
+		</div>
+
+		<button class="accordion">Can I cancel my membership? 
+
+
+		</button>
+		<div class="panel">
+			<p>You can cancel your membership at any time, but no reimbursements will be made once the payment has been processed. 
+			</p>
+		</div>
+
+		<button class="accordion">How much does delivery cost? 
+
+		</button>
+		<div class="panel">
+			<p>Within the Huatulco area, shipping is free. Shipping to other places will be added to the subscription’s total cost. 
+
+			</p>
+		</div>
+	</div>
+
+</section>
+<div class="page__content rte">
+	{{ page.content }}
+</div>
+</div>
+</section>
+
+<script> 
+
+	var acc = document.getElementsByClassName("accordion");
+	var i;
+
+	for (i = 0; i < acc.length; i++) {
+		acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+    	panel.style.display = "none";
+    } else {
+    	panel.style.display = "block";
+    }
+});
+	}
+</script>

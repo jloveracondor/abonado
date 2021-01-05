@@ -14,6 +14,7 @@ $("[data-toggle=tooltip]").tooltip();
 $(window).on('load', function() {
 $('.fechas-center').slick({
   centerMode: true,
+  infinite:true,
    arrows: true,
   centerPadding: '30px',
   slidesToShow: 8,
