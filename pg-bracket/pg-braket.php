@@ -33,6 +33,13 @@
   $logoEquipoGanador = "pg-bracket/logosEquipos/logoEquipo1.jpg";
 ?>
 
+<div class="container-fluid container-ab mb-5" id="ab-equipos">
+  <div class="row">
+    <div class="col">
+      <h1 class="ab-title"> Bracket</h1>
+    </div>
+  </div>
+</div>
 <section class="container ca-abo-contenedorGeneral">
   <div class="ca-abo-grid ca-abo-template">
 
