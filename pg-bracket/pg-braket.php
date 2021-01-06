@@ -234,9 +234,9 @@
 
 .ca-abo-contenedorBackLeft {
   background: transparent;
-  border-top: 3px solid #565656;
-  border-right: 3px solid #565656;
-  border-bottom: 3px solid #565656;
+  border-top: 3px solid #E6E6E6;
+  border-right: 3px solid #E6E6E6;
+  border-bottom: 3px solid #E6E6E6;
   margin: 50px 0;
   position: relative;
   border-radius: 0 10px 10px 0;
