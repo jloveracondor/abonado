@@ -59,11 +59,15 @@ Estos son los archivos necesarios para que cualquier pagina funcione.
 * header.php
 * ads.php
 * footer.php
+* tabla-resultados-superior.php
+
 
 ## Estructura de las paginas - html / css 
 
 Todas las clases generadas para el proyecto deben llevar el prefijo "ab-" de esta forma, se identifican ante las clases utilizadas por librerias. 
 
+
+#### Creación de paginas
 ``` html
 <div class="container-fluid container-ab my-5" id="id-unico"> <!--Siempre utiliza<r estas 3 clases, ya que contienen el tamaño y la estructura de la pagina -->
 	<div class="row">
@@ -72,4 +76,16 @@ Todas las clases generadas para el proyecto deben llevar el prefijo "ab-" de est
 		</div>
 	</div>
 </div>
+```
+
+#### Estructura de Archivos Css 
+
+cada sección de la pagina se encuentra documentada con su nombre de sección. Si se crea Css nuevo, favor documentar con el nombre de la sección
+
+```
+abonado
+├ css/
+│  ├ julio.less // La mayoria de las clases se encuentran aqui
+│  ├ main.less // Donde compilan todos los archivos de css
+│  └ Variables.less // se encuentran solo los colores y clases globales
 ```
