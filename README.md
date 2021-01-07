@@ -12,14 +12,14 @@ Se utiliza html5 y css3 para generar la estructura del sitio web y php para gene
 El Sistema se está creando en C# .net
 
 ## Framework Utilizados
-* (https://getbootstrap.com/) -  Boostrapt 4
+* [Boostrapt 4](https://getbootstrap.com/) -  Para la estructura
 * Css Grid
-* Less - *Se compila con (http://koala-app.com/) Koala*
+* Less [koala](http://koala-app.com/) - Para el compilado de css
 
 ## Librerias implementadas
-* Font Awesome
-* Bootstrap - Date Picker (Calendario)
-* Slick - Sliders
+* [Font Awesome](https://fontawesome.com/) - Iconografia
+* Bootstrap - [Date Picker](https://bootstrap-datepicker.readthedocs.io/en/latest/) - Calendario
+* [Slick](https://kenwheeler.github.io/slick/) - Sliders
 * Popper
 
 ## Estructura para crear paginas nuevas
