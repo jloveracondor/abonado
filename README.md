@@ -51,3 +51,24 @@ Ejemplo:
 <?php include("pg-boxcore/boxcore.php");?>
 <?php include ("footer.php"); ?>
 ```
+## Archivos Unicos
+
+Estos son los archivos necesarios para que cualquier pagina funcione. 
+
+* header.php
+* ads.php
+* footer.php
+
+## Estructura de las paginas - html / css 
+
+Todas las clases generadas para el proyecto deben llevar el prefijo "ab-" de esta forma, se identifican ante las clases utilizadas por librerias. 
+
+``` html
+<div class="container-fluid container-ab my-5" id="id-unico"> <!--Siempre utiliza<r estas 3 clases, ya que contienen el tamaño y la estructura de la pagina -->
+	<div class="row">
+		<div class="col">
+			<h1 class="ab-title"> Estadísticas de Bateo</h1> <!-- Clase unica para los titulos --> 
+		</div>
+	</div>
+</div>
+```
