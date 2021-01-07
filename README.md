@@ -31,11 +31,11 @@ abonado
 │  ├ bootstrap/
 │  └ img/
 ├ pg-boxcore/
-│  ├ boxcore.php
-│  ├ tabla-boxvore.php
+│  ├ boxcore.php // pagina con el nombre contiene codigo y si hay tablas, se crean archivos con las tablas solas.
+│  ├ tabla-boxcore.php
 │  └ tabla-jugada-jugada.php
 ├ js/
-└ boxcore.php
+└ boxcore.php // La pagina exterior, contiene la estructura de elementos
 
 ```
 
