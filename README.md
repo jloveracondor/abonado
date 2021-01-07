@@ -1,5 +1,5 @@
 # El Varcito
-_Proyecto de estadisticas deportivas creado por Condor Agency. Documentación hecha para facilitar la implementación y creación de modulos nuevos dentro del proyecto_
+_ Proyecto de estadisticas deportivas creado por Condor Agency. Documentación hecha para facilitar la implementación y creación de modulos nuevos dentro del proyecto _
 
 
 ---
