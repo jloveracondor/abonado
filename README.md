@@ -3,7 +3,8 @@ Proyecto de estadisticas deportivas creado por Condor Agency. Documentación hec
 
 
 ---
-## Lenguajes Utilizados
+## Construido con 🛠️
+
 ### php, html5, css3, jquery
 
 Se utiliza html5 y css3 para generar la estructura del sitio web y php para generar modulos y enlaces del sitio y así poder reutilizar codigo dentro del desarrollo y poder hacerlo modular.
@@ -11,9 +12,9 @@ Se utiliza html5 y css3 para generar la estructura del sitio web y php para gene
 El Sistema se está creando en C# .net
 
 ## Framework Utilizados
-* Boostrapt 4
+* (https://getbootstrap.com/) -  Boostrapt 4
 * Css Grid
-* Less - *Se compila con Koala*
+* Less - *Se compila con (http://koala-app.com/) Koala*
 
 ## Librerias implementadas
 * Font Awesome
