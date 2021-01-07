@@ -1,5 +1,5 @@
 # El Varcito
-_ Proyecto de estadisticas deportivas creado por Condor Agency. Documentación hecha para facilitar la implementación y creación de modulos nuevos dentro del proyecto_
+_Proyecto de estadisticas deportivas creado por Condor Agency. Documentación hecha para facilitar la implementación y creación de modulos nuevos dentro del proyecto_
 
 
 ---
@@ -10,8 +10,8 @@ Se utiliza html5 y css3 para generar la estructura del sitio web y php para gene
 
 El Sistema se está creando en C# .net
 
-# Framework Utilizados
+## Framework Utilizados
 * Boostrapt 4
 * Css Grid
-* Less - 'Se compila con Koala' 
+* Less - *Se compila con Koala*
 
