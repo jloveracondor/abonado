@@ -2,7 +2,7 @@
 /* Fonts*/
 @media (min-width: 1200px) {
   .container-ab {
-    max-width: 1600px !important;
+    max-width: 1300px !important;
   }
 }
 body {
@@ -13,13 +13,16 @@ body {
   color: #008641;
 }
 .rojo {
-  color: #e50000;
+  color: #E50000;
 }
 .gris-oscuro {
   color: #747474;
 }
 .gris-claro {
-  color: #cbcbcb;
+  color: #CBCBCB;
+}
+.verde-claro {
+  color: #00BE5C;
 }
 .bg-verde {
   background: #008641;
@@ -27,16 +30,31 @@ body {
 .bg-gris-tablas {
   background: rgba(203, 203, 203, 0.5);
 }
+.bg-verde-claro {
+  background: #00BE5C;
+}
+.blanco {
+  color: #fff;
+}
 /*botonera*/
 .btn-verde {
-  background: #00be5c !important;
-  border-color: #00be5c !important;
-  color: #ffffff !important;
+  background: #00BE5C !important;
+  border-color: #00BE5C !important;
+  color: #fff !important;
   font-weight: bold;
 }
 .btn-verde:hover {
   background: #008641 !important;
   border-color: #008641 !important;
+}
+.ab-todos {
+  color: #747474;
+  font-weight: bold;
+  text-decoration: none;
+}
+.ab-todos:hover {
+  color: #00BE5C;
+  text-decoration: none;
 }
 /* Alineación*/
 .parent {
@@ -54,4 +72,9 @@ body {
   font-weight: bold;
   text-align: center;
   color: #747474;
+}
+.tooltip-inner {
+  background-color: #ffffff !important;
+  border: 1px solid #00BE5C !important;
+  color: #00BE5C !important;
 }
