@@ -26,37 +26,24 @@
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							DEPORTE
+							LVBP
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<!-- test -->
-						<a href="#" class="dropright dropdown-item">
-							<div class="dropright dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" type="button" aria-expanded="false">
-								FÚTBOL
-							</div>
-						<div class="dropdown-menu">
-							<a class="dropdown-item" href="#">FIFA 2022</a>
-							<a class="dropdown-item" href="#">La Liga</a>
-							<a class="dropdown-item" href="#">UEFA</a>
-						</div>
-						
-						</a>
-
-						<a href="#" class="dropright dropdown-item">
-						<div class="dropright dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
-							BASEBALL
-						</div>
-						<div class="dropdown-menu">
-						<a class="dropdown-item" href="#">LIDOM</a>
-							<a class="dropdown-item" href="#">LMP</a>
-							<a class="dropdown-item" href="#">LBPRC</a>
-						</div>
-						
-						</a>
-
+							<a class="dropdown-item" href="index.php">LIDOM</a>
+							<a class="dropdown-item" href="index.php">LMP</a>
+							<a class="dropdown-item" href="index.php">LBPRC</a>
 						</div>
 					</li>
-				
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							FÚTBOL
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+							<a class="dropdown-item" href="footballResultados.php">FIFA 2022</a>
+							<a class="dropdown-item" href="#">UEFA</a>
+							<a class="dropdown-item" href="#">LA LIGA</a>
+						</div>
+					</li>
 				<li class="nav-item active">
 					<a class="nav-link" href="index.php">RESULTADOS <span class="sr-only">(current)</span></a>
 				</li>
@@ -66,12 +53,15 @@
 				<li class="nav-item ">
 					<a class="nav-link" href="estadisticas-jugador-bat.php">ESTADÍSTICAS</a>
 				</li>
+				<!-- <li class="nav-item ">
+					<a class="nav-link" href="estadisticas-jugador-pit.php">ESTADÍSTICAS PIT</a>
+				</li> -->
 				<li class="nav-item">
 					<a class="nav-link" href="equipos.php">EQUIPOS</a>
 				</li>
-				<li class="nav-item">
+				<!-- <li class="nav-item">
 					<a class="nav-link" href="boxcore.php">BOXCORE</a>
-				</li>
+				</li> -->
 				<li class="nav-item">
 					<a class="nav-link" href="gamecast.php">GAMECAST</a>
 				</li>
