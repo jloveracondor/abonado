@@ -93,7 +93,7 @@
 					</table>
 				</div>
 				<div class="row mx-2 text-center">
-					<div class="col ver-todos-abo "> <a  class="ab-todos" href="football-posiciones-jugador.php">VER TODOS </a> </div>
+					<div class="col ver-todos-abo "> <a  class="ab-todos" href=".php">VER TODOS </a> </div>
 				</div>
 			</div>
 		</div>
@@ -158,7 +158,7 @@
 					</table>
 				</div>
 				<div class="row mx-2 text-center">
-					<div class="col ver-todos-abo "> <a  class="ab-todos" href="football-posiciones-jugador.php">VER TODOS </a> </div>
+					<div class="col ver-todos-abo "> <a  class="ab-todos" href=".php">VER TODOS </a> </div>
 				</div>
 			</div>
 		</div>
@@ -223,7 +223,7 @@
 					</table>
 				</div>
 				<div class="row mx-2 text-center">
-					<div class="col ver-todos-abo "> <a  class="ab-todos" href="football-posiciones-jugador.php">VER TODOS </a> </div>
+					<div class="col ver-todos-abo "> <a  class="ab-todos" href=".php">VER TODOS </a> </div>
 				</div>
 			</div>
 		</div>
@@ -288,7 +288,7 @@
 					</table>
 				</div>
 				<div class="row mx-2 text-center">
-					<div class="col ver-todos-abo "> <a  class="ab-todos" href="football-posiciones-jugador.php">VER TODOS </a> </div>
+					<div class="col ver-todos-abo "> <a  class="ab-todos" href=".php">VER TODOS </a> </div>
 				</div>
 			</div>
 		</div>		
@@ -354,7 +354,7 @@
 					</table>
 				</div>
 				<div class="row mx-2 text-center">
-					<div class="col ver-todos-abo "> <a  class="ab-todos" href="football-posiciones-jugador.php">VER TODOS </a> </div>
+					<div class="col ver-todos-abo "> <a  class="ab-todos" href=".php">VER TODOS </a> </div>
 				</div>
 			</div>
 		</div>
@@ -420,7 +420,7 @@
 					</table>
 				</div>
 				<div class="row mx-2 text-center">
-					<div class="col ver-todos-abo "> <a  class="ab-todos" href="football-posiciones-jugador.php">VER TODOS </a> </div>
+					<div class="col ver-todos-abo "> <a  class="ab-todos" href=".php">VER TODOS </a> </div>
 				</div>
 			</div>
 		</div>
