@@ -26,9 +26,10 @@
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							LVBP
+							BASEBALL
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">LVBP</a>
 							<a class="dropdown-item" href="#">LIDOM</a>
 							<a class="dropdown-item" href="#">LMP</a>
 							<a class="dropdown-item" href="#">LBPRC</a>
@@ -40,8 +41,8 @@
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown2">
 							<a class="dropdown-item" href="footballResultados.php">FIFA 2022</a>
-							<a class="dropdown-item" href="#">UEFA</a>
-							<a class="dropdown-item" href="#">LA LIGA</a>
+							<a class="dropdown-item" href="footballResultados.php">UEFA</a>
+							<a class="dropdown-item" href="footballResultados.php">LA LIGA</a>
 						</div>
 					</li>
 				<li class="nav-item active">

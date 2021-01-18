@@ -25,45 +25,57 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							LVBP
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="index.php">LIDOM</a>
-							<a class="dropdown-item" href="index.php">LMP</a>
-							<a class="dropdown-item" href="index.php">LBPRC</a>
-						</div>
-					</li>
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						BASEBALL
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="index.php">LVBP</a>
+						<a class="dropdown-item" href="index.php">LIDOM</a>
+						<a class="dropdown-item" href="index.php">LMP</a>
+						<a class="dropdown-item" href="index.php">LBPRC</a>
+					</div>
+				</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							FÚTBOL
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown2">
 							<a class="dropdown-item" href="footballResultados.php">FIFA 2022</a>
-							<a class="dropdown-item" href="#">UEFA</a>
-							<a class="dropdown-item" href="#">LA LIGA</a>
+							<a class="dropdown-item" href="footballResultados.php">UEFA</a>
+							<a class="dropdown-item" href="footballResultados.php">LA LIGA</a>
 						</div>
 					</li>
+					
 				<li class="nav-item active">
-					<a class="nav-link" href="index.php">RESULTADOS <span class="sr-only">(current)</span></a>
+					<a class="nav-link" href="footballResultados.php">RESULTADOS <span class="sr-only">(current)</span></a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="posiciones.php">POSICIONES</a>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						POSICIONES
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+						<a class="dropdown-item" href="football-posiciones-jugador.php">Por Jugador</a>
+						<a class="dropdown-item" href="football-posiciones.php">Por Equipos</a>
+					</div>
 				</li>
-				<li class="nav-item ">
-					<a class="nav-link" href="estadisticas-jugador-bat.php">ESTADÍSTICAS</a>
-				</li>
+				<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							ESTADÍSTICAS
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+							<a class="dropdown-item" href="football-estadisticas-jugadores.php">Por Jugador</a>
+							<a class="dropdown-item" href="football-estadisticas-equipos.php">Por Equipos</a>
+						</div>
+					</li>
+
 				<!-- <li class="nav-item ">
 					<a class="nav-link" href="estadisticas-jugador-pit.php">ESTADÍSTICAS PIT</a>
 				</li> -->
-				<li class="nav-item">
-					<a class="nav-link" href="equipos.php">EQUIPOS</a>
-				</li>
 				<!-- <li class="nav-item">
 					<a class="nav-link" href="boxcore.php">BOXCORE</a>
 				</li> -->
 				<li class="nav-item">
-					<a class="nav-link" href="gamecast.php">GAMECAST</a>
+					<a class="nav-link" href="#">GAMECAST</a>
 				</li>
 			</ul>
 			<div class="form-inline my-2 my-lg-0 ab-social">
