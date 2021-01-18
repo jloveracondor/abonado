@@ -23,12 +23,12 @@
 				<option>OCEANÍA</option>
 			</select>
     </div>
-    <!-- <div class="col-2">
+    <div class="col-2">
 			<select class="form-control" id="exampleFormControlSelect1">
 				<option>EQUIPOS</option>
 				<option>JUGADORES</option>
 			</select>
-		</div> -->
+		</div>
 		<div class="col-8 align-middle">
       
       <!-- La siguiente es por si deseas colocar el tab list a la derecha de los seleccionadores de arriba -->

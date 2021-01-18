@@ -93,7 +93,7 @@
 					</table>
 				</div>
 				<div class="row mx-2 text-center">
-					<div class="col ver-todos-abo "> <a  class="ab-todos" href=".php">VER TODOS </a> </div>
+					<div class="col ver-todos-abo "> <a  class="ab-todos" href="football-posiciones-jugador.php">VER TODOS </a> </div>
 				</div>
 			</div>
 		</div>
@@ -119,8 +119,6 @@
 								<th scope="col">EQUIPO</th>
 								<th scope="col">JUGADOR</th>
 								<th scope="col">Min</th>
-
-
 							</tr>
 						</thead>
 						<tbody class="text-center">
@@ -158,7 +156,7 @@
 					</table>
 				</div>
 				<div class="row mx-2 text-center">
-					<div class="col ver-todos-abo "> <a  class="ab-todos" href=".php">VER TODOS </a> </div>
+					<div class="col ver-todos-abo "> <a  class="ab-todos" href="football-posiciones-jugador.php">VER TODOS </a> </div>
 				</div>
 			</div>
 		</div>
@@ -223,7 +221,7 @@
 					</table>
 				</div>
 				<div class="row mx-2 text-center">
-					<div class="col ver-todos-abo "> <a  class="ab-todos" href=".php">VER TODOS </a> </div>
+					<div class="col ver-todos-abo "> <a  class="ab-todos" href="football-posiciones-jugador.php">VER TODOS </a> </div>
 				</div>
 			</div>
 		</div>
@@ -288,7 +286,7 @@
 					</table>
 				</div>
 				<div class="row mx-2 text-center">
-					<div class="col ver-todos-abo "> <a  class="ab-todos" href=".php">VER TODOS </a> </div>
+					<div class="col ver-todos-abo "> <a  class="ab-todos" href="football-posiciones-jugador.php">VER TODOS </a> </div>
 				</div>
 			</div>
 		</div>		
@@ -354,7 +352,7 @@
 					</table>
 				</div>
 				<div class="row mx-2 text-center">
-					<div class="col ver-todos-abo "> <a  class="ab-todos" href=".php">VER TODOS </a> </div>
+					<div class="col ver-todos-abo "> <a  class="ab-todos" href="football-posiciones-jugador.php">VER TODOS </a> </div>
 				</div>
 			</div>
 		</div>
@@ -420,7 +418,7 @@
 					</table>
 				</div>
 				<div class="row mx-2 text-center">
-					<div class="col ver-todos-abo "> <a  class="ab-todos" href=".php">VER TODOS </a> </div>
+					<div class="col ver-todos-abo "> <a  class="ab-todos" href="football-posiciones-jugador.php">VER TODOS </a> </div>
 				</div>
 			</div>
 		</div>
