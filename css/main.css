@@ -4637,6 +4637,44 @@ body {
   color: #00BE5C !important;
 }
 /*Css de la web*/
+a {
+  text-decoration: none !important;
+}
+a,
+a:visited {
+  color: #747474;
+}
+a:focus,
+a:hover {
+  color: #00BE5C;
+}
+a:active {
+  color: #008641;
+}
+select {
+  color: #CBCBCB !important;
+  border-color: rgba(203, 203, 203, 0.46) !important;
+}
+select option {
+  color: #CBCBCB !important;
+}
+:focus {
+  outline: none;
+}
+table td,
+table th {
+  line-height: 1rem;
+  vertical-align: middle !important;
+}
+footer a,
+footer a:visited {
+  color: #747474;
+}
+footer a:active,
+footer a:focus,
+footer a:hover {
+  color: #00BE5C;
+}
 /*Menu*/
 #ab-nav {
   background: #008641;
@@ -4968,11 +5006,10 @@ footer .social-botones-footer span {
 .ab-box-resultado .ab-title-seccion img {
   max-width: 20px !important;
 }
-.ab-box-resultado .ab-img-jugador {
-  border-radius: 50%;
-}
 .ab-img-jugador {
   border-radius: 50%;
+  height: 60px;
+  width: 60px;
 }
 .ab-box-resultado .ab-nombre-jugador {
   color: #008641;
@@ -4995,15 +5032,19 @@ footer .social-botones-footer span {
 }
 .ab-box-resultado .ab-table-jugador td {
   border-top: 1px dotted rgba(203, 203, 203, 0.5);
-  font-size: 14px;
   color: #747474;
-  padding-top: 1.25rem;
+  font-size: 14px;
   padding-bottom: 1.25rem;
   padding-left: 0px;
   padding-right: 0px;
+  padding-top: 1.25rem;
 }
 .ab-box-resultado .ab-table-jugador td img {
-  margin-right: 7px;
+  height: 1.25rem !important;
+  margin: 0 0.5rem 0 0;
+  object-fit: contain;
+  object-position: center right;
+  width: 1.25rem !important;
 }
 /* Pagina Equipos*/
 #ab-equipos a {
