@@ -16,7 +16,6 @@
 			</select>
 		</div>
 		<div class="col-6 col-md-10 align-middle">
-			
 			<nav>
 				<div class="nav nav-tabs ab-tabs" id="nav-tab" role="tablist">
 					<a class="nav-item nav-link active" id="nav-regular-tab" data-toggle="tab" href="#nav-regular" role="tab" aria-controls="nav-regular" aria-selected="true">Regular</a>
