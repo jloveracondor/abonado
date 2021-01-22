@@ -1,0 +1,53 @@
+a {
+  text-decoration: none !important;
+
+  &,
+  &:visited {
+    color: @gris-oscuro;
+  }
+
+  &:focus,
+  &:hover {
+    color: @verde-claro;
+  }
+
+  &:active {
+    color: @verde;
+  }
+}
+
+select {
+  color: @gris-claro  !important;
+  border-color: fade(@gris-claro, 46%) !important;
+
+  option {
+    color: @gris-claro  !important;
+  }
+}
+
+:focus {
+  outline: none;
+}
+
+table {
+
+  td,
+  th {
+    line-height: 1rem;
+    vertical-align: middle !important;
+  }
+}
+
+footer a {
+
+  &,
+  &:visited {
+    color: @gris-oscuro;
+  }
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: @verde-claro;
+  }
+}
