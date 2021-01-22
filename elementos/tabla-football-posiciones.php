@@ -79,7 +79,7 @@
             <!-- start tr-->
 						<tr>
               <td>1</td>
-							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
+							<td><a href="football-equipos-argentina.php"><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</a></td>
 							<td></td>  <!-- Aquí 2da-->
 							<td>5</td>
 							<td></td>
@@ -101,7 +101,7 @@
 						<!-- end tr -->
 						<tr>
               <td>1</td>
-							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
+							<td><a href="football-equipos-argentina.php"><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</a></td>
 							<td></td>  <!-- Aquí 2da-->
 							<td>5</td>
 							<td></td>
@@ -123,7 +123,7 @@
 						<!-- end tr -->
 						<tr>
               <td>1</td>
-							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
+							<td><a href="football-equipos-argentina.php"><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</a></td>
 							<td></td>  <!-- Aquí 2da-->
 							<td>5</td>
 							<td></td>
@@ -145,7 +145,7 @@
 						<!-- end tr -->
 						<tr>
               <td>1</td>
-							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
+							<td><a href="football-equipos-argentina.php"><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</a></td>
 							<td></td>  <!-- Aquí 2da-->
 							<td>5</td>
 							<td></td>
@@ -167,7 +167,7 @@
 						<!-- end tr -->
 						<tr>
               <td>1</td>
-							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
+							<td><a href="football-equipos-argentina.php"><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</a></td>
 							<td></td>  <!-- Aquí 2da-->
 							<td>5</td>
 							<td></td>
@@ -189,7 +189,7 @@
 						<!-- end tr -->
 						<tr>
               <td>1</td>
-							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
+							<td><a href="football-equipos-argentina.php"><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</a></td>
 							<td></td>  <!-- Aquí 2da-->
 							<td>5</td>
 							<td></td>
@@ -211,7 +211,7 @@
 						<!-- end tr -->
 						<tr>
               <td>1</td>
-							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
+							<td><a href="football-equipos-argentina.php"><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</a></td>
 							<td></td>  <!-- Aquí 2da-->
 							<td>5</td>
 							<td></td>
@@ -233,7 +233,7 @@
 						<!-- end tr -->
 						<tr>
               <td>1</td>
-							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
+							<td><a href="football-equipos-argentina.php"><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</a></td>
 							<td></td>  <!-- Aquí 2da-->
 							<td>5</td>
 							<td></td>
@@ -255,7 +255,7 @@
 						<!-- end tr -->
 						<tr>
               <td>1</td>
-							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
+							<td><a href="football-equipos-argentina.php"><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</a></td>
 							<td></td>  <!-- Aquí 2da-->
 							<td>5</td>
 							<td></td>
@@ -277,7 +277,7 @@
 						<!-- end tr -->
 						<tr>
               <td>1</td>
-							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
+							<td><a href="football-equipos-argentina.php"><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</a></td>
 							<td></td>  <!-- Aquí 2da-->
 							<td>5</td>
 							<td></td>

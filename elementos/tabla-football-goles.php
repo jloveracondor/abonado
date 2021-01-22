@@ -78,7 +78,7 @@
             <!-- start tr-->
 						<tr>
               <td>1</td>
-							<td class="text-left pl-4" scope="row"><img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</td>
+							<td class="text-left pl-4" scope="row"><a href="football-perfil-jugador.php"> <img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</a></td>
 							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
 							<td></td>  <!-- Aquí 2da-->
 							<td></td>
@@ -100,7 +100,7 @@
                         <!-- start tr-->
 						<tr>
               <td>1</td>
-							<td class="text-left pl-4" scope="row"><img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</td>
+							<td class="text-left pl-4" scope="row"><a href="football-perfil-jugador.php"> <img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</a></td>
 							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
 							<td></td>  <!-- Aquí 2da-->
 							<td></td>
@@ -122,7 +122,7 @@
                         <!-- start tr-->
 						<tr>
               <td>1</td>
-							<td class="text-left pl-4" scope="row"><img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</td>
+							<td class="text-left pl-4" scope="row"><a href="football-perfil-jugador.php"> <img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</a></td>
 							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
 							<td></td>  <!-- Aquí 2da-->
 							<td></td>
@@ -144,7 +144,7 @@
                         <!-- start tr-->
 						<tr>
               <td>1</td>
-							<td class="text-left pl-4" scope="row"><img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</td>
+							<td class="text-left pl-4" scope="row"><a href="football-perfil-jugador.php"> <img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</a></td>
 							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
 							<td></td>  <!-- Aquí 2da-->
 							<td></td>
@@ -166,7 +166,7 @@
                         <!-- start tr-->
 						<tr>
               <td>1</td>
-							<td class="text-left pl-4" scope="row"><img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</td>
+							<td class="text-left pl-4" scope="row"><a href="football-perfil-jugador.php"> <img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</a></td>
 							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
 							<td></td>  <!-- Aquí 2da-->
 							<td></td>
@@ -188,7 +188,7 @@
                         <!-- start tr-->
 						<tr>
               <td>1</td>
-							<td class="text-left pl-4" scope="row"><img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</td>
+							<td class="text-left pl-4" scope="row"><a href="football-perfil-jugador.php"> <img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</a></td>
 							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
 							<td></td>  <!-- Aquí 2da-->
 							<td></td>
@@ -210,7 +210,7 @@
                         <!-- start tr-->
 						<tr>
               <td>1</td>
-							<td class="text-left pl-4" scope="row"><img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</td>
+							<td class="text-left pl-4" scope="row"><a href="football-perfil-jugador.php"> <img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</a></td>
 							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
 							<td></td>  <!-- Aquí 2da-->
 							<td></td>
@@ -232,7 +232,7 @@
                         <!-- start tr-->
 						<tr>
               <td>1</td>
-							<td class="text-left pl-4" scope="row"><img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</td>
+							<td class="text-left pl-4" scope="row"><a href="football-perfil-jugador.php"> <img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</a></td>
 							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
 							<td></td>  <!-- Aquí 2da-->
 							<td></td>
@@ -254,7 +254,7 @@
                         <!-- start tr-->
 						<tr>
               <td>1</td>
-							<td class="text-left pl-4" scope="row"><img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</td>
+							<td class="text-left pl-4" scope="row"><a href="football-perfil-jugador.php"> <img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</a></td>
 							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
 							<td></td>  <!-- Aquí 2da-->
 							<td></td>
@@ -276,7 +276,7 @@
                         <!-- start tr-->
 						<tr>
               <td>1</td>
-							<td class="text-left pl-4" scope="row"><img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</td>
+							<td class="text-left pl-4" scope="row"><a href="football-perfil-jugador.php"> <img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</a></td>
 							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
 							<td></td>  <!-- Aquí 2da-->
 							<td></td>
@@ -298,7 +298,7 @@
                         <!-- start tr-->
 						<tr>
               <td>1</td>
-							<td class="text-left pl-4" scope="row"><img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</td>
+							<td class="text-left pl-4" scope="row"><a href="football-perfil-jugador.php"> <img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</a></td>
 							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
 							<td></td>  <!-- Aquí 2da-->
 							<td></td>
@@ -320,7 +320,7 @@
                         <!-- start tr-->
 						<tr>
               <td>1</td>
-							<td class="text-left pl-4" scope="row"><img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</td>
+							<td class="text-left pl-4" scope="row"><a href="football-perfil-jugador.php"> <img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</a></td>
 							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
 							<td></td>  <!-- Aquí 2da-->
 							<td></td>
@@ -342,7 +342,7 @@
                         <!-- start tr-->
 						<tr>
               <td>1</td>
-							<td class="text-left pl-4" scope="row"><img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</td>
+							<td class="text-left pl-4" scope="row"><a href="football-perfil-jugador.php"> <img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</a></td>
 							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
 							<td></td>  <!-- Aquí 2da-->
 							<td></td>
@@ -364,7 +364,7 @@
                         <!-- start tr-->
 						<tr>
               <td>1</td>
-							<td class="text-left pl-4" scope="row"><img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</td>
+							<td class="text-left pl-4" scope="row"><a href="football-perfil-jugador.php"> <img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</a></td>
 							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
 							<td></td>  <!-- Aquí 2da-->
 							<td></td>
@@ -386,30 +386,7 @@
                         <!-- start tr-->
 						<tr>
               <td>1</td>
-							<td class="text-left pl-4" scope="row"><img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</td>
-							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
-							<td></td>  <!-- Aquí 2da-->
-							<td></td>
-							<td>DEL</td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td>5</td>
-							<td></td>
-              <td>20</td>
-              <td></td>
-							<td class="ab-average-fondo">480</td>
-							<td></td>
-							<td>21</td>
-              <td></td>
-              <td>13</td>
-            </tr>
-            <!-- end tr -->
-                        <!-- end tr -->
-                        <!-- start tr-->
-						<tr>
-              <td>1</td>
-							<td class="text-left pl-4" scope="row"><img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</td>
+							<td class="text-left pl-4" scope="row"><a href="football-perfil-jugador.php"> <img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</a></td>
 							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
 							<td></td>  <!-- Aquí 2da-->
 							<td></td>
@@ -432,7 +409,7 @@
                         <!-- start tr-->
 						<tr>
               <td>1</td>
-							<td class="text-left pl-4" scope="row"><img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</td>
+							<td class="text-left pl-4" scope="row"><a href="football-perfil-jugador.php"> <img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</a></td>
 							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
 							<td></td>  <!-- Aquí 2da-->
 							<td></td>
@@ -455,7 +432,7 @@
                         <!-- start tr-->
 						<tr>
               <td>1</td>
-							<td class="text-left pl-4" scope="row"><img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</td>
+							<td class="text-left pl-4" scope="row"><a href="football-perfil-jugador.php"> <img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</a></td>
 							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
 							<td></td>  <!-- Aquí 2da-->
 							<td></td>
@@ -478,7 +455,7 @@
                         <!-- start tr-->
 						<tr>
               <td>1</td>
-							<td class="text-left pl-4" scope="row"><img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</td>
+							<td class="text-left pl-4" scope="row"><a href="football-perfil-jugador.php"> <img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</a></td>
 							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
 							<td></td>  <!-- Aquí 2da-->
 							<td></td>
@@ -501,7 +478,7 @@
                         <!-- start tr-->
 						<tr>
               <td>1</td>
-							<td class="text-left pl-4" scope="row"><img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</td>
+							<td class="text-left pl-4" scope="row"><a href="football-perfil-jugador.php"> <img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</a></td>
 							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
 							<td></td>  <!-- Aquí 2da-->
 							<td></td>
@@ -524,7 +501,7 @@
                         <!-- start tr-->
 						<tr>
               <td>1</td>
-							<td class="text-left pl-4" scope="row"><img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</td>
+							<td class="text-left pl-4" scope="row"><a href="football-perfil-jugador.php"> <img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</a></td>
 							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
 							<td></td>  <!-- Aquí 2da-->
 							<td></td>
@@ -547,7 +524,7 @@
                         <!-- start tr-->
 						<tr>
               <td>1</td>
-							<td class="text-left pl-4" scope="row"><img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</td>
+							<td class="text-left pl-4" scope="row"><a href="football-perfil-jugador.php"> <img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</a></td>
 							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
 							<td></td>  <!-- Aquí 2da-->
 							<td></td>
@@ -570,7 +547,7 @@
                         <!-- start tr-->
 						<tr>
               <td>1</td>
-							<td class="text-left pl-4" scope="row"><img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</td>
+							<td class="text-left pl-4" scope="row"><a href="football-perfil-jugador.php"> <img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</a></td>
 							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
 							<td></td>  <!-- Aquí 2da-->
 							<td></td>
@@ -593,7 +570,7 @@
                         <!-- start tr-->
 						<tr>
               <td>1</td>
-							<td class="text-left pl-4" scope="row"><img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</td>
+							<td class="text-left pl-4" scope="row"><a href="football-perfil-jugador.php"> <img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</a></td>
 							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
 							<td></td>  <!-- Aquí 2da-->
 							<td></td>
@@ -616,7 +593,7 @@
                         <!-- start tr-->
 						<tr>
               <td>1</td>
-							<td class="text-left pl-4" scope="row"><img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</td>
+							<td class="text-left pl-4" scope="row"><a href="football-perfil-jugador.php"> <img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</a></td>
 							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
 							<td></td>  <!-- Aquí 2da-->
 							<td></td>
@@ -639,7 +616,7 @@
                         <!-- start tr-->
 						<tr>
               <td>1</td>
-							<td class="text-left pl-4" scope="row"><img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</td>
+							<td class="text-left pl-4" scope="row"><a href="football-perfil-jugador.php"> <img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</a></td>
 							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
 							<td></td>  <!-- Aquí 2da-->
 							<td></td>
@@ -662,7 +639,30 @@
                         <!-- start tr-->
 						<tr>
               <td>1</td>
-							<td class="text-left pl-4" scope="row"><img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</td>
+							<td class="text-left pl-4" scope="row"><a href="football-perfil-jugador.php"> <img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</a></td>
+							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
+							<td></td>  <!-- Aquí 2da-->
+							<td></td>
+							<td>DEL</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>5</td>
+							<td></td>
+              <td>20</td>
+              <td></td>
+							<td class="ab-average-fondo">480</td>
+							<td></td>
+							<td>21</td>
+              <td></td>
+              <td>13</td>
+            </tr>
+            <!-- end tr -->
+                        <!-- end tr -->
+                        <!-- start tr-->
+						<tr>
+              <td>1</td>
+							<td class="text-left pl-4" scope="row"><a href="football-perfil-jugador.php"> <img src="/abonado/assent/img/football-players/messi60x60.png" width="25" alt="">Leonel Messi</a></td>
 							<td><img src="/abonado/assent/img/banderas-grandes/ARG.png" alt="">Argentina</td>
 							<td></td>  <!-- Aquí 2da-->
 							<td></td>

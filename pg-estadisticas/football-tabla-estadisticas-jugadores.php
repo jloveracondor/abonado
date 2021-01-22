@@ -92,8 +92,9 @@
 						</tbody>
 					</table>
 				</div>
+				<!-- EN LA SIGUIENTE LINEA SE PROCEDE A DESACTIVAR LA FUNCIONALIDAD PARA ACCEDER A PERFIL DE JUGADOR SEGUN PM 01-22-2021 la cual debiera apuntar a football-posiciones-jugador.php-->
 				<div class="row mx-2 text-center">
-					<div class="col ver-todos-abo "> <a  class="ab-todos" href="football-posiciones-jugador.php">VER TODOS </a> </div>
+					<div class="col ver-todos-abo "> <a  class="ab-todos" href="#">VER TODOS </a> </div>
 				</div>
 			</div>
 		</div>
@@ -155,8 +156,9 @@
 						</tbody>
 					</table>
 				</div>
+				<!-- EN LA SIGUIENTE LINEA SE PROCEDE A DESACTIVAR LA FUNCIONALIDAD PARA ACCEDER A PERFIL DE JUGADOR SEGUN PM 01-22-2021 -->
 				<div class="row mx-2 text-center">
-					<div class="col ver-todos-abo "> <a  class="ab-todos" href="football-posiciones-jugador.php">VER TODOS </a> </div>
+					<div class="col ver-todos-abo "> <a  class="ab-todos" href="#">VER TODOS </a> </div>
 				</div>
 			</div>
 		</div>
@@ -220,8 +222,9 @@
 						</tbody>
 					</table>
 				</div>
+				<!-- EN LA SIGUIENTE LINEA SE PROCEDE A DESACTIVAR LA FUNCIONALIDAD PARA ACCEDER A PERFIL DE JUGADOR SEGUN PM 01-22-2021 -->
 				<div class="row mx-2 text-center">
-					<div class="col ver-todos-abo "> <a  class="ab-todos" href="football-posiciones-jugador.php">VER TODOS </a> </div>
+					<div class="col ver-todos-abo "> <a  class="ab-todos" href="#">VER TODOS </a> </div>
 				</div>
 			</div>
 		</div>
@@ -285,8 +288,9 @@
 						</tbody>
 					</table>
 				</div>
+				<!-- EN LA SIGUIENTE LINEA SE PROCEDE A DESACTIVAR LA FUNCIONALIDAD PARA ACCEDER A PERFIL DE JUGADOR SEGUN PM 01-22-2021 -->
 				<div class="row mx-2 text-center">
-					<div class="col ver-todos-abo "> <a  class="ab-todos" href="football-posiciones-jugador.php">VER TODOS </a> </div>
+					<div class="col ver-todos-abo "> <a  class="ab-todos" href="#">VER TODOS </a> </div>
 				</div>
 			</div>
 		</div>		
@@ -351,8 +355,9 @@
 						</tbody>
 					</table>
 				</div>
+				<!-- EN LA SIGUIENTE LINEA SE PROCEDE A DESACTIVAR LA FUNCIONALIDAD PARA ACCEDER A PERFIL DE JUGADOR SEGUN PM 01-22-2021 -->
 				<div class="row mx-2 text-center">
-					<div class="col ver-todos-abo "> <a  class="ab-todos" href="football-posiciones-jugador.php">VER TODOS </a> </div>
+					<div class="col ver-todos-abo "> <a  class="ab-todos" href="#">VER TODOS </a> </div>
 				</div>
 			</div>
 		</div>
@@ -417,8 +422,9 @@
 						</tbody>
 					</table>
 				</div>
+				<!-- EN LA SIGUIENTE LINEA SE PROCEDE A DESACTIVAR LA FUNCIONALIDAD PARA ACCEDER A PERFIL DE JUGADOR SEGUN PM 01-22-2021 -->
 				<div class="row mx-2 text-center">
-					<div class="col ver-todos-abo "> <a  class="ab-todos" href="football-posiciones-jugador.php">VER TODOS </a> </div>
+					<div class="col ver-todos-abo "> <a  class="ab-todos" href="#">VER TODOS </a> </div>
 				</div>
 			</div>
 		</div>

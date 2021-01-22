@@ -54,7 +54,8 @@
 						POSICIONES
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-						<a class="dropdown-item" href="football-posiciones-jugador.php">Por Jugador</a>
+						<!-- LA SIGUIENTE PÁGINA ESTÁ COMPLETA Y ACTIVA, SIN EMBARGO POR ÓRDENES DE PM SE DESACTIVA  -->
+						<!-- <a class="dropdown-item" href="football-posiciones-jugador.php">Por Jugador</a> -->
 						<a class="dropdown-item" href="football-posiciones.php">Por Equipos</a>
 					</div>
 				</li>
@@ -63,11 +64,22 @@
 							ESTADÍSTICAS
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+
 							<a class="dropdown-item" href="football-estadisticas-jugadores.php">Por Jugador</a>
 							<a class="dropdown-item" href="football-estadisticas-equipos.php">Por Equipos</a>
 						</div>
-					</li>
+				</li>
 
+				<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							EQUIPOS
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+							<a class="dropdown-item" href="football-teams.php">FIFA 2022</a>
+							<a class="dropdown-item" href="football-teams.php">UEFA</a>
+							<a class="dropdown-item" href="football-teams.php">LA LIGA</a>
+						</div>
+				</li>
 				<!-- <li class="nav-item ">
 					<a class="nav-link" href="estadisticas-jugador-pit.php">ESTADÍSTICAS PIT</a>
 				</li> -->
