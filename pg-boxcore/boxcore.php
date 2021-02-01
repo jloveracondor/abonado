@@ -13,8 +13,8 @@
 					<h4 class="gris-oscuro my-2"> ( 19 - 18 )</h4>
 				</div>	
 				<div class="offset-xl-1 col-xl-6 col-lg-8 col-xl-6 my-auto text-center">
-					<h2 class="ab-title-equipo" style="font-size: 36px !important;"> Leones 8, Magallanes 2</h2>
-					<h4 class="ab-subtitulo-equipo" style="font-size: 24px !important;"> Miércoles, 2 de Septiembre 2020</h4>
+					<h2 class="ab-title-equipo" style="font-size: 26px !important;"> Leones 8, Magallanes 2</h2>
+					<h4 class="ab-subtitulo-equipo" style="font-size: 14px !important;"> Miércoles, 2 de Septiembre 2020</h4>
 					<div class="table-responsive ab-table-boxcore border">
 						<table class="table my-2 ">
 							<thead>

@@ -2,7 +2,7 @@
 /* Fonts*/
 @media (min-width: 1200px) {
   .container-ab {
-    max-width: 1300px !important;
+    max-width: 1200px !important;
   }
 }
 body {
@@ -13,16 +13,19 @@ body {
   color: #008641;
 }
 .rojo {
-  color: #E50000;
+  color: #e50000;
 }
 .gris-oscuro {
   color: #747474;
 }
+.gris-oscuro a {
+  color: #747474;
+}
 .gris-claro {
-  color: #CBCBCB;
+  color: #8a8a8a;
 }
 .verde-claro {
-  color: #00BE5C;
+  color: #00be5c;
 }
 .bg-verde {
   background: #008641;
@@ -31,16 +34,16 @@ body {
   background: rgba(203, 203, 203, 0.5);
 }
 .bg-verde-claro {
-  background: #00BE5C;
+  background: #00be5c;
 }
 .blanco {
-  color: #fff;
+  color: #ffffff;
 }
 /*botonera*/
 .btn-verde {
-  background: #00BE5C !important;
-  border-color: #00BE5C !important;
-  color: #fff !important;
+  background: #00be5c !important;
+  border-color: #00be5c !important;
+  color: #ffffff !important;
   font-weight: bold;
 }
 .btn-verde:hover {
@@ -53,7 +56,7 @@ body {
   text-decoration: none;
 }
 .ab-todos:hover {
-  color: #00BE5C;
+  color: #00be5c;
   text-decoration: none;
 }
 /* Alineación*/
@@ -68,13 +71,13 @@ body {
 }
 /* Texto*/
 .ab-title {
-  font-size: 48px;
+  font-size: 38px;
   font-weight: bold;
   text-align: center;
   color: #747474;
 }
 .tooltip-inner {
   background-color: #ffffff !important;
-  border: 1px solid #00BE5C !important;
-  color: #00BE5C !important;
+  border: 1px solid #00be5c !important;
+  color: #00be5c !important;
 }

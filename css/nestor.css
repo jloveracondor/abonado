@@ -3,7 +3,7 @@
   background: #008641;
 }
 #ab-nav .nav-item a {
-  color: #00BE5C;
+  color: #00be5c;
   font-weight: bold;
 }
 #ab-nav .nav-item.active a {
@@ -14,13 +14,13 @@
   content: ' ';
   position: absolute;
   width: 100%;
-  border-bottom: 4px solid #00BE5C;
+  border-bottom: 4px solid #00be5c;
   bottom: 0;
   margin-bottom: -8px;
   left: 0;
 }
 #ab-nav .ab-social {
-  color: #00BE5C;
+  color: #00be5c;
   font-size: 22px;
 }
 #ab-nav .ab-social svg {
@@ -33,7 +33,7 @@
 }
 .ab-vermas:hover {
   text-decoration: none;
-  color: #00BE5C;
+  color: #00be5c;
 }
 /*Tabla Superior*/
 #ab-tabla-superiro {
@@ -49,14 +49,14 @@
 }
 #ab-tabla-superiro .ab-tabla-def {
   font-size: 10px;
-  color: #CBCBCB;
+  color: #cbcbcb;
 }
 #ab-tabla-superiro .vivo {
-  color: #00BE5C !important;
+  color: #00be5c !important;
   font-weight: bold;
 }
 #ab-tabla-superiro .vivo a {
-  color: #00BE5C !important;
+  color: #00be5c !important;
   font-weight: bold;
   text-decoration: none;
 }
@@ -75,7 +75,7 @@
 .ab-table-resultados {
   padding-top: 15px;
   padding-bottom: 60px;
-  border: 1px solid #CBCBCB;
+  border: 1px solid #cbcbcb;
   border-radius: 6px;
   position: relative;
 }
@@ -97,7 +97,7 @@
 }
 .ab-table-resultados .ab-encabezados {
   font-size: 12px;
-  color: #CBCBCB;
+  color: #cbcbcb;
   padding-top: 7px;
   padding-bottom: 7px;
 }
@@ -109,7 +109,7 @@
 }
 .ab-table-resultados .ab-equipos {
   padding-bottom: 7px;
-  border-bottom: 1px dotted #CBCBCB;
+  border-bottom: 1px dotted #cbcbcb;
 }
 .ab-table-resultados .ab-equipos .ab-img-equipo {
   padding-bottom: 5px;
@@ -123,13 +123,13 @@
 }
 .ab-table-resultados .ab-jugadores .ab-inf-jugador {
   font-size: 14px;
-  color: #CBCBCB;
+  color: #cbcbcb;
 }
 .ab-table-resultados .ab-jugadores .ab-inf-jugador p {
   margin-bottom: 0px;
 }
 .ab-table-resultados .ab-status {
-  border-bottom: 1px dotted #CBCBCB;
+  border-bottom: 1px dotted #cbcbcb;
 }
 .ab-table-resultados .ab-status p {
   margin-bottom: 5px;
@@ -137,7 +137,7 @@
 .ab-table-resultados .ab-status-final {
   padding-top: 15px;
   padding-bottom: 15px;
-  border-top: 1px dotted #CBCBCB;
+  border-top: 1px dotted #cbcbcb;
   position: absolute;
   bottom: 0;
   width: 94%;
@@ -158,11 +158,11 @@
 footer {
   padding-top: 4rem;
   padding-bottom: 8rem;
-  color: #fff;
+  color: #ffffff;
 }
 footer a {
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
 }
 footer .menu-footer {
   list-style: none;
@@ -171,7 +171,7 @@ footer .menu-footer {
 footer .menu-footer li {
   float: left;
   margin-right: 15px;
-  color: #fff;
+  color: #ffffff;
   font-weight: bold;
 }
 footer .social-botones-footer a {
@@ -182,7 +182,7 @@ footer .social-botones-footer span {
 }
 /*Calendario*/
 .fechas-center {
-  color: #CBCBCB;
+  color: #cbcbcb;
 }
 .fechas-center h3 {
   font-size: 18px;
@@ -194,7 +194,7 @@ footer .social-botones-footer span {
 .slick-active.slick-center,
 .slick-active.slick-current,
 .slick-center {
-  color: #00BE5C;
+  color: #00be5c;
 }
 .slick-next:before {
   content: "\f0da" !important;
@@ -242,8 +242,8 @@ footer .social-botones-footer span {
 .datepicker table tr td.today.disabled,
 .datepicker table tr td.today.disabled:hover,
 .datepicker table tr td.today:hover {
-  background-image: linear-gradient(to bottom, #00BE5C, #00BE5C) !important;
-  color: #fff !important;
+  background-image: linear-gradient(to bottom, #00be5c, #00be5c) !important;
+  color: #ffffff !important;
   border-radius: 0px !important;
 }
 .datepicker table tr td.active.active,
@@ -266,21 +266,21 @@ footer .social-botones-footer span {
 .datepicker table tr td.active:hover:hover,
 .datepicker table tr td.active:hover[disabled],
 .datepicker table tr td.active[disabled] {
-  background-image: linear-gradient(to bottom, #00BE5C, #00BE5C) !important;
-  color: #fff !important;
+  background-image: linear-gradient(to bottom, #00be5c, #00be5c) !important;
+  color: #ffffff !important;
   border-radius: 0px !important;
 }
 /* Pagina Posiciones*/
 .form-control {
-  color: #CBCBCB !important;
+  color: #cbcbcb !important;
   border-color: #CBCBCB75 !important;
 }
 .ab-regular {
   line-height: 40px;
-  color: #CBCBCB;
+  color: #cbcbcb;
 }
 .ab-table td {
-  color: #CBCBCB;
+  color: #cbcbcb;
   border-top: 1px dotted #dee2e6 !important;
 }
 .ab-table img {
@@ -296,7 +296,7 @@ footer .social-botones-footer span {
   font-weight: bold;
 }
 .ab-average {
-  color: #00BE5C !important;
+  color: #00be5c !important;
 }
 .ab-average-fondo {
   background: #c4c4c42b;
@@ -329,11 +329,10 @@ footer .social-botones-footer span {
 .ab-box-resultado .ab-title-seccion img {
   max-width: 20px !important;
 }
-.ab-box-resultado .ab-img-jugador {
-  border-radius: 50%;
-}
 .ab-img-jugador {
   border-radius: 50%;
+  height: 60px;
+  width: 60px;
 }
 .ab-box-resultado .ab-nombre-jugador {
   color: #008641;
@@ -350,25 +349,29 @@ footer .social-botones-footer span {
 }
 .ab-box-resultado .ab-table-jugador th {
   font-size: 12px;
-  color: #CBCBCB;
+  color: #cbcbcb;
   font-weight: bold;
   border-bottom: 1px solid rgba(203, 203, 203, 0.5);
 }
 .ab-box-resultado .ab-table-jugador td {
   border-top: 1px dotted rgba(203, 203, 203, 0.5);
-  font-size: 14px;
   color: #747474;
-  padding-top: 1.25rem;
+  font-size: 14px;
   padding-bottom: 1.25rem;
   padding-left: 0px;
   padding-right: 0px;
+  padding-top: 1.25rem;
 }
 .ab-box-resultado .ab-table-jugador td img {
-  margin-right: 7px;
+  height: 1.25rem !important;
+  margin: 0 0.5rem 0 0;
+  object-fit: contain;
+  object-position: center right;
+  width: 1.25rem !important;
 }
 /* Pagina Equipos*/
 #ab-equipos a {
-  color: #CBCBCB;
+  color: #cbcbcb;
 }
 #ab-equipos a:hover {
   text-decoration: none;
@@ -390,7 +393,7 @@ footer .social-botones-footer span {
   font-weight: bold;
 }
 .ab-subtitulo-equipo {
-  color: #CBCBCB;
+  color: #cbcbcb;
   font-size: 36px;
   font-weight: bold;
 }
@@ -401,11 +404,11 @@ footer .social-botones-footer span {
   background: #c4c4c421;
 }
 .ab-bg-fluid .box-ab-jugador {
-  background: #fff;
+  background: #ffffff;
 }
 /* table-roster*/
 .ab-table-roster {
-  background: #fff;
+  background: #ffffff;
   border: 1px solid rgba(203, 203, 203, 0.5);
   border-radius: 6px;
   color: #747474;
@@ -431,7 +434,7 @@ footer .social-botones-footer span {
 }
 .ab-table-roster-interna a:hover {
   text-decoration: none !important;
-  color: #00BE5C;
+  color: #00be5c;
 }
 /* Tabs*/
 .ab-tabs {
@@ -439,27 +442,27 @@ footer .social-botones-footer span {
 }
 .ab-tabs .nav-item.show .nav-link,
 .ab-tabs .nav-link.active {
-  color: #00BE5C !important;
+  color: #00be5c !important;
   font-weight: bold;
-  border-bottom: 4px solid #00BE5C !important;
+  border-bottom: 4px solid #00be5c !important;
   border-top: 0px !important;
   border-left: 0px !important;
   border-right: 0px !important;
 }
 .ab-tabs .nav-link {
   border-bottom: 4px solid transparent !important;
-  color: #CBCBCB;
+  color: #cbcbcb;
   border-top: 0px !important;
   border-left: 0px !important;
   border-right: 0px !important;
 }
 .ab-tabs .nav-link:focus,
 .ab-tabs .nav-link:hover {
-  border-bottom: 4px solid #00BE5C !important;
+  border-bottom: 4px solid #00be5c !important;
   border-top: 0px !important;
   border-left: 0px !important;
   border-right: 0px !important;
-  color: #CBCBCB;
+  color: #cbcbcb;
 }
 .ab-info-jugador p {
   margin-bottom: 0px !important;
@@ -481,14 +484,14 @@ footer .social-botones-footer span {
 .ab-table-boxcore {
   font-size: 12px !important;
   border-radius: 4px !important;
-  color: #CBCBCB;
+  color: #cbcbcb;
 }
 .ab-table-boxcore th {
   border-top: 0px !important;
   color: #747474;
 }
 .ab-table-boxcore td {
-  color: #CBCBCB;
+  color: #cbcbcb;
   border-top: 1px dotted rgba(203, 203, 203, 0.5) !important;
 }
 .ab-boxcore-circle {
@@ -496,16 +499,16 @@ footer .social-botones-footer span {
   font-size: 12px;
 }
 .ab-boxcore-circle.active {
-  color: #00BE5C;
+  color: #00be5c;
 }
 .ab-boxcore-circle.ab-verde {
-  color: #00BE5C;
+  color: #00be5c;
 }
 .ab-boxcore-circle.ab-rojo {
-  color: #E50000;
+  color: #e50000;
 }
 .ab-boxcore-circle.ab-azul {
-  color: #4C9BEA;
+  color: #4c9bea;
 }
 .ab-jugadores-boxcore {
   font-size: 12px;
@@ -514,10 +517,10 @@ footer .social-botones-footer span {
   border-radius: 6px;
 }
 .ab-gamecast .border-bottom {
-  border-bottom: 1px dotted #CBCBCB !important;
+  border-bottom: 1px dotted #cbcbcb !important;
 }
 .divisor {
-  border-bottom: 1px dotted #CBCBCB;
+  border-bottom: 1px dotted #cbcbcb;
   height: 1px;
   width: 100%;
 }
@@ -529,7 +532,7 @@ footer .social-botones-footer span {
 }
 .ab-table-roster.ab-boxcore p {
   border-bottom: 1px dotted rgba(203, 203, 203, 0.5);
-  color: #CBCBCB;
+  color: #cbcbcb;
 }
 .ab-table-roster.ab-boxcore p img {
   margin-right: 5px;
@@ -546,11 +549,11 @@ footer .social-botones-footer span {
 }
 .ab-gamecast .ab-vs {
   font-size: 12px;
-  color: #CBCBCB;
+  color: #cbcbcb;
 }
 .ab-gamecast .ab-equipos-logos {
   font-size: 24px;
-  color: #CBCBCB;
+  color: #cbcbcb;
   font-weight: bold;
 }
 .ab-gamecast .ab-equipos-logos img {
@@ -566,7 +569,7 @@ footer .social-botones-footer span {
   padding: 2px;
   border-radius: 50%;
   display: inline-block;
-  color: #fff;
+  color: #ffffff;
 }
 .ab-gamecast .azul {
   background: #4C9BEA;
@@ -583,11 +586,11 @@ footer .social-botones-footer span {
 }
 .ab-table-gamecast th {
   background: #747474;
-  color: #fff;
+  color: #ffffff;
 }
 .ab-bat-pit {
   font-size: 12px;
-  color: #CBCBCB;
+  color: #cbcbcb;
 }
 .ab-nombre-jugador-game {
   font-size: 18px;
@@ -595,7 +598,7 @@ footer .social-botones-footer span {
   font-weight: bold;
 }
 .border-bottom-gamecast {
-  border-bottom: 1px dotted #CBCBCB;
+  border-bottom: 1px dotted #cbcbcb;
 }
 .ab-totales-game td {
   color: #747474;
