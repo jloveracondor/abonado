@@ -38,12 +38,10 @@
 			</div>
 			
 				<div class="row ab-status-final">
-					<div class="col-md-4">
+					<div class="col-md-6">
 						<button type="button" class="btn btn-danger">Boxscore</button>
 					</div>
-					<div class="col-md-2">
-						<span>     </span>
-					</div>
+					
 					<div class="col-md-6 mt-2">
 						<span class="gris-claro "> Estadio Nacional de Lima</span>
 					</div>
@@ -78,12 +76,10 @@
 			</div>
 			
 				<div class="row ab-status-final">
-					<div class="col-md-4">
+					<div class="col-md-6">
 						<button type="button" class="btn btn-danger">Boxscore</button>
 					</div>
-					<div class="col-md-2">
-						<span>     </span>
-					</div>
+					
 					<div class="col-md-6 mt-2">
 						<span class="gris-claro "> Estadio Nacional de Lima</span>
 					</div>
@@ -119,12 +115,10 @@
 			</div>
 			
 				<div class="row ab-status-final">
-					<div class="col-md-4">
+					<div class="col-md-6">
 						<button type="button" class="btn btn-verde">Ver en vivo</button>
 					</div>
-					<div class="col-md-2">
-						<span>     </span>
-					</div>
+					
 					<div class="col-md-6">
 						<span class="gris-claro"> Estadio Olímpico de la Ciudad Universitaria</span>
 					</div>
@@ -160,14 +154,10 @@
 			</div>
 			
 				<div class="row ab-status-final">
-					<div class="col-md-4">
+					<div class="col-md-6">
 						<button type="button" class="btn btn-verde">Ver en vivo</button>
 					</div>
-					<div class="col-md-2">
-					<span>     </span>
-						<span>     </span>
-						<span></span>
-					</div>
+					
 					<div class="col-md-6">
 						<span class="gris-claro"> Estadio Olímpico de la Ciudad Universitaria</span>
 					</div>
@@ -208,12 +198,10 @@
 			</div>
 			
 				<div class="row ab-status-final">
-					<div class="col-md-4">
+					<div class="col-md-6">
 						<button type="button" class="btn btn-secondary">Boxscore</button>
 					</div>
-					<div class="col-md-2">
-						<span>     </span>
-					</div>
+					
 					<div class="col-md-6 mt-2">
 						<span class="gris-claro "> Estadio Nacional de Lima</span>
 					</div>
@@ -249,12 +237,10 @@
 			</div>
 			
 				<div class="row ab-status-final">
-					<div class="col-md-4">
+					<div class="col-md-6">
 						<button type="button" class="btn btn-secondary">Boxscore</button>
 					</div>
-					<div class="col-md-2">
-						<span>     </span>
-					</div>
+					
 					<div class="col-md-6 mt-2">
 						<span class="gris-claro "> Estadio Nacional de Lima</span>
 					</div>
@@ -290,12 +276,10 @@
 			</div>
 			
 				<div class="row ab-status-final">
-					<div class="col-md-4">
+					<div class="col-md-6">
 						<button type="button" class="btn btn-secondary">Boxscore</button>
 					</div>
-					<div class="col-md-2">
-						<span>     </span>
-					</div>
+					
 					<div class="col-md-6 mt-2">
 						<span class="gris-claro "> Estadio Nacional de Lima</span>
 					</div>
@@ -332,12 +316,10 @@
 			</div>
 			
 				<div class="row ab-status-final">
-					<div class="col-md-4">
+					<div class="col-md-6">
 						<button type="button" class="btn btn-secondary">Boxscore</button>
 					</div>
-					<div class="col-md-2">
-						<span>     </span>
-					</div>
+					
 					<div class="col-md-6 mt-2">
 						<span class="gris-claro "> Estadio Nacional de Lima</span>
 					</div>
@@ -373,12 +355,10 @@
 			</div>
 			
 				<div class="row ab-status-final">
-					<div class="col-md-4">
+					<div class="col-md-6">
 						<button type="button" class="btn btn-secondary">Boxscore</button>
 					</div>
-					<div class="col-md-2">
-						<span>     </span>
-					</div>
+					
 					<div class="col-md-6 mt-2">
 						<span class="gris-claro "> Estadio Nacional de Lima</span>
 					</div>
@@ -416,12 +396,10 @@
 			</div>
 			
 				<div class="row ab-status-final">
-					<div class="col-md-4">
+					<div class="col-md-6">
 						<button type="button" class="btn btn-secondary">Boxscore</button>
 					</div>
-					<div class="col-md-2">
-						<span>     </span>
-					</div>
+					
 					<div class="col-md-6 mt-2">
 						<span class="gris-claro "> Estadio Nacional de Lima</span>
 					</div>
@@ -457,12 +435,10 @@
 			</div>
 			
 				<div class="row ab-status-final">
-					<div class="col-md-4">
+					<div class="col-md-6">
 						<button type="button" class="btn btn-secondary">Boxscore</button>
 					</div>
-					<div class="col-md-2">
-						<span>     </span>
-					</div>
+					
 					<div class="col-md-6 mt-2">
 						<span class="gris-claro "> Estadio Nacional de Lima</span>
 					</div>
@@ -498,12 +474,10 @@
 			</div>
 			
 				<div class="row ab-status-final">
-					<div class="col-md-4">
+					<div class="col-md-6">
 						<button type="button" class="btn btn-secondary">Boxscore</button>
 					</div>
-					<div class="col-md-2">
-						<span>     </span>
-					</div>
+					
 					<div class="col-md-6 mt-2">
 						<span class="gris-claro "> Estadio Nacional de Lima</span>
 					</div>
