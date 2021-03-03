@@ -1,8 +1,8 @@
-@import "../fontawesome/css/all.css";
 /*!
  * Font Awesome Free 5.14.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
+@import "../fontawesome/css/all.css";
 .fa,
 .fas,
 .far,
@@ -24,10 +24,10 @@
   vertical-align: -0.0667em;
 }
 .fa-xs {
-  font-size: .75em;
+  font-size: 0.75em;
 }
 .fa-sm {
-  font-size: .875em;
+  font-size: 0.875em;
 }
 .fa-1x {
   font-size: 1em;
@@ -79,9 +79,9 @@
   line-height: inherit;
 }
 .fa-border {
-  border-radius: .1em;
-  border: solid 0.08em #eeeeee;
-  padding: .2em .25em .15em;
+  border-radius: 0.1em;
+  border: solid 0.08em #eee;
+  padding: 0.2em 0.25em 0.15em;
 }
 .fa-pull-left {
   float: left;
@@ -94,14 +94,14 @@
 .far.fa-pull-left,
 .fal.fa-pull-left,
 .fab.fa-pull-left {
-  margin-right: .3em;
+  margin-right: 0.3em;
 }
 .fa.fa-pull-right,
 .fas.fa-pull-right,
 .far.fa-pull-right,
 .fal.fa-pull-right,
 .fab.fa-pull-right {
-  margin-left: .3em;
+  margin-left: 0.3em;
 }
 .fa-spin {
   animation: fa-spin 2s infinite linear;
@@ -172,7 +172,7 @@
   font-size: 2em;
 }
 .fa-inverse {
-  color: #ffffff;
+  color: #fff;
 }
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
@@ -4568,10 +4568,10 @@ body {
 }
 /*Color texto*/
 .verde {
-  color: #fdb905;
+  color: #FDB905;
 }
 .rojo {
-  color: #e50000;
+  color: #E50000;
 }
 .gris-oscuro {
   color: #747474;
@@ -4595,13 +4595,13 @@ body {
   background: #008000;
 }
 .blanco {
-  color: #ffffff;
+  color: #fff;
 }
 /*botonera*/
 .btn-verde {
   background: #008000 !important;
   border-color: #008000 !important;
-  color: #ffffff !important;
+  color: #fff !important;
   font-weight: bold;
 }
 .btn-verde:hover {
@@ -4838,11 +4838,11 @@ footer a:hover {
 footer {
   padding-top: 4rem;
   padding-bottom: 8rem;
-  color: #ffffff;
+  color: #fff;
 }
 footer a {
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
 }
 footer .menu-footer {
   list-style: none;
@@ -4851,7 +4851,7 @@ footer .menu-footer {
 footer .menu-footer li {
   float: left;
   margin-right: 15px;
-  color: #ffffff;
+  color: #fff;
   font-weight: bold;
 }
 footer .social-botones-footer a {
@@ -4922,8 +4922,8 @@ footer .social-botones-footer span {
 .datepicker table tr td.today.disabled,
 .datepicker table tr td.today.disabled:hover,
 .datepicker table tr td.today:hover {
-  background-image: linear-gradient(to bottom, #00be5c, #00be5c) !important;
-  color: #ffffff !important;
+  background-image: linear-gradient(to bottom, #00BE5C, #00BE5C) !important;
+  color: #fff !important;
   border-radius: 0px !important;
 }
 .datepicker table tr td.active.active,
@@ -4946,8 +4946,8 @@ footer .social-botones-footer span {
 .datepicker table tr td.active:hover:hover,
 .datepicker table tr td.active:hover[disabled],
 .datepicker table tr td.active[disabled] {
-  background-image: linear-gradient(to bottom, #00be5c, #00be5c) !important;
-  color: #ffffff !important;
+  background-image: linear-gradient(to bottom, #00BE5C, #00BE5C) !important;
+  color: #fff !important;
   border-radius: 0px !important;
 }
 /* Pagina Posiciones*/
@@ -5084,11 +5084,11 @@ footer .social-botones-footer span {
   background: #c4c4c421;
 }
 .ab-bg-fluid .box-ab-jugador {
-  background: #ffffff;
+  background: #fff;
 }
 /* table-roster*/
 .ab-table-roster {
-  background: #ffffff;
+  background: #fff;
   border: 1px solid rgba(203, 203, 203, 0.5);
   border-radius: 6px;
   color: #747474;
@@ -5185,10 +5185,10 @@ footer .social-botones-footer span {
   color: #008000;
 }
 .ab-boxcore-circle.ab-rojo {
-  color: #e50000;
+  color: #E50000;
 }
 .ab-boxcore-circle.ab-azul {
-  color: #4c9bea;
+  color: #4C9BEA;
 }
 .ab-jugadores-boxcore {
   font-size: 12px;
@@ -5249,7 +5249,7 @@ footer .social-botones-footer span {
   padding: 2px;
   border-radius: 50%;
   display: inline-block;
-  color: #ffffff;
+  color: #fff;
 }
 .ab-gamecast .azul {
   background: #4C9BEA;
@@ -5266,7 +5266,7 @@ footer .social-botones-footer span {
 }
 .ab-table-gamecast th {
   background: #747474;
-  color: #ffffff;
+  color: #fff;
 }
 .ab-bat-pit {
   font-size: 12px;
@@ -5485,11 +5485,11 @@ footer .social-botones-footer span {
 footer {
   padding-top: 4rem;
   padding-bottom: 8rem;
-  color: #ffffff;
+  color: #fff;
 }
 footer a {
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
 }
 footer .menu-footer {
   list-style: none;
@@ -5498,7 +5498,7 @@ footer .menu-footer {
 footer .menu-footer li {
   float: left;
   margin-right: 15px;
-  color: #ffffff;
+  color: #fff;
   font-weight: bold;
 }
 footer .social-botones-footer a {
@@ -5569,8 +5569,8 @@ footer .social-botones-footer span {
 .datepicker table tr td.today.disabled,
 .datepicker table tr td.today.disabled:hover,
 .datepicker table tr td.today:hover {
-  background-image: linear-gradient(to bottom, #00be5c, #00be5c) !important;
-  color: #ffffff !important;
+  background-image: linear-gradient(to bottom, #00BE5C, #00BE5C) !important;
+  color: #fff !important;
   border-radius: 0px !important;
 }
 .datepicker table tr td.active.active,
@@ -5593,8 +5593,8 @@ footer .social-botones-footer span {
 .datepicker table tr td.active:hover:hover,
 .datepicker table tr td.active:hover[disabled],
 .datepicker table tr td.active[disabled] {
-  background-image: linear-gradient(to bottom, #00be5c, #00be5c) !important;
-  color: #ffffff !important;
+  background-image: linear-gradient(to bottom, #00BE5C, #00BE5C) !important;
+  color: #fff !important;
   border-radius: 0px !important;
 }
 /* Pagina Posiciones*/
@@ -5663,7 +5663,7 @@ footer .social-botones-footer span {
   border-radius: 50%;
 }
 .ab-box-resultado .ab-nombre-jugador {
-  color: #fdb905;
+  color: #FDB905;
   font-weight: bold;
 }
 .ab-box-resultado .ab-text-14 {
@@ -5712,7 +5712,7 @@ footer .social-botones-footer span {
 }
 /* Tabla equipos interna*/
 .ab-title-equipo {
-  color: #fdb905 !important;
+  color: #FDB905 !important;
   font-size: 48px !important;
   font-weight: bold;
 }
@@ -5728,11 +5728,11 @@ footer .social-botones-footer span {
   background: #c4c4c421;
 }
 .ab-bg-fluid .box-ab-jugador {
-  background: #ffffff;
+  background: #fff;
 }
 /* table-roster*/
 .ab-table-roster {
-  background: #ffffff;
+  background: #fff;
   border: 1px solid rgba(203, 203, 203, 0.5);
   border-radius: 6px;
   font-color: #747474;
@@ -5759,7 +5759,7 @@ footer .social-botones-footer span {
 }
 .ab-table-roster-interna a:hover {
   text-decoration: none !important;
-  color: #fdb905;
+  color: #FDB905;
 }
 /* Tabs*/
 .ab-tabs {
@@ -5830,10 +5830,10 @@ footer .social-botones-footer span {
   color: #008000;
 }
 .ab-boxcore-circle.ab-rojo {
-  color: #e50000;
+  color: #E50000;
 }
 .ab-boxcore-circle.ab-azul {
-  color: #4c9bea;
+  color: #4C9BEA;
 }
 .ab-jugadores-boxcore {
   font-size: 12px;
@@ -5894,7 +5894,7 @@ footer .social-botones-footer span {
   padding: 2px;
   border-radius: 50%;
   display: inline-block;
-  color: #ffffff;
+  color: #fff;
 }
 .ab-gamecast .azul {
   background: #4C9BEA;
@@ -5911,7 +5911,7 @@ footer .social-botones-footer span {
 }
 .ab-table-gamecast th {
   background: #747474;
-  color: #ffffff;
+  color: #fff;
 }
 .ab-bat-pit {
   font-size: 12px;
@@ -5965,4 +5965,316 @@ footer .social-botones-footer span {
   max-height: 900px;
   overflow-x: hidden;
   overflow-y: scroll;
+}
+.mainScore {
+  position: relative;
+  height: 140px;
+}
+.mainScore .fgs-team {
+  display: flex;
+  flex-direction: column;
+}
+.mainScore .fgs-team h2 {
+  margin-top: 25px;
+  height: calc(100% - 70px);
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .mainScore .fgs-team h2 {
+    font-size: 20px;
+  }
+}
+.mainScore .fgs-team:first-child {
+  align-content: flex-end;
+}
+.mainScore .fgs-team:first-child h2 {
+  justify-content: flex-end;
+}
+.mainScore .fgs-team:last-child {
+  align-content: flex-start;
+}
+.mainScore .fgs-team:last-child h2 {
+  justify-content: flex-start;
+}
+.mainScore .fgs-score {
+  display: flex;
+  flex-direction: column;
+}
+.mainScore .fgs-score .fgs-timer {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 800;
+  color: black;
+  height: 25px;
+}
+.mainScore .fgs-score .fgs-info {
+  display: flex;
+  height: calc(100% - 70px);
+}
+.mainScore .fgs-score .fgs-info .fgs-flag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+.mainScore .fgs-score .fgs-info .fgs-flag img {
+  width: 40px;
+}
+.mainScore .fgs-score .fgs-info .fgs-goals {
+  display: flex;
+  width: 60%;
+}
+.mainScore .fgs-score .fgs-info .fgs-goals div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+.mainScore .fgs-score .fgs-info .fgs-goals div:first-child,
+.mainScore .fgs-score .fgs-info .fgs-goals div:last-child {
+  width: 20%;
+}
+@media (max-width: 768px) {
+  .mainScore .fgs-score .fgs-info .fgs-goals div:first-child,
+  .mainScore .fgs-score .fgs-info .fgs-goals div:last-child {
+    width: 40%;
+  }
+}
+.mainScore .fgs-score .fgs-info .fgs-goals div:nth-child(2) {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #747474;
+}
+@media (max-width: 768px) {
+  .mainScore .fgs-score .fgs-info .fgs-goals div:nth-child(2) {
+    width: 20%;
+    font-size: 18px;
+  }
+}
+@media (max-width: 768px) {
+  .mainScore .fgs-score .fgs-info .fgs-goals div {
+    font-size: 25px;
+  }
+}
+.mainScore .fgs-place {
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.3;
+  font-weight: 600;
+  color: #807979;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainScore .otherLogo {
+  position: absolute;
+  top: 0;
+  right: 25px;
+}
+.mainScore .otherLogo img {
+  height: 35px;
+}
+.tabsFutbol {
+  font-size: 32px;
+  margin: 30px 0 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #c4c4c480;
+}
+@media (max-width: 768px) {
+  .tabsFutbol {
+    font-size: 24px;
+  }
+}
+#fgs-tabContent {
+  width: 100%;
+  margin-bottom: 50px;
+}
+#fgs-tabContent .fgs-table {
+  text-align: center;
+}
+#fgs-tabContent .fgs-table thead {
+  border-bottom: 1px solid #c4c4c480;
+}
+#fgs-tabContent .fgs-table thead tr th {
+  border: 0;
+  font-weight: 600;
+  font-size: 20px;
+  color: #747474;
+  height: 50px;
+}
+#fgs-tabContent .fgs-table thead tr th:first-child,
+#fgs-tabContent .fgs-table thead tr th:last-child {
+  width: 10%;
+}
+#fgs-tabContent .fgs-table thead tr th:nth-child(2) {
+  width: 80%;
+}
+#fgs-tabContent .fgs-table tbody tr td {
+  border: 0;
+  font-weight: 600;
+  font-size: 17px;
+  height: 50px;
+}
+#fgs-tabContent .fgs-table tbody tr td:first-child,
+#fgs-tabContent .fgs-table tbody tr th:last-child {
+  color: #747474;
+}
+#fgs-tabContent .fgs-table tbody tr td:nth-child(2) {
+  color: #747474;
+}
+@media (max-width: 768px) {
+  #fgs-tabContent {
+    padding: 0 30px;
+  }
+}
+.fgs-lineup {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  max-height: 1156px;
+  margin: auto;
+  background-color: #008641;
+  position: relative;
+}
+.fgs-lineup .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.fgs-lineup .back > div {
+  width: 100%;
+  height: 33.33%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+@media (max-width: 768px) {
+  .fgs-lineup .back > div {
+    background-size: 125%;
+  }
+}
+.fgs-lineup .back .up {
+  top: 0;
+  background-image: url(../assent/img/campo-up.svg);
+  background-position: top;
+}
+.fgs-lineup .back .mid {
+  top: 33.33%;
+  background-image: url(../assent/img/campo-mid.svg);
+  background-position: center;
+}
+.fgs-lineup .back .down {
+  bottom: 0;
+  background-image: url(../assent/img/campo-down.svg);
+  background-position: bottom;
+}
+.fgs-lineup .fgs-lineup-head,
+.fgs-lineup .fgs-lineup-footer {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background-color: #00612F;
+  color: white;
+  z-index: 1;
+}
+.fgs-lineup .fgs-lineup-head div,
+.fgs-lineup .fgs-lineup-footer div {
+  display: flex;
+  align-items: center;
+}
+.fgs-lineup .fgs-lineup-head div:first-child,
+.fgs-lineup .fgs-lineup-footer div:first-child {
+  justify-content: center;
+  width: 10%;
+}
+.fgs-lineup .fgs-lineup-head div:nth-child(2),
+.fgs-lineup .fgs-lineup-footer div:nth-child(2) {
+  width: calc(90% - 110px);
+  padding-left: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.fgs-lineup .fgs-lineup-head div:last-child,
+.fgs-lineup .fgs-lineup-footer div:last-child {
+  width: 90px;
+  padding-left: 20px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.fgs-lineup .fgs-lineup-body {
+  width: 100%;
+  height: 840px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+.fgs-lineup .fgs-lineup-body .fgs-middle-up,
+.fgs-lineup .fgs-lineup-body .fgs-middle-down {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 50%;
+  width: 100%;
+  padding: 20px 0;
+}
+.fgs-lineup .fgs-lineup-body .fgs-middle-up > div,
+.fgs-lineup .fgs-lineup-body .fgs-middle-down > div {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 0;
+}
+.fgs-lineup .fgs-lineup-body .fgs-middle-up > div .player,
+.fgs-lineup .fgs-lineup-body .fgs-middle-down > div .player {
+  width: 90px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+.fgs-lineup .fgs-lineup-body .fgs-middle-up > div .player .number,
+.fgs-lineup .fgs-lineup-body .fgs-middle-down > div .player .number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75%;
+}
+.fgs-lineup .fgs-lineup-body .fgs-middle-up > div .player .number .circle,
+.fgs-lineup .fgs-lineup-body .fgs-middle-down > div .player .number .circle {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border: 2px solid white;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
+.fgs-lineup .fgs-lineup-body .fgs-middle-up > div .player .name,
+.fgs-lineup .fgs-lineup-body .fgs-middle-down > div .player .name {
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fgs-lineup .fgs-lineup-body .fgs-middle-up > div .player .name a,
+.fgs-lineup .fgs-lineup-body .fgs-middle-down > div .player .name a {
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+}
+.fgs-lineup .fgs-lineup-body .fgs-middle-up > div .player .name a:hover,
+.fgs-lineup .fgs-lineup-body .fgs-middle-down > div .player .name a:hover {
+  text-decoration: underline;
+}
+.fgs-lineup .fgs-lineup-body .fgs-middle-down {
+  flex-direction: column-reverse;
 }

@@ -1,0 +1,341 @@
+// Marcador fútbol --------------------
+
+.mainScore {
+    position: relative;
+    height: 140px;
+
+    .fgs-team {
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            margin-top: 25px;
+            margin-top: 25px;
+            height: calc(100% - 70px);
+            display: flex;
+            align-items: center;
+
+            @media (max-width: 768px){
+                font-size: 20px;
+            }
+        }
+
+        &:first-child {
+            align-content: flex-end;
+
+            h2 {
+                justify-content: flex-end;
+            }
+        }
+        &:last-child {
+            align-content: flex-start;
+            h2 {
+                justify-content: flex-start;
+            }
+        }
+    }
+
+    .fgs-score {
+        display: flex;
+        flex-direction: column;
+
+        .fgs-timer {
+            text-align: center;
+            font-size: 17px;
+            font-weight: 800;
+            color: black;
+            height: 25px;
+        }
+
+        .fgs-info {
+            display: flex;
+            height: calc(100% - 70px);
+
+            .fgs-flag {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 20%;
+
+                img {
+                    width: 40px;
+                }
+            }
+
+            .fgs-goals {
+                display: flex;
+                width: 60%;
+
+                div {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 60%;
+
+                    &:first-child, &:last-child {
+                        width: 20%;
+
+                        @media (max-width: 768px){
+                            width: 40%;
+                        }
+                    }
+                    &:nth-child(2) {
+                        font-size: 24px;
+                        font-weight: bold;
+                        text-align: center;
+                        color: #747474;
+
+                        @media (max-width: 768px){
+                            width: 20%;
+                            font-size: 18px;
+                        }
+                    }
+
+                    @media (max-width: 768px){
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
+
+    .fgs-place {
+        text-align: center;
+        font-size: 15px;
+        line-height: 1.3;
+        font-weight: 600;
+        color: #807979;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .otherLogo {
+        position: absolute;
+        top: 0;
+        right: 25px;
+
+        img {
+            height: 35px;
+        }
+    }
+}
+
+// Tabs Tabla Fúbtol --------------------
+
+.tabsFutbol {
+    font-size: 32px;
+    margin: 30px 0 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #c4c4c480;
+
+    @media (max-width: 768px){
+		font-size: 24px;
+	}
+}
+
+// Tabla Fúbtol --------------------
+
+#fgs-tabContent {
+    width: 100%;
+    margin-bottom: 50px;
+
+    .fgs-table {
+        text-align: center;
+
+        thead {
+            border-bottom: 1px solid #c4c4c480;
+
+            tr {
+                th {
+                    border: 0;
+                    font-weight: 600;
+                    font-size: 20px;
+                    color: #747474;
+                    height: 50px;
+                }
+                th:first-child, th:last-child {
+                    width: 10%;
+                }
+                th:nth-child(2) {
+                    width: 80%;
+                }
+            }
+        }
+        tbody {
+            tr {
+                td {
+                    border: 0;
+                    font-weight: 600;
+                    font-size: 17px;
+                    height: 50px;
+                }
+                td:first-child, th:last-child {
+                    color: #747474;
+                }
+                td:nth-child(2) {
+                    color: #747474;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 768px){
+		padding: 0 30px;
+	}
+}
+
+// Campo Lineup Fútbol --------------------
+
+.fgs-lineup {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    max-height: 1156px;
+    
+    margin: auto;
+    background-color: #008641;
+    position: relative;
+
+    .back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+
+        > div {
+            width: 100%;
+            height: 33.33%;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            @media (max-width: 768px){
+                background-size: 125%;
+            }
+        }
+
+        .up {
+            top: 0;
+            background-image: url(../assent/img/campo-up.svg);
+            background-position: top;
+        }
+        .mid {
+            top: 33.33%;
+            background-image: url(../assent/img/campo-mid.svg);
+            background-position: center;
+        }
+        .down {
+            bottom: 0;
+            background-image: url(../assent/img/campo-down.svg);
+            background-position: bottom;
+        }
+    }
+
+    .fgs-lineup-head, .fgs-lineup-footer {
+        display: flex;
+        width: 100%;
+        height: 50px;
+        background-color: #00612F;
+        color: white;
+        z-index: 1;
+
+        div {
+            display: flex;
+            align-items: center;
+
+            &:first-child {
+                justify-content: center;
+                width: 10%;
+            }
+
+            &:nth-child(2) {
+                width: calc(90% - 110px);
+                padding-left: 20px;
+                font-weight: 600;
+                font-size: 20px;
+            }
+
+            &:last-child {
+                width: 90px;
+                padding-left: 20px;
+                font-weight: 600;
+                font-size: 16px;
+            }
+        }
+    }
+
+    .fgs-lineup-body {
+        width: 100%;
+        height: 840px;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+
+        .fgs-middle-up, .fgs-middle-down {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            height: 50%;
+            width: 100%;
+            padding: 20px 0;
+
+            > div {
+                // background-color: rgba(255, 255, 255, 0.479);
+                flex-basis: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                margin: 10px 0;
+
+                .player {
+                    width: 90px;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    margin: 0 20px;
+
+                    .number {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 75%;
+
+                        .circle {
+                            width: 40px;
+                            height: 40px;
+                            background-color: red;
+                            border: 2px solid white;
+                            border-radius: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: white;
+                            font-weight: 600;
+                            font-size: 18px;
+                        }
+                    }
+                    .name {
+                        height: 25%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        a {
+                            color: white;
+                            font-size: 17px;
+                            font-weight: 600;
+
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .fgs-middle-down {
+            flex-direction: column-reverse;
+        }
+    }
+}
