@@ -59,7 +59,7 @@
                     <?php include('pg-equipos/tabla-football-gamecast-estadisticas.php')?>
                 </div>
                 <div class="tab-pane fade show active" id="latercera" role="tabpanel" aria-labelledby="nav-roster-tab">
-                    
+                <?php include('pg-equipos/tabla-football-gamecast-timeline.php')?>
                 </div>
             </div>
 
