@@ -1,5 +1,4 @@
 <div class="container-fluid container-ab my-5" id="ab-tabla-equipo-interna">
-	<div class="row">
 		<div class="container">
 			<div class="row">
 				<div class="offset-xl-2 col-md-3 text-center my-auto">
@@ -11,9 +10,7 @@
 				</div>
 
 			</div>
-
 		</div>
-	</div>
 </div>
 
 <div class="row justify-content-center" style="font-size: 32px">

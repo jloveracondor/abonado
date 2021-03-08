@@ -6127,7 +6127,7 @@ footer .social-botones-footer span {
 }
 @media (max-width: 768px) {
   #fgs-tabContent {
-    padding: 0 30px;
+    padding: 0 10px;
   }
 }
 .fgs-lineup {
@@ -6191,6 +6191,7 @@ footer .social-botones-footer span {
 .fgs-lineup .fgs-lineup-footer div:first-child {
   justify-content: center;
   width: 10%;
+  min-width: 50px;
 }
 .fgs-lineup .fgs-lineup-head div:nth-child(2),
 .fgs-lineup .fgs-lineup-footer div:nth-child(2) {
@@ -6237,6 +6238,12 @@ footer .social-botones-footer span {
   flex-direction: column;
   margin: 0 20px;
 }
+@media (max-width: 400px) {
+  .fgs-lineup .fgs-lineup-body .fgs-middle-up > div .player,
+  .fgs-lineup .fgs-lineup-body .fgs-middle-down > div .player {
+    margin: 0 0px;
+  }
+}
 .fgs-lineup .fgs-lineup-body .fgs-middle-up > div .player .number,
 .fgs-lineup .fgs-lineup-body .fgs-middle-down > div .player .number {
   display: flex;
@@ -6258,18 +6265,33 @@ footer .social-botones-footer span {
   font-weight: 600;
   font-size: 18px;
 }
+@media (max-width: 400px) {
+  .fgs-lineup .fgs-lineup-body .fgs-middle-up > div .player .number .circle,
+  .fgs-lineup .fgs-lineup-body .fgs-middle-down > div .player .number .circle {
+    width: 35px;
+    height: 35px;
+    font-size: 15px;
+  }
+}
 .fgs-lineup .fgs-lineup-body .fgs-middle-up > div .player .name,
 .fgs-lineup .fgs-lineup-body .fgs-middle-down > div .player .name {
   height: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .fgs-lineup .fgs-lineup-body .fgs-middle-up > div .player .name a,
 .fgs-lineup .fgs-lineup-body .fgs-middle-down > div .player .name a {
   color: white;
   font-size: 17px;
   font-weight: 600;
+}
+@media (max-width: 400px) {
+  .fgs-lineup .fgs-lineup-body .fgs-middle-up > div .player .name a,
+  .fgs-lineup .fgs-lineup-body .fgs-middle-down > div .player .name a {
+    font-size: 15px;
+  }
 }
 .fgs-lineup .fgs-lineup-body .fgs-middle-up > div .player .name a:hover,
 .fgs-lineup .fgs-lineup-body .fgs-middle-down > div .player .name a:hover {
@@ -6292,7 +6314,7 @@ footer .social-botones-footer span {
 }
 .fgs-timeline .fgs-trow {
   width: 100%;
-  height: 50px;
+  min-height: 50px;
   display: flex;
 }
 .fgs-timeline .fgs-trow .fgs-tcol {
@@ -6310,6 +6332,15 @@ footer .social-botones-footer span {
 }
 .fgs-timeline .fgs-trow .fgs-tcol:last-child {
   align-items: flex-start;
+}
+@media (max-width: 400px) {
+  .fgs-timeline .fgs-trow .fgs-tcol:first-child {
+    align-items: flex-start;
+  }
+  .fgs-timeline .fgs-trow .fgs-tcol:last-child {
+    align-items: flex-end;
+    text-align: right;
+  }
 }
 .fgs-timeline .fgs-trow .fgs-tcol:nth-child(2) {
   align-items: center;
@@ -6330,8 +6361,13 @@ footer .social-botones-footer span {
 .fgs-timeline .fgs-trow .fgs-tcol .change:last-child {
   color: #E50000;
 }
+@media (max-width: 400px) {
+  .fgs-timeline .fgs-trow .fgs-tcol .change {
+    font-size: 14px;
+  }
+}
 .fgs-timeline .fgs-trow.endpart {
-  border-bottom: 1px solid #74747480;
+  border-bottom: 1px solid rgba(203, 203, 203, 0.5);
 }
 .fgs-timeline .fgs-trow.endpart .fgs-tcol:first-child,
 .fgs-timeline .fgs-trow.endpart .fgs-tcol:last-child {
@@ -6346,6 +6382,11 @@ footer .social-botones-footer span {
   font-size: 25px;
   color: #747474;
   margin: 0;
+}
+@media (max-width: 400px) {
+  .fgs-timeline .fgs-trow.endpart .fgs-tcol:nth-child(2) h3 {
+    font-size: 18px;
+  }
 }
 .fgs-timeline .fgs-trow.separador .fgs-tcol {
   width: 100%;
@@ -6394,7 +6435,6 @@ footer .social-botones-footer span {
   border: 0;
   font-weight: 600;
   font-size: 17px;
-  height: 50px;
 }
 .fgs-commentary .fgs-commentary-table tbody tr td:first-child {
   color: black;

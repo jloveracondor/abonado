@@ -83,7 +83,7 @@
                         font-size: 24px;
                         font-weight: bold;
                         text-align: center;
-                        color: #747474;
+                        color: @gris-oscuro;
 
                         @media (max-width: 768px){
                             width: 20%;
@@ -152,7 +152,7 @@
                     border: 0;
                     font-weight: 600;
                     font-size: 20px;
-                    color: #747474;
+                    color: @gris-oscuro;
                     height: 50px;
                 }
                 th:first-child, th:last-child {
@@ -172,17 +172,17 @@
                     min-height: 50px;
                 }
                 td:first-child, th:last-child {
-                    color: #747474;
+                    color: @gris-oscuro;
                 }
                 td:nth-child(2) {
-                    color: #747474;
+                    color: @gris-oscuro;
                 }
             }
         }
     }
 
     @media (max-width: 768px){
-		padding: 0 30px;
+		padding: 0 10px;
 	}
 }
 
@@ -247,6 +247,7 @@
             &:first-child {
                 justify-content: center;
                 width: 10%;
+                min-width: 50px;
             }
 
             &:nth-child(2) {
@@ -294,6 +295,10 @@
                     flex-direction: column;
                     margin: 0 20px;
 
+                    @media (max-width: 400px){
+                        margin: 0 0px;
+                    }
+
                     .number {
                         display: flex;
                         justify-content: center;
@@ -312,6 +317,12 @@
                             color: white;
                             font-weight: 600;
                             font-size: 18px;
+
+                            @media (max-width: 400px){
+                                width: 35px;
+                                height: 35px;
+                                font-size: 15px;
+                            }
                         }
                     }
                     .name {
@@ -319,11 +330,16 @@
                         display: flex;
                         justify-content: center;
                         align-items: center;
+                        text-align: center;
 
                         a {
                             color: white;
                             font-size: 17px;
                             font-weight: 600;
+
+                            @media (max-width: 400px){
+                                font-size: 15px;
+                            }
 
                             &:hover {
                                 text-decoration: underline;
@@ -357,7 +373,7 @@
 
     .fgs-trow {
         width: 100%;
-        height: 50px;
+        min-height: 50px;
         display: flex;
 
         .fgs-tcol {
@@ -378,6 +394,17 @@
                 align-items: flex-start;
             }
 
+            @media (max-width: 400px){
+                &:first-child {
+                    align-items: flex-start;
+                }
+    
+                &:last-child {
+                    align-items: flex-end;
+                    text-align: right;
+                }
+            }
+
             &:nth-child(2){
                 align-items: center;
                 width: 100px;
@@ -388,7 +415,7 @@
             }
 
             .name {
-                color: #747474;
+                color: @gris-oscuro;
             }
             .state {
                 color: #CBCBCB;
@@ -401,11 +428,15 @@
                 &:last-child {
                     color: #E50000;
                 }
+
+                @media (max-width: 400px){
+                    font-size: 14px;
+                } 
             }
         }
 
         &.endpart {
-            border-bottom: 1px solid #74747480;
+            border-bottom: 1px solid @gris-tablas;
 
             .fgs-tcol {
 
@@ -419,8 +450,12 @@
                     h3 {
                         font-weight: 600;
                         font-size: 25px;
-                        color: #747474;
+                        color: @gris-oscuro;
                         margin: 0;
+
+                        @media (max-width: 400px){
+                            font-size: 18px;
+                        } 
                     }
                 }
             }
@@ -495,7 +530,6 @@
                     border: 0;
                     font-weight: 600;
                     font-size: 17px;
-                    height: 50px;
                 }
                 td:first-child {
                     color: black;

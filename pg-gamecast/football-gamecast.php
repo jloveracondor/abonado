@@ -6,7 +6,7 @@
 	</div>
 </div>
 
-<div class="row">
+<div class="container-fluid">
     <div class="container">
         <div class="row">
             <!-- TABLA DE SCORING -->
