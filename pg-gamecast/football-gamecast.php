@@ -43,9 +43,9 @@
             <div class="col-xl-12 col-lg-12 col-12 col-sm-12 tabsFutbol">
                 <nav>
                     <div class="nav col-md-12 text-center nav-tabs ab-tabs" id="nav-tab1" style="justify-content: center" role="tablist">
-                        <a class="nav-item nav-link " id="nav-roster-tab" data-toggle="tab" href="#laprimera" role="tab" aria-controls="laprimera" aria-selected="false">Lineup</a>
+                        <a class="nav-item nav-link " id="nav-roster-tab" data-toggle="tab" href="#laprimera" role="tab" aria-controls="laprimera" aria-selected="false">Alineación</a>
                         <a class="nav-item nav-link " id="nav-estadististicas-tab" data-toggle="tab" href="#lasegunda" role="tab" aria-controls="lasegunda" aria-selected="true">Estadísticas</a>
-                        <a class="nav-item nav-link active" id="nav-roster-tab" data-toggle="tab" href="#latercera" role="tab" aria-controls="latercera" aria-selected="false">Timeline</a>
+                        <a class="nav-item nav-link active" id="nav-roster-tab" data-toggle="tab" href="#latercera" role="tab" aria-controls="latercera" aria-selected="false">Cronología</a>
                     </div>
                 </nav>
             </div>

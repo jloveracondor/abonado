@@ -1,9 +1,9 @@
 
-<div class="see-commentary">
+<!-- <div class="see-commentary">
     <button id="btn-see">Ver Full Comentarios</button>
-</div>
+</div> -->
 
-<div class="fgs-commentary hidden">
+<!-- <div class="fgs-commentary hidden">
     <table class="table table-hover fgs-commentary-table">
         <thead>
             <tr>
@@ -46,7 +46,7 @@
             </tr>
         </tbody>
 </table>
-</div>
+</div> -->
 
 <div class="fgs-timeline">
     <div class="fgs-trow">
